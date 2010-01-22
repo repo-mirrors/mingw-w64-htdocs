@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
+    <link type="text/css" rel="stylesheet" href="style.css">
     <title>mingw-w64</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
     <script type="text/javascript">
@@ -15,84 +16,95 @@
     </script>
   </head>
   <body>
-    <div>
-      <a href="/donate/index.php?group_id=202880"><img src="http://sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project"></a>
-    </div>
-    <h1 style="text-align:center">
+    <div id="headertext">
+    <h1>
       GCC for both x64 and x86 Windows!
     </h1>
-    <h2 style="text-align:center">
+    <h2>
       ...Now a reality
     </h2>
-    <hr>
-    <p>
-      The project's goal is to deliver runtime, headers, and libs for
-      developing x64 (and x86) bit windows applications using gcc-4.4 and
-      newer versions.
-    </p>
-    <p>
-      The current state: It is already possible to generate applications using
-      these headers, libs and runtime together with gcc4.4 and up :-) There might be bugs
-      here and there but everything is <i>mostly</i> complete.
-    </p>
-    <p>
-      Please visit the <a href="http://sourceforge.net/projects/mingw-w64">project page</a>
-      for <a href="http://sourceforge.net/projects/mingw-w64/files/">releases</a> and more 
-      <a href="http://sourceforge.net/apps/trac/mingw-w64/">details</a>!  If you want to join us in chat, we are on the 
-      <a href="http://www.oftc.net/oftc/">OFTC</a> network in the channel <a href="irc://irc.oftc.net/#mingw-w64">
-      #mingw-w64</a>.  For users that are unfamiliar with IRC, we have a <a href="mibbit.html">
-      web based client</a> available.
-    </p>
-
-    <hr>
-      Quick links:
-      <ul>
-      <li><a href="http://lists.sourceforge.net/mailman/listinfo/mingw-w64-public">mingw-w64-public</a> mailing list</li>
-      <li><a href="http://sourceforge.net/projects/mingw-w64/forums/forum/723797">Open Discussion</a> forum</li>
-      <li><a href="http://sourceforge.net/tracker/?group_id=202880">Issue tracker</a> page</li>
-      <li><a href="http://sourceforge.net/scm/?type=svn&amp;group_id=202880">SVN repository</a> information</li>
-      <li>MinGW-w64 project <a href="http://sourceforge.net/apps/trac/mingw-w64/">Wiki</a></li>
-      <li>Toolchain builds targetting <a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/">WIN64</a></li>
-      <li>Toolchain builds targetting <a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/">WIN32</a></li>
-      </ul>
-    <hr>
-
-    <div>
-      Projects that are currently using MinGW-w64 successfully:
-      <ul>
-        <li><a href="http://gcc.gnu.org/">GCC: The GNU Compiler Collection</a></li>
-        <li><a href="http://www.gnu.org/software/binutils/">GNU Binutils</a></li>
-        <li><a href="http://www.gnu.org/software/gdb/">GDB: The GNU Project Debugger</a></li>
-        <li><a href="http://fedoraproject.org/wiki/MinGW">Fedora cross-compiler</a></li>
-        <li><a href="http://uhexen2.sf.net/">Hexen II: Hammer of Thyrion</a></li>
-        <li><a href="http://ffmpeg.mplayerhq.hu/">FFmpeg</a></li>
-        <li><a href="http://www.opensc-project.org/">OpenSC</a></li>
-        <li><a href="http://wiki.winehq.org/Wine64">Wine</a></li>
-        <li><a href="http://www.reactos.org/en/index.html">ReactOS</a></li>
-        <li><a href="http://www.videolan.org/vlc/">VideoLAN VLC</a></li>
-        <li><a href="http://sourceware.org/pthreads-win32/">pthreads</a></li>
-        <li><a href="http://www.openssl.org/">OpenSSL</a></li>
-        <li><a href="http://www.wxwidgets.org/">wxWidgets</a></li>
-        <li><a href="http://www.codeblocks.org/">Code::Blocks</a></li>
-        <li><a href="http://www.fltk.org/">FLTK</a></li>
-        <li><a href="http://sbcarchiver.cjb.net/">SBC Archiver</a></li>
-        <li><a href="http://www.eligis.com/">OpenLisp</a></li>
-        <li><a href="http://www.gtk.org/download-windows-64bit.html">GTK+</a></li>
-        <li><a href="http://gimp-win.sourceforge.net/stable.html">GIMP</a></li>
-        <li><a href="http://www.mpg123.de/">mpg123</a></li>
-        <li><a href="http://factorcode.org/">Factor</a></li>
-        <li><a href="http://jpen.sf.net/">JPen</a></li>
-        <li><a href="http://www.iauxsoft.com/">iAuxSoft</a></li>
-        <li><a href="http://remood.sf.net/">ReMooD</a></li>
-        <li><a href="mailto:nightstrike@gmail.com">Add your project!</a></li>
-      </ul>
+    </div>
+    <div id="container">
+      <div id="menu">
+        <ul>
+          <li><h2>Quick links:</h2>
+            <li><a href="http://sourceforge.net/projects/mingw-w64/support">Support</a>
+              <ul>
+                <li><a href="http://lists.sourceforge.net/mailman/listinfo/mingw-w64-public">Public Mailing List</a></li>
+                <li><a href="http://sourceforge.net/projects/mingw-w64/forums/forum/723797">Open Discussion</a></li>
+                <li><a href="http://sourceforge.net/tracker/?group_id=202880">Issue tracker</a></li>
+                <li><a href="http://sourceforge.net/apps/trac/mingw-w64/">Technical Wiki</a></li>
+              </ul>
+            </li>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="http://sourceforge.net/projects/mingw-w64/files/">Releases</a></li>
+            <ul>
+              <li><a href="http://sourceforge.net/scm/?type=svn&amp;group_id=202880">SVN repository</a></li>
+              <li><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/">WIN64 Downloads</a></li>
+              <li><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/">WIN32 Downloads</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="bodytext">
+        <p>
+        The project's goal is to deliver runtime, headers, and libs for
+        developing x64 (and x86) bit windows applications using gcc-4.4 and
+        newer versions.
+        </p>
+        <p>
+        The current state: It is already possible to generate applications using
+        these headers, libs and runtime together with gcc4.4 and up :-) There might be bugs
+        here and there but everything is <i>mostly</i> complete.
+        </p>
+        <p>
+        Please visit the <a href="http://sourceforge.net/projects/mingw-w64">project page</a>
+        for <a href="http://sourceforge.net/projects/mingw-w64/files/">releases</a> and more 
+        <a href="http://sourceforge.net/apps/trac/mingw-w64/">details</a>!  If you want to join us in chat, we are on the 
+        <a href="http://www.oftc.net/oftc/">OFTC</a> network in the channel <a href="irc://irc.oftc.net/#mingw-w64">
+        #mingw-w64</a>.  For users that are unfamiliar with IRC, we have a <a href="mibbit.html">
+        web based client</a> available.
+        </p>
+        <h2>Projects that are currently using MinGW-w64 successfully:</h2>
+        <ul id="squarelist">
+          <li><a href="http://gcc.gnu.org/">GCC: The GNU Compiler Collection</a></li>
+          <li><a href="http://www.gnu.org/software/binutils/">GNU Binutils</a></li>
+          <li><a href="http://www.gnu.org/software/gdb/">GDB: The GNU Project Debugger</a></li>
+          <li><a href="http://fedoraproject.org/wiki/MinGW">Fedora cross-compiler</a></li>
+          <li><a href="http://uhexen2.sf.net/">Hexen II: Hammer of Thyrion</a></li>
+          <li><a href="http://ffmpeg.mplayerhq.hu/">FFmpeg</a></li>
+          <li><a href="http://www.opensc-project.org/">OpenSC</a></li>
+          <li><a href="http://wiki.winehq.org/Wine64">Wine</a></li>
+          <li><a href="http://www.reactos.org/en/index.html">ReactOS</a></li>
+          <li><a href="http://www.videolan.org/vlc/">VideoLAN VLC</a></li>
+          <li><a href="http://sourceware.org/pthreads-win32/">pthreads</a></li>
+          <li><a href="http://www.openssl.org/">OpenSSL</a></li>
+          <li><a href="http://www.wxwidgets.org/">wxWidgets</a></li>
+          <li><a href="http://www.codeblocks.org/">Code::Blocks</a></li>
+          <li><a href="http://www.fltk.org/">FLTK</a></li>
+          <li><a href="http://sbcarchiver.cjb.net/">SBC Archiver</a></li>
+          <li><a href="http://www.eligis.com/">OpenLisp</a></li>
+          <li><a href="http://www.gtk.org/download-windows-64bit.html">GTK+</a></li>
+          <li><a href="http://gimp-win.sourceforge.net/stable.html">GIMP</a></li>
+          <li><a href="http://www.mpg123.de/">mpg123</a></li>
+          <li><a href="http://factorcode.org/">Factor</a></li>
+          <li><a href="http://jpen.sf.net/">JPen</a></li>
+          <li><a href="http://www.iauxsoft.com/">iAuxSoft</a></li>
+          <li><a href="http://remood.sf.net/">ReMooD</a></li>
+          <li><a href="mailto:nightstrike@gmail.com">Add your project!</a></li>
+        </ul>
+      </div>
     </div>
 
-    <div class="footer" style="text-align: right">
-      <hr>
-      <a href="https://sourceforge.net/export/rss2_project.php?group_id=202880"><img src="img/feed-icon-28x28.png" alt="Project RSS Feeds"></a>
-      <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+    <div id="footertext">
+      <a href="https://sourceforge.net/export/rss2_project.php?group_id=202880"><img src="img/feed-icon-28x28.png" alt="Project RSS Feeds" border="1"></a>
+      <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88" border="1"></a>
     </div>
+    <div id="footertext-left">
+    <a href="/donate/index.php?group_id=202880"><img src="http://sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project"></a>
+    </div
   </body>
 </html>
 

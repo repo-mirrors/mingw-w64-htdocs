@@ -1,0 +1,170 @@
+body {
+  margin:0;
+  border:0;
+  padding:0;
+  height:100%; 
+  max-height:100%; 
+  background:#eee; 
+  font-family:arial, verdana, sans-serif; 
+  font-size:76%;
+  }
+
+#bodytext {
+  position:relative; 
+  left:140px;
+  overflow:auto;
+  background:#eee;
+  color:#000;
+  width:80%;
+  text-align:left; 
+  }
+
+#container {
+  position:fixed;
+  bottom:35px; 
+  left:0px;
+  top:100px;
+  text-align:left; 
+  overflow:auto;
+  background:#eee;
+  color:#000;
+  width:100%; 
+  }
+
+#headertext {
+  position:fixed; 
+  top:0; 
+  left:0; 
+  text-align:center;
+  width:100%; 
+  height:100px; 
+  overflow:hidden; 
+  background:#666666;
+  color:#fff;
+  }
+
+#footertext {
+  position:fixed; 
+  bottom:0; 
+  right:0;
+  width:80%; 
+  height:35px;
+  overflow:hidden; 
+  text-align:right; 
+  background:#666666;
+  }
+
+#footertext-left {
+  position:fixed; 
+  bottom:0; 
+  left:0;
+  width:20%; 
+  height:35px; 
+  overflow:hidden; 
+  text-align:left; 
+  background:#666666;
+  }
+
+  ul li {
+  list-style-type: square;
+  color:#333333;
+  }
+
+
+#sidebar {
+  position:fixed; 
+  left:0;
+  top:100px;
+  width:140px;
+  overflow:auto;
+  color:#000;
+  text-align:left; 
+  }
+
+/**************** menu coding *****************/
+#menu {
+position:fixed; 
+width: 120px;
+top:100px;
+background: #eee;
+overflow:hidden;
+z-index:100;
+}
+
+#menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#menu a, #menu h2 {
+font: bold 11px/16px arial, helvetica, sans-serif;
+display: block;
+border-width: 1px;
+border-style: solid;
+border-color: #ccc #888 #555 #bbb;
+margin: 0;
+padding: 2px 3px;
+}
+
+#menu h2 {
+color: #fff;
+background: #000;
+text-transform: uppercase;
+}
+
+#menu a {
+color: #000;
+background: #efefef;
+text-decoration: none;
+}
+
+#menu a:hover {
+color: #a00;
+background: #fff;
+}
+
+#menu li {
+list-style: none;
+position: relative;
+}
+
+#menu ul ul{
+position: relative;
+left: 10%;
+width:90%;
+}
+
+div#menu ul li {float: left; width: 100%;}
+div#menu ul li a {height: 1%;} 
+
+div#menu a, #menu h2 {
+font: bold 0.7em/1.4em arial, helvetica, sans-serif;
+}
+
+/*
+div#menu ul ul ul,
+div#menu ul ul li:hover ul ul
+{display: none;}
+
+div#menu ul ul li:hover ul,
+div#menu ul ul ul li:hover ul
+{display: block;}
+
+</style>
+<!--[if IE]>
+<style type="text/css" media="screen">
+ #menu ul li {float: left; width: 100%;}
+</style>
+<![endif]-->
+<!--[if lt IE 7]>
+<style type="text/css" media="screen">
+body {
+behavior: url(csshover.htc);
+font-size: 100%;
+} 
+
+
+</style>
+<![endif]-->
+*/
