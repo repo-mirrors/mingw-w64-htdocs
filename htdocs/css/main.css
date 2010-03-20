@@ -197,6 +197,61 @@ body {
 	margin: 0.5em 0;
 }
 
+#middle .news, #middle .projects {
+	display: inline-block;
+	width: 60%;
+	background: #efefef;
+	vertical-align: top;
+  font-size: 0.9em;
+}
+
+* html #middle .news, * html #middle .projects { display: inline; }
+*+html #middle .news, *+html #middle .projects { display: inline; }
+
+#middle .projects {
+	width: 37%;
+}
+
+#middle .news {
+	margin-left: 1%;
+  padding: 0;
+}
+
+#middle .news h3, #middle .projects h3 {
+	padding: 0.3em 1em;
+	border-bottom: 1px solid #fff;
+	background: #ebd3d3;
+}
+
+#middle .projects h3 {
+	background: #d3e0eb;
+}
+
+#middle .news ul {
+  margin: 0;
+}
+
+#middle .news ul li {
+  list-style: none;
+  display: block;
+  border-bottom: 2px solid white;
+}
+
+#middle .news ul li a {
+  display: block;
+  padding: 1em;
+}
+
+#middle .news ul li a span.date, #middle .news ul li a:link span.date, #middle .news ul li a:visited span.date, #middle .news ul li a:active span.date {
+  display: block;
+  text-decoration: none;
+  font-size: 0.85em;
+  color: black;
+}
+
+#middle .news ul li a:hover {
+  background: #ddd;
+}
 
 /***************
 	RIGHT COLUMN
