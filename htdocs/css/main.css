@@ -1,0 +1,267 @@
+* { padding: 0; margin: 0; }
+a img { border: 0; }
+
+html {
+	font: 0.9em Tahoma, Helvetica, sans-serif;
+	color: #303030;
+	background: #f6f6f6;
+}
+
+body {
+	margin: 0 auto;
+	width: 95%;
+	min-width: 770px;
+	padding: 1em 0;
+}
+
+#skip-to-content {
+	position: absolute; 
+	top: 1em;
+	left: 1em;
+	text-indent: -999em;
+}
+
+
+
+/***************
+	HEADER
+***************/
+
+#header {
+	width: 100%;
+	background: #9f9f9f;
+	border: 1px solid #666666;
+	height: 8em;
+	display: block;
+	position: relative;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	margin-bottom: 1em;
+	text-align: center;
+	padding-top: 1em;
+}
+
+#header span.title, #header span.sub {
+	display: block;
+	color: #f1f1f1;
+	font-size: 2.2em;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	text-shadow: 1px 1px 1px #111;
+}
+
+#header span.sub {
+	font-size: 1.5em;
+	color: white;
+}
+
+#header a.logo {
+	display: inline;
+	font: 2em tahoma;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0.2em;
+	left: 20px;
+	letter-spacing: -0.02em;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#header a.logo span {
+	font-size: 0.3em;
+	vertical-align: top;
+	position: relative;
+	top: 1.1em;
+}
+
+#header span.title a:link, #header span.title a:visited, #header span.title a:active, #header span.title a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#header a.logo:link, #header a.logo:visited, #header a.logo:active, #header a.logo:hover {
+	text-decoration: none;
+	color: #1555ad;
+}
+
+#header a.logo:hover {
+	color: #082354;
+}
+
+#header span.title a:hover {
+	color: #c6daff;
+}
+
+
+/***************
+	LEFT COLUMN
+***************/
+
+#left {
+	width: 10em;
+	float: left;
+}
+
+#left ul {
+	list-style: none;
+	
+}
+
+#left ul ul {
+	border: 0;
+}
+
+#left ul li {
+	margin: 0.6em 0;
+	border: 1px solid #a2a2a2;
+	background: #e3e3e3;
+}
+
+#left ul li a {
+	display: block;
+	padding: 0.5em 1em;
+	background: #e2e2e2;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+* html #left ul li a { zoom: 1; } /* menu fix for ie6 */
+
+#left ul ul {
+	padding-bottom: 0em;
+	background: #e2e2e2;
+}
+
+#left ul ul li {
+	margin: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+#left ul li li a {
+	padding: 0.5em 1em 0.5em 1.5em;
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+#left ul li a:hover {
+	background: #cbcbcb;
+	text-decoration: underline;
+}
+
+#left ul li.active a {
+	background: #1555ad;
+	color: white;
+}
+
+#left ul li.active li a {
+	background: #1555ad;
+}
+
+
+
+/***************
+	MAIN CONTENT
+***************/
+
+#middle {
+	margin: 0 10em;
+	padding: 1em 1.5em;
+	line-height: 1.3em;
+}
+
+#middle a:hover, #footer a:hover {
+	color: #0051c0;
+}
+
+#middle ul {
+	margin: 1em 2em;
+}
+
+#middle h1 {
+	border-bottom: 2px solid #cdcdcd;
+	padding-bottom: 0.3em;
+}
+
+#middle h2 {
+	border-bottom: 1px solid #cdcdcd;
+	margin: 1em 0 0 0;
+	padding-bottom: 0.2em;
+}
+
+#middle p {
+	margin: 1em 0;
+}
+
+#middle img {
+	margin: 0.5em 0;
+}
+
+
+/***************
+	RIGHT COLUMN
+***************/
+#right { 
+	float: right;
+	width: 10em;
+}
+
+#right a:focus { outline: none; }
+
+#right a.install, #right a.help, #right a.chat, #right a.donate {
+	display: block;
+	background: #ffffe4 url('../img/icons/download-green.png') no-repeat 50% 20%;
+	border: 1px solid #b9b9b9;
+	padding: 3.3em 1em 1em 1em;
+	text-align: center;
+	font-weight: bold;
+	margin: 1em 0;
+
+}
+
+#right a.install:hover {
+	background-color: #ffffd1;
+	border: 1px solid #565656;
+}
+
+#right a.help, #right a.chat, #right a.donate {
+	background: #eceeec url('../img/icons/help-purple.png') no-repeat 5% 49%;
+	padding: 1.4em 0.8em 1.4em 4.1em;
+	font-size: 0.75em;
+	text-align: left;
+}
+
+#right a.chat {
+	background: #eceeec url('../img/icons/chat-blue.png') no-repeat 5% 49%;
+	font-weight: normal;
+}
+
+#right a.help:hover, #right a.chat:hover, #right a.donate:hover {
+	border: 1px solid #535353;
+}
+
+#right a.donate {
+	background: #ececec url('../img/make-a-donation.gif') no-repeat 50% 90%;
+	padding: 0.7em 1.2em 4.7em 1.2em;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#right a.donate span {
+	display: block;
+	background: transparent url('../img/icons/money.png') no-repeat 0 50%;
+	padding: 1em 0 0.5em 3.7em;
+	margin-bottom: 0.8em;
+	text-decoration: underline;
+}
+
+/***************
+	FOOTER
+***************/
+#footer {
+	padding: 1em 0;
+	border-top: 2px solid #e1e1e1;
+	text-align: center;
+	font-size: 0.7em;
+	clear: both;
+}
