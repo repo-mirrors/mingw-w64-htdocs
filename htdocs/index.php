@@ -74,6 +74,7 @@
           
           <li><a href="http://www.wxperl.co.uk/building/msw.html">wxPerl PPMs</a></li>
           <li><a href="http://www.zlib.net/">zlib</a></li>
+          <li><a href="http://www.r-project.org/">The R Project for Statistical Computing</a></li>
           <li><a href="mailto:mingw-w64-public@lists.sourceforge.net">Add your project!</a></li>
 
         </ul>
