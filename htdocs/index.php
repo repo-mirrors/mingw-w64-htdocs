@@ -23,9 +23,11 @@
         or newer versions.
       </p>
       <p>
-        The current state: It is already possible to generate applications using
-        these headers, libs and runtime together with gcc-4.4 and up :-) There might be bugs
-        here and there but everything is <i>mostly</i> complete.
+        <strong>Project Status:</strong> Version 1.0 has been released and is considered stable.
+      </p>
+      <p>
+        You are now able to generate applications using these headers, libs and runtime together with gcc-4.4 and up. However, when compiling for 64-bit we recommend using atleast gcc-4.5.1 to take advantage of the many improvements and bug-fixes.
+        If you come across any bugs, please report them via the <a href="http://sourceforge.net/tracker/?group_id=202880">Issue Tracker</a> or notify us directly on <a href="irc://irc.oftc.net/#mingw-w64">IRC</a>.
       </p>
       <p>
         Please visit the <a href="http://sourceforge.net/projects/mingw-w64">project page</a>
@@ -33,7 +35,7 @@
         for <a href="http://sourceforge.net/projects/mingw-w64/files/">releases</a> and more 
         <a href="http://sourceforge.net/apps/trac/mingw-w64/">details</a>! If you want to join us in chat, we are on the 
         <a href="http://www.oftc.net/oftc/">OFTC</a> network in the channel <a href="irc://irc.oftc.net/#mingw-w64">
-        #mingw-w64</a>.  For users that are unfamiliar with IRC, we have a <a href="mibbit.html">
+        #mingw-w64</a>. You can also access this channel via a relay on <a href="http://freenode.net/">Freenode.net</a>. For users that are unfamiliar with IRC, we have a <a href="mibbit.html">
         web based client</a> available.
       </p>
 
