@@ -35,5 +35,5 @@
 <li><a href="http://www.r-project.org/">The R Project for Statistical Computing</a></li>
 <li><a href="http://www.perl.org/">Perl</a> (5.12.0 and later)</li>
 <li><a href="http://strawberryperl.com/">Strawberry Perl</a> (contains bundled mingw-w64 gcc toolchain)</li>
-<li><a href="http://quakespasm.sourceforge.net/">QuakeSpam</a></li>
+<li><a href="http://quakespasm.sourceforge.net/">QuakeSpasm</a></li>
 <li><a href="mailto:mingw-w64-public@lists.sourceforge.net">Add your project!</a></li>
