@@ -41,7 +41,7 @@
       <p>
         The mingw-w64 toolchain has been officially added to <a href="http://cygwin.com/"><strong>Cygwin</strong></a> mirrors, you can find the basic C toolchain as mingw64-x86_64-gcc-core.
         The languages enabled are C, Ada, C++, Fortran, Object C and Objective C++.
-        There is a known caveat where calling the compiler directly as &quot/bin/x86_64-w64-mingw32-gcc&quot will fail, use &quot/usr/bin/x86_64-w64-mingw32-gcc&quot instead and make sure that your PATH variable has &quot/usr/bin&quot before &quot/bin&quot.
+        There is a known caveat where calling the compiler directly as &quot;/bin/x86_64-w64-mingw32-gcc&quot; will fail, use &quot;/usr/bin/x86_64-w64-mingw32-gcc&quot; instead and make sure that your PATH variable has &quot;/usr/bin&quot; before &quot;/bin&quot;.
       </p>
       <div class="projects">
         <h3>Projects successfully using MinGW-w64</h3>
