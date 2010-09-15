@@ -38,7 +38,11 @@
         #mingw-w64</a>. You can also access this channel via a relay on <a href="http://freenode.net/">Freenode.net</a>. For users that are unfamiliar with IRC, we have a <a href="mibbit.html">
         web based client</a> available.
       </p>
-
+      <p>
+        The mingw-w64 toolchain has been officially added to <a href="http://cygwin.com/"><strong>Cygwin</strong></a> mirrors, you can find the basic C toolchain as mingw64-x86_64-gcc-core.
+        The languages enabled are C, Ada, C++, Fortran, Object C and Objective C++.
+        There is a known caveat where calling the compiler directly as %22/bin/x86_64-w64-mingw32-gcc%22 will fail, use %22/usr/bin/x86_64-w64-mingw32-gcc%22 instead and make sure that your PATH variable has %22/usr/bin%22 before %22/bin%22.
+      </p>
       <div class="projects">
         <h3>Projects successfully using MinGW-w64</h3>
         <ul>
