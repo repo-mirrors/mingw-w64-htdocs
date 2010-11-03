@@ -38,4 +38,7 @@
 <li><a href="http://quakespasm.sourceforge.net/">QuakeSpasm</a></li>
 <li><a href="http://www.gnu.org/software/gsasl/">GNU SASL</a></li>
 <li><a href="http://www.gnu.org/software/gnutls/">GnuTLS</a></li>
+<li><a href="http://www.symscape.com/openfoam-1-7-x-on-windows-64-mpi">OpenFOAM</a></li>
+<li><a href="http://www.symscape.com/configure-msmpi-for-mingw-w64">MS MPI</a></li>
+
 <li><a href="mailto:mingw-w64-public@lists.sourceforge.net">Add your project!</a></li>
