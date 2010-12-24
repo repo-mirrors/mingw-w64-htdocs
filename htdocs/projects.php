@@ -48,6 +48,6 @@ $projects = array(
 	shuffle($projects);
 	foreach($projects as $project) echo '<li>'.$project.'</li>';
 
-	echo '<li><a href="mailto:mingw-w64-public@lists.sourceforge.net">Add your project!</a></li>';
+	echo '<li><strong><a href="mailto:mingw-w64-public@lists.sourceforge.net">Add your project!</a></strong></li>';
 
 ?>
