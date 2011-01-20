@@ -42,7 +42,8 @@ $projects = array(
 	'<a href="http://www.gnu.org/software/gnutls/">GnuTLS</a>',
 	'<a href="http://www.symscape.com/openfoam-1-7-x-on-windows-64-mpi">OpenFOAM</a>',
 	'<a href="http://www.symscape.com/configure-msmpi-for-mingw-w64">MS MPI</a>',
-	'<a href="http://xmlsoft.org/">Libxml2</a>');
+	'<a href="http://xmlsoft.org/">Libxml2</a>',
+	'<a href="http://mctrl.sourceforge.net/">mCtrl</a>');
 
 
 	shuffle($projects);
