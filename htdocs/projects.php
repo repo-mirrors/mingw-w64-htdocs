@@ -44,6 +44,7 @@ $projects = array(
 	'<a href="http://www.symscape.com/configure-msmpi-for-mingw-w64">MS MPI</a>',
 	'<a href="http://xmlsoft.org/">Libxml2</a>',
 	'<a href="http://code.google.com/p/barchart-udt/">Barchart-UDT</a>',
+	'<a href="http://www.postgresql.org/">PostgreSQL</a>',
 	'<a href="http://mctrl.sourceforge.net/">mCtrl</a>');
 
 
