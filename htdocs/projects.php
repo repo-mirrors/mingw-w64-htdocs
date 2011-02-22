@@ -45,6 +45,7 @@ $projects = array(
 	'<a href="http://xmlsoft.org/">Libxml2</a>',
 	'<a href="http://code.google.com/p/barchart-udt/">Barchart-UDT</a>',
 	'<a href="http://www.postgresql.org/">PostgreSQL</a>',
+	'<a href="http://www.yafaray.org/">Yafaray</a>',
 	'<a href="http://mctrl.sourceforge.net/">mCtrl</a>');
 
 
