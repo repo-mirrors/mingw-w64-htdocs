@@ -47,6 +47,7 @@ $projects = array(
 	'<a href="http://www.postgresql.org/">PostgreSQL</a>',
 	'<a href="http://www.yafaray.org/">YafaRay</a>',
         '<a href="http://libav.org/">libav</a>',
+        '<a href="http://www.mpir.org/">MPIR</a>',
 	'<a href="http://mctrl.sourceforge.net/">mCtrl</a>');
 
 
