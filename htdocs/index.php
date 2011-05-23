@@ -3,7 +3,7 @@
 
   $url = "http://sourceforge.net/export/rss2_keepsake.php?group_id=202880";
   $rss = fetch_rss($url);
-  $news_items = 10;
+  $news_items = 12;
   
   $page_title = 'GCC for both x64 &amp; x86 Windows!';
 
