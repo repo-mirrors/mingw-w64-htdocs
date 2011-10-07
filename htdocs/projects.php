@@ -49,6 +49,7 @@ $projects = array(
         '<a href="http://libav.org/">libav</a>',
         '<a href="http://www.mpir.org/">MPIR</a>',
         '<a href="http://common-lisp.net/project/mkcl/">ManKai Common Lisp</a>',
+        '<a href="https://www.libreoffice.org/">LibreOffice</a>',
 	'<a href="http://mctrl.sourceforge.net/">mCtrl</a>');
 
 
