@@ -19,14 +19,21 @@
       <h1>Overview</h1>
        <p>
         The project's goal is to deliver runtime, headers, and libs for
-        developing 64 bit (x64), as well as 32 bit (x86), windows applications using gcc-4.4
-        or newer versions.
+        developing 64 bit (x64), as well as 32 bit (x86), windows applications using gcc-4.6
+        or newer versions. Users should avoid <em>gcc-4.4</em> or earlier as it is known to generate bad code.
       </p>
       <p>
-        <strong>Project Status:</strong> Version 1.0 has been released and is considered stable.
+        <strong>Project Status:</strong> Version 2.0 has been released and is considered stable.
+        The main addition is a sizable amount of Windows Vista/7 API.
+      </p>
+      <p><em>Version 3.0</em> (Currently in trunk and considered unstable) has some LFS64 support that
+          allow traditional Unix programs to use 64-bit large file support if they so choose.
+      </p>
+      <p><em>winpthreads</em>, a implimentation of POSIX threads for win32 is also available under the experimental directory.
+             Its main goal is to support C++11 standard threading, which supports only using POSIX threads at the moment.
       </p>
       <p>
-        You are now able to generate applications using these headers, libs and runtime together with gcc-4.4 and up. However, when compiling for 64-bit we recommend using atleast gcc-4.5.1 to take advantage of the many improvements and bug-fixes.
+        You are now able to generate applications using these headers, libs and runtime together with gcc-4.6 and up. However, when compiling for 64-bit we recommend using atleast gcc-4.5.1 to take advantage of the many improvements and bug-fixes.
         If you come across any bugs, please report them via the <a href="http://sourceforge.net/tracker/?group_id=202880">Issue Tracker</a> or notify us directly on <a href="irc://irc.oftc.net/#mingw-w64">IRC</a>.
       </p>
       <p>
