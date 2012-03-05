@@ -52,7 +52,7 @@ class toolchains {
           { "bSearchable": false }
         ]
     } );
-    $("tfoot th").each( function ( i ) {
+    $("thead th").each( function ( i ) {
         var patt1 = new RegExp("DOWNLOAD");
         if(patt1.test(oTable.fnGetColumnData(i))) return;
         this.innerHTML = fnCreateSelect( oTable.fnGetColumnData(i) );
@@ -138,7 +138,7 @@ function fnCreateSelect( aData )
                         <th>Native</th>
                         <th>Link</th>
                 </tr>
-        </foot>
+        </tfoot>
 </table>
 
 </body>
