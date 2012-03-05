@@ -14,7 +14,6 @@ class toolchains {
       "autobuilds", "No", "None", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Automated%20Builds/");
     $this->insert("x86_64-w64-mingw32", "x86_64-w64-mingw32",
       "Rubenvb", "No", "winpthreads", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/");
-    $this->total = count($this->table);
   }
 
   function print_html_tr(){
