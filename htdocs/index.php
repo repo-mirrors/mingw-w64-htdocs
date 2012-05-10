@@ -29,7 +29,7 @@
       <p><em>Version 3.0</em> (Currently in trunk and considered unstable) has some LFS64 support that
           allow traditional Unix programs to use 64-bit large file support if they so choose.
       </p>
-      <p><em>winpthreads</em>, a implimentation of POSIX threads for win32 is also available under the experimental directory.
+      <p><em>winpthreads</em>, a implementation of POSIX threads for win32 is also available under the experimental directory.
              Its main goal is to support C++11 standard threading, which supports only using POSIX threads at the moment.
       </p>
       <p>
