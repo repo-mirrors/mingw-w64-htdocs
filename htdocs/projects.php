@@ -56,6 +56,7 @@ $projects = array(
         '<a href="http://www.paratools.com/PToolsWIN">PToolsWin - Parallel Tools for Windows Binaries on Linux</a>',
         '<a href="http://www.enlightenment.org/">Enlightenment</a>',
         '<a href="http://kde.org/">KDE Software Collection</a>',
+        '<a href="http://devkitpro.org/">devkitPro</a>',
         '<a href="http://www.vsxu.com/">VSXu</a>');
 
 
