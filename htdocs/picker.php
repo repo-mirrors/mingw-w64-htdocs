@@ -213,9 +213,9 @@ function fnCreateSelect( aData )
         <th class="VERSION">mingw.org</th>
     </tr></thead>
     <tbody>
-    <tr class="VERSION"><td class="VERSION" colspan="5">Toolchain Support</td></tr>
+    <tr class="VERSION"><td class="VERSION" colspan="5"><b>Toolchain Support</b></td></tr>
     <tr class="VERSION">
-    <td class="VERSION">Minimum GCC version</td>
+    <td class="VERSION"><b>Minimum GCC version</b></td>
     <td class="VERSION">4.6.0</td>
     <td class="VERSION">4.5.1</td>
     <td class="VERSION">4.4.x</td>
@@ -223,7 +223,7 @@ function fnCreateSelect( aData )
     </tr>
 
     <tr class="VERSION">
-    <td class="VERSION">Win32 Support</td>
+    <td class="VERSION"><b>Win32 Support</b></td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
@@ -231,7 +231,7 @@ function fnCreateSelect( aData )
     </tr>
 
     <tr class="VERSION">
-    <td class="VERSION">Win64 Support</td>
+    <td class="VERSION"><b>Win64 Support</b></td>
     <td class="VERSION">No</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
@@ -239,16 +239,16 @@ function fnCreateSelect( aData )
     </tr>
 
     <tr class="VERSION">
-    <td class="VERSION">Multilib capability</td>
+    <td class="VERSION"><b>Multilib capability</b></td>
     <td class="VERSION">No</td>
     <td class="VERSION">No</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
     </tr>
 
-    <tr class="VERSION"><td class="VERSION" colspan="5">Win32 API Support</td></tr>
+    <tr class="VERSION"><td class="VERSION" colspan="5"><b>Win32 API Support</b></td></tr>
     <tr class="VERSION">
-    <td class="VERSION">Minimum Target OS Support</td>
+    <td class="VERSION"><b>Minimum Target OS Support</b></td>
     <td class="VERSION">Windows 2000</td>
     <td class="VERSION">Windows 2000</td>
     <td class="VERSION">Windows 2000</td>
@@ -256,76 +256,76 @@ function fnCreateSelect( aData )
     </tr>
 
     <tr class="VERSION">
-    <td class="VERSION">Official Target OS Support</td>
+    <td class="VERSION"><b>Official Target OS Support</b></td>
     <td class="VERSION">Windows XP and later</td>
     <td class="VERSION">Windows XP and later</td>
     <td class="VERSION">Windows XP and later</td>
     <td class="VERSION">Windows 2000 and later</td>
     </tr>
 
-    <tr class="VERSION"><td class="VERSION">Unicode Entry Points</td>
+    <tr class="VERSION"><td class="VERSION"><b>Unicode Entry Points</b></td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">No</td></tr>
 
-    <tr class="VERSION"><td class="VERSION">DLL Delayed Loader</td>
+    <tr class="VERSION"><td class="VERSION"><b>DLL Delayed Loader</b></td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">No</td>
     <td class="VERSION">No</td></tr>
 
-    <tr class="VERSION"><td class="VERSION">Driver Development Kit</td>
+    <tr class="VERSION"><td class="VERSION"><b>Driver Development Kit</b></td>
     <td class="VERSION">Yes (From ReactOS)</td>
     <td class="VERSION">Yes (From ReactOS)</td>
     <td class="VERSION">Yes (From ReactOS)</td>
     <td class="VERSION">Yes</td></tr>
 
-    <tr class="VERSION"><td class="VERSION">DirectX Development Kit</td>
+    <tr class="VERSION"><td class="VERSION"><b>DirectX Development Kit</b></td>
     <td class="VERSION">Yes (From Wine)</td>
     <td class="VERSION">Yes (From Wine)</td>
     <td class="VERSION">Yes (From Wine)</td>
     <td class="VERSION">Incomplete</td></tr>
 
-    <tr class="VERSION"><td class="VERSION" colspan="5">Language Support</td></tr>
-    <tr class="VERSION"><td class="VERSION">POSIX style Large File System</td>
+    <tr class="VERSION"><td class="VERSION" colspan="5"><b>Language Support</b></td></tr>
+    <tr class="VERSION"><td class="VERSION"><b>POSIX style Large File System</b></td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">No</td>
     <td class="VERSION">No</td></tr>
 
-    <tr class="VERSION"><td class="VERSION">C99 Decimal Float<sup><a href="#foot1" id="ft1" title="see footnote">1</a></sup></td>
+    <tr class="VERSION"><td class="VERSION"><b>C99 Decimal Float</b><sup><a href="#foot1" id="ft1" title="see footnote">1</a></sup></td>
     <td class="VERSION">No</td>
     <td class="VERSION">No</td>
     <td class="VERSION">No</td>
     <td class="VERSION">No</td></tr>
 
-    <tr class="VERSION"><td class="VERSION">C99 Math</td>
+    <tr class="VERSION"><td class="VERSION"><b>C99 Math</b></td>
     <td class="VERSION">Yes, Improved</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Incomplete</td>
     <td class="VERSION">Incomplete</td></tr>
 
-    <tr class="VERSION"><td class="VERSION">C99 Printf</td>
+    <tr class="VERSION"><td class="VERSION"><b>C99 Printf</b></td>
     <td class="VERSION">Yes, including wide variants</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Incomplete</td>
     <td class="VERSION">Incomplete</td></tr>
 
-    <tr class="VERSION"><td class="VERSION">C99 Scanf</td>
+    <tr class="VERSION"><td class="VERSION"><b>C99 Scanf</b></td>
     <td class="VERSION">Yes, including wide variants</td>
     <td class="VERSION">No</td>
     <td class="VERSION">No</td>
     <td class="VERSION">No</td></tr>
 
-    <tr class="VERSION"><td class="VERSION">C1X Secure STDIO</td>
+    <tr class="VERSION"><td class="VERSION"><b>C1X Secure STDIO</b></td>
     <td class="VERSION">Incomplete<sup><a href="#foot2" id="ft2" title="see footnote">2</a></sup></td>
     <td class="VERSION">Incomplete</td>
     <td class="VERSION">Incomplete</td>
     <td class="VERSION">No</td></tr>
     </tbody>
 
-    <tr class="VERSION"><td class="VERSION">C++ style no-inline</td>
+    <tr class="VERSION"><td class="VERSION"><b>C++ style no-inline</b></td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">No</td>
