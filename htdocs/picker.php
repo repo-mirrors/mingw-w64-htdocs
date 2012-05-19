@@ -238,6 +238,14 @@ function fnCreateSelect( aData )
     </tr>
 
     <tr class="VERSION">
+    <td class="VERSION">Multilib capability</td>
+    <td class="VERSION">No</td>
+    <td class="VERSION">No</td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">Yes</td>
+    </tr>
+
+    <tr class="VERSION">
     <td class="VERSION">Minimum Target OS</td>
     <td class="VERSION">Windows 9X/NT4</td>
     <td class="VERSION">Windows XP SP2</td>
@@ -268,14 +276,6 @@ function fnCreateSelect( aData )
     <td class="VERSION">Yes (From ReactOS)</td>
     <td class="VERSION">Yes (From ReactOS)</td>
     <td class="VERSION">Yes (From ReactOS)</td></tr>
-
-    <tr class="VERSION">
-    <td class="VERSION">Multilib capability</td>
-    <td class="VERSION">No</td>
-    <td class="VERSION">No</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">Yes</td>
-    </tr>
 
     <tr class="VERSION"><td class="VERSION">POSIX style Large File System</td>
     <td class="VERSION">No</td>
