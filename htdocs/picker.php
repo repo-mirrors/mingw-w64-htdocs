@@ -342,10 +342,10 @@ function fnCreateSelect( aData )
     <caption>CRT and Headers version comparison</caption>
 </table>
 <hr>
-<div id="footnote">
+<div id="footnote"><ol>
     <li id="foot1">Support in GCC is present but C runtime support routines are missing. <a href="#ft1">Back</a></li>
     <li id="foot2">Presently requires Vista and later to work, routines are provided by MSVCRT.DLL. <a href="#ft2">Back</a></li>
-</div>
+<ol></div>
 </body>
 </html>
 
