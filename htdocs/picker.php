@@ -250,9 +250,9 @@ function fnCreateSelect( aData )
     <tr class="VERSION">
     <td class="VERSION">Minimum Target OS</td>
     <td class="VERSION">Windows 9X/NT4</td>
-    <td class="VERSION">Windows XP SP2</td>
-    <td class="VERSION">Windows XP SP2</td>
-    <td class="VERSION">Windows XP SP2</td>
+    <td class="VERSION">Windows XP and Windows 2000</td>
+    <td class="VERSION">Windows XP and Windows 2000</td>
+    <td class="VERSION">Windows XP and Windows 2000</td>
     </tr>
 
     <tr class="VERSION"><td class="VERSION">Unicode Entry Points</td>
@@ -269,15 +269,15 @@ function fnCreateSelect( aData )
 
     <tr class="VERSION"><td class="VERSION">Driver Development Kit</td>
     <td class="VERSION">Yes</td>
-    <td class="VERSION">Yes (From Wine)</td>
-    <td class="VERSION">Yes (From Wine)</td>
-    <td class="VERSION">Yes (From Wine)</td></tr>
+    <td class="VERSION">Yes (From ROS)</td>
+    <td class="VERSION">Yes (From ROS)</td>
+    <td class="VERSION">Yes (From ROS)</td></tr>
 
     <tr class="VERSION"><td class="VERSION">DirectX Development Kit</td>
     <td class="VERSION">Incomplete</td>
-    <td class="VERSION">Yes (From ReactOS)</td>
-    <td class="VERSION">Yes (From ReactOS)</td>
-    <td class="VERSION">Yes (From ReactOS)</td></tr>
+    <td class="VERSION">Yes (From Wine)</td>
+    <td class="VERSION">Yes (From Wine)</td>
+    <td class="VERSION">Yes (From Wine)</td></tr>
 
     <tr class="VERSION"><td class="VERSION" colspan="5">Language Support</td></tr>
     <tr class="VERSION"><td class="VERSION">POSIX style Large File System</td>
@@ -299,16 +299,16 @@ function fnCreateSelect( aData )
     <td class="VERSION">Yes, including wide variants</td></tr>
 
     <tr class="VERSION"><td class="VERSION">C99 Scanf</td>
-    <td class="VERSION">Incomplete</td>
-    <td class="VERSION">Incomplete</td>
-    <td class="VERSION">Yes</td>
+    <td class="VERSION">No</td>
+    <td class="VERSION">No</td>
+    <td class="VERSION">No</td>
     <td class="VERSION">Yes, including wide variants</td></tr>
 
     <tr class="VERSION"><td class="VERSION">C1X Secure STDIO</td>
     <td class="VERSION">No</td>
-    <td class="VERSION">Incomplete, requires Vista</td>
-    <td class="VERSION">Incomplete, requires Vista</td>
-    <td class="VERSION">Incomplete, requires Vista</td></tr>
+    <td class="VERSION">Incomplete</td>
+    <td class="VERSION">Incomplete</td>
+    <td class="VERSION">Incomplete</td></tr>
     </tbody>
 
     <tr class="VERSION"><td class="VERSION">C++ style no-inline</td>
