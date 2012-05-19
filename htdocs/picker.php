@@ -150,25 +150,29 @@ function fnCreateSelect( aData )
                 </tr>
         </tfoot>
 </table>
-<table cellpadding="0" cellspacing="0" border="0" class="display">
+<table cellpadding="0" cellspacing="0" border="0" class="display" id="toolchains">
     <thead><tr>
         <th>Version</th>
+        <th>Minimum GCC version</th>
         <th>Unicode</th>
         <th>Large File System</th>
         <th>C1X Secure STDIO</th>
     </tr></thead>
     <tbody>
     <tr><th>V1</th>
+    <th>4.5.1</th>
     <th>Yes</th>
     <th>No</th>
     <th>No</th></tr>
     
     <tr><th>V2</th>
+    <th>4.6.x</th>
     <th>Yes</th>
     <th>Yes</th>
     <th>No</th></tr>
     
     <tr><th>V3</th>
+    <th>4.6.x</th>
     <th>Yes</th>
     <th>Yes</th>
     <th>Some</th></tr>
