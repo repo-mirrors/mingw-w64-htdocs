@@ -2,30 +2,30 @@
 class toolchains {
   private $table;
 
-  private function insert($target, $host, $packager, $multilib, $pthread, $link){
-    $this->table[] = array("host" => $host, "target" => $target, "packager" => $packager, "multilib" => $multilib, "pthread" => $pthread, "native" => ($host === $target) ? "Yes" : "No",
+  private function insert($target, $host, $packager, $multilib, $pthread, $link, $gcc, $crt){
+    $this->table[] = array("host" => $host, "target" => $target, "packager" => $packager, "multilib" => $multilib, "pthread" => $pthread, "native" => ($host === $target) ? "Yes" : "No", "gcc_version" => $gcc, "head_version" => $crt,
     "URL" => '<a href="' . $link . '">DOWNLOAD</a>');
   }
 
   function __construct(){
     $this->insert("x86_64-w64-mingw32", "i686-pc-mingw32",
-      "autobuilds", "No", "None", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/");
+      "autobuilds", "No", "None", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/", "4.6.x", "v2");
     $this->insert("i686-w64-mingw32", "i686-pc-mingw32",
-      "autobuilds", "No", "None", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Automated%20Builds/");
+      "autobuilds", "No", "None", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Automated%20Builds/", "4.6.x", "v2");
     $this->insert("i686-w64-mingw32", "i686-w64-mingw32",
-      "Rubenvb", "No", "winpthreads", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/");
+      "Rubenvb", "No", "winpthreads", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/", "4.6.x", "v2");
     $this->insert("x86_64-w64-mingw32", "x86_64-w64-mingw32",
-      "Rubenvb", "No", "winpthreads", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/");
+      "Rubenvb", "No", "winpthreads", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/", "4.6.x", "v2");
     $this->insert("i686-w64-mingw32", "i686-w64-mingw32",
-      "Ozkan", "No", "pthreads-win32", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/sezero_4.5_20111101/");
+      "Ozkan", "No", "pthreads-win32", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/sezero_4.5_20111101/", "4.5.x", "v2");
   }
 
   function print_html_tr(){
     $ret = "";
     foreach($this->table as $line){
-      $ret .= sprintf("<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>\n",
+      $ret .= sprintf("<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>\n",
                $line["host"],$line["target"],$line["packager"],$line["multilib"],
-               $line["pthread"],$line["native"],$line["URL"]);
+               $line["pthread"],$line["native"],$line["gcc_version"],$line["head_version"],$line["URL"]);
     }
     return $ret;
   }
@@ -166,34 +166,6 @@ function fnCreateSelect( aData )
         </head>
 <body>
 
-<table cellpadding="0" cellspacing="0" border="0" class="display" id="toolchains">
-        <thead>
-                <tr>
-                        <th>Target</th>
-                        <th>Host</th>
-                        <th>Packager</th>
-                        <th>Multilib</th>
-                        <th>Pthreads</th>
-                        <th>Native</th>
-                        <th>Link</th>
-                </tr>
-        </thead>
-        <tbody>
-                <?php $t = new toolchains(); echo $t->print_html_tr(); ?>
-        </tbody>
-        <tfoot>
-                <tr>
-                        <th>Target</th>
-                        <th>Host</th>
-                        <th>Packager</th>
-                        <th>Multilib</th>
-                        <th>Pthreads</th>
-                        <th>Native</th>
-                        <th>Link</th>
-                </tr>
-        </tfoot>
-</table>
-<hr>
 <table cellpadding="0" cellspacing="0" border="0" class="VERSION" id="VERSION">
     <thead><tr class="VERSION">
         <th class="VERSION">Version</th>
@@ -228,7 +200,41 @@ function fnCreateSelect( aData )
         <th class="VERSION">Large File System</th>
         <th class="VERSION">C1X Secure STDIO</th>
     </tr></tfoot>
-    <caption>CRT version comparison</caption>
+    <caption>CRT and Headers version comparison</caption>
+</table>
+
+<hr>
+
+<table cellpadding="0" cellspacing="0" border="0" class="display" id="toolchains">
+        <thead>
+                <tr>
+                        <th>Target</th>
+                        <th>Host</th>
+                        <th>Packager</th>
+                        <th>Multilib</th>
+                        <th>Pthreads</th>
+                        <th>Native</th>
+                        <th>GCC Version</th>
+                        <th>CRT/Header version</th>
+                        <th>Link</th>
+                </tr>
+        </thead>
+        <tbody>
+                <?php $t = new toolchains(); echo $t->print_html_tr(); ?>
+        </tbody>
+        <tfoot>
+                <tr>
+                        <th>Target</th>
+                        <th>Host</th>
+                        <th>Packager</th>
+                        <th>Multilib</th>
+                        <th>Pthreads</th>
+                        <th>Native</th>
+                        <th>GCC Version</th>
+                        <th>CRT/Header version</th>
+                        <th>Link</th>
+                </tr>
+        </tfoot>
 </table>
 
 </body>
