@@ -320,8 +320,8 @@ function fnCreateSelect( aData )
 
     <tr class="VERSION"><td class="VERSION"><b>C1X Secure STDIO</b></td>
     <td class="VERSION">Incomplete<sup><a href="#foot2" id="ft2" title="see footnote">2</a></sup></td>
-    <td class="VERSION">Incomplete</td>
-    <td class="VERSION">Incomplete</td>
+    <td class="VERSION">Incomplete<sup><a href="#foot2" id="ft2" title="see footnote">2</a></sup></td>
+    <td class="VERSION">Incomplete<sup><a href="#foot2" id="ft2" title="see footnote">2</a></sup></td>
     <td class="VERSION">No</td></tr>
     </tbody>
 
