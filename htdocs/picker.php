@@ -206,37 +206,39 @@ function fnCreateSelect( aData )
 
 <table cellpadding="0" cellspacing="0" border="0" class="VERSION" id="VERSION">
     <thead><tr class="VERSION">
-        <th class="VERSION">Version</th>
-        <th class="VERSION">Minimum GCC version</th>
-        <th class="VERSION">Unicode</th>
-        <th class="VERSION">Large File System</th>
-        <th class="VERSION">C1X Secure STDIO</th>
+        <th class="VERSION">Feature</th>
+        <th class="VERSION">V1</th>
+        <th class="VERSION">V2</th>
+        <th class="VERSION">V3 (trunk)</th>
     </tr></thead>
     <tbody>
-    <tr class="VERSION"><td class="VERSION">V1</td>
+    <tr class="VERSION">
+    <td class="VERSION">Minimum GCC version</td>
     <td class="VERSION">4.5.1</td>
+    <td class="VERSION">4.5.1</td>
+    <td class="VERSION">4.6.0</td>
+    </tr>
+
+    <tr class="VERSION"><td class="VERSION">Unicode</td>
     <td class="VERSION">Yes</td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">Yes</td></tr>
+    
+    <tr class="VERSION"><td class="VERSION">Large File System</td>
     <td class="VERSION">No</td>
-    <td class="VERSION">No</td></tr>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">Yes</td></tr>
     
-    <tr class="VERSION"><td class="VERSION">V2</td>
-    <td class="VERSION">4.5.x</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">No</td></tr>
-    
-    <tr class="VERSION"><td class="VERSION">V3</td>
-    <td class="VERSION">4.6.x</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">Some</td></tr>
+    <tr class="VERSION"><td class="VERSION">C1X Secure STDIO</td>
+    <td class="VERSION">No</td>
+    <td class="VERSION">No</td>
+    <td class="VERSION">Some, incomplete, requires Vista</td></tr>
     </tbody>
     <tfoot><tr class="VERSION">
-        <th class="VERSION">Version</th>
-        <th class="VERSION">Minimum GCC version</th>
-        <th class="VERSION">Unicode</th>
-        <th class="VERSION">Large File System</th>
-        <th class="VERSION">C1X Secure STDIO</th>
+        <th class="VERSION">Feature</th>
+        <th class="VERSION">V1</th>
+        <th class="VERSION">V2</th>
+        <th class="VERSION">V3 (trunk)</th>
     </tr></tfoot>
     <caption>CRT and Headers version comparison</caption>
 </table>
