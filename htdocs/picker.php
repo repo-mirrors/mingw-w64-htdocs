@@ -193,38 +193,40 @@ function fnCreateSelect( aData )
                 </tr>
         </tfoot>
 </table>
+<hr>
 <table cellpadding="0" cellspacing="0" border="0" class="VERSION" id="VERSION">
-    <thead><tr>
-        <th>Version</th>
-        <th>Minimum GCC version</th>
-        <th>Unicode</th>
-        <th>Large File System</th>
-        <th>C1X Secure STDIO</th>
+    <thead><tr class="VERSION">
+        <th class="VERSION">Version</th>
+        <th class="VERSION">Minimum GCC version</th>
+        <th class="VERSION">Unicode</th>
+        <th class="VERSION">Large File System</th>
+        <th class="VERSION">C1X Secure STDIO</th>
     </tr></thead>
     <tbody>
-    <tr><th>V1</th>
-    <th>4.5.1</th>
-    <th>Yes</th>
-    <th>No</th>
-    <th>No</th></tr>
+    <tr class="VERSION"><th class="VERSION">V1</th>
+    <th class="VERSION">4.5.1</th>
+    <th class="VERSION">Yes</th>
+    <th class="VERSION">No</th>
+    <th class="VERSION">No</th></tr>
     
-    <tr><th>V2</th>
-    <th>4.6.x</th>
-    <th>Yes</th>
-    <th>Yes</th>
-    <th>No</th></tr>
+    <tr class="VERSION"><th class="VERSION">V2</th>
+    <th class="VERSION">4.6.x</th>
+    <th class="VERSION">Yes</th>
+    <th class="VERSION">Yes</th>
+    <th class="VERSION">No</th></tr>
     
-    <tr><th>V3</th>
-    <th>4.6.x</th>
-    <th>Yes</th>
-    <th>Yes</th>
-    <th>Some</th></tr>
+    <tr class="VERSION"><th class="VERSION">V3</th>
+    <th class="VERSION">4.6.x</th>
+    <th class="VERSION">Yes</th>
+    <th class="VERSION">Yes</th>
+    <th class="VERSION">Some</th></tr>
     </tbody>
-    <tfoot><tr>
-        <th>Version</th>
-        <th>Unicode</th>
-        <th>Large File System</th>
+    <tfoot><tr class="VERSION">
+        <th class="VERSION">Version</th>
+        <th class="VERSION">Unicode</th>
+        <th class="VERSION">Large File System</th>
     </tr></tfoot>
+    <caption>CRT version comparison</caption>
 </table>
 
 </body>
