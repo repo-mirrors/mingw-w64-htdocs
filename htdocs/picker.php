@@ -120,6 +120,49 @@ function fnCreateSelect( aData )
     } );
 };*/
                 </script>
+  <style type="text/css">
+  CAPTION.VERSION
+  {
+     background-color:white;
+     color:black;
+     border-style:solid;
+     border-width:2px;
+     border-color:black;
+  }
+
+  TABLE.VERSION
+  { 
+     font-family:arial;
+     font-size:10pt;
+     background-color:white;
+     width:500px;
+     border-style:solid;
+     border-color:black;
+     border-width:2px;
+  }
+
+  TH.VERSION
+  {
+     font-size:10pt;
+     background-color:white;
+     color:black;
+  }
+
+
+  TR.VERSION
+  { 
+  }
+
+  TD.VERSION
+  {  
+     font-size:10pt;
+     background-color:white;
+     color:black;
+     border-style:solid;
+     border-width:1px;
+     text-align:center;
+  }
+</style>
         </head>
 <body>
 
@@ -150,7 +193,7 @@ function fnCreateSelect( aData )
                 </tr>
         </tfoot>
 </table>
-<table cellpadding="0" cellspacing="0" border="0" class="display" id="toolchains">
+<table cellpadding="0" cellspacing="0" border="0" class="VERSION" id="VERSION">
     <thead><tr>
         <th>Version</th>
         <th>Minimum GCC version</th>
