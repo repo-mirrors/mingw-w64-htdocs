@@ -309,6 +309,7 @@ function fnCreateSelect( aData )
     </tbody>
     <tfoot><tr class="VERSION">
         <th class="VERSION">Feature</th>
+        <th class="VERSION">mingw.org</th>
         <th class="VERSION">V1</th>
         <th class="VERSION">V2</th>
         <th class="VERSION">V3 (trunk)</th>
