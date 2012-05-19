@@ -59,6 +59,9 @@ class crt_trunk {
           null,
           null,
           null,
+          null,
+          null,
+          null,
           { "bSearchable": false }
         ]
     } );
