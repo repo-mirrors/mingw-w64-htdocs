@@ -213,6 +213,7 @@ function fnCreateSelect( aData )
         <th class="VERSION">V3 (trunk)</th>
     </tr></thead>
     <tbody>
+    <tr class="VERSION"><td class="VERSION" colspan="5">Toolchain Support</td></tr>
     <tr class="VERSION">
     <td class="VERSION">Minimum GCC version</td>
     <td class="VERSION">4.4.x</td>
@@ -245,6 +246,7 @@ function fnCreateSelect( aData )
     <td class="VERSION">Yes</td>
     </tr>
 
+    <tr class="VERSION"><td class="VERSION" colspan="5">Win32 API Support</td></tr>
     <tr class="VERSION">
     <td class="VERSION">Minimum Target OS</td>
     <td class="VERSION">Windows 9X/NT4</td>
@@ -277,6 +279,7 @@ function fnCreateSelect( aData )
     <td class="VERSION">Yes (From ReactOS)</td>
     <td class="VERSION">Yes (From ReactOS)</td></tr>
 
+    <tr class="VERSION"><td class="VERSION" colspan="5">Language Support</td></tr>
     <tr class="VERSION"><td class="VERSION">POSIX style Large File System</td>
     <td class="VERSION">No</td>
     <td class="VERSION">No</td>
@@ -307,6 +310,14 @@ function fnCreateSelect( aData )
     <td class="VERSION">Incomplete, requires Vista</td>
     <td class="VERSION">Incomplete, requires Vista</td></tr>
     </tbody>
+
+    <tr class="VERSION"><td class="VERSION">C++ style no-inline</td>
+    <td class="VERSION">Unknown</td>
+    <td class="VERSION">No</td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">Yes</td></tr>
+    </tbody>
+
     <tfoot><tr class="VERSION">
         <th class="VERSION">Feature</th>
         <th class="VERSION">mingw.org</th>
