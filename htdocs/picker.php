@@ -61,7 +61,6 @@ class crt_trunk {
           null,
           null,
           null,
-          null,
           { "bSearchable": false }
         ]
     } );
@@ -149,6 +148,8 @@ function fnCreateSelect( aData )
      font-size:10pt;
      background-color:white;
      color:black;
+     border-style:solid;
+     border-color:black;
   }
 
 
