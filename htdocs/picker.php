@@ -150,6 +150,7 @@ function fnCreateSelect( aData )
      color:black;
      border-style:solid;
      border-color:black;
+     border-width:2px;
   }
 
 
@@ -169,45 +170,6 @@ function fnCreateSelect( aData )
 </style>
         </head>
 <body>
-
-<table cellpadding="0" cellspacing="0" border="0" class="VERSION" id="VERSION">
-    <thead><tr class="VERSION">
-        <th class="VERSION">Version</th>
-        <th class="VERSION">Minimum GCC version</th>
-        <th class="VERSION">Unicode</th>
-        <th class="VERSION">Large File System</th>
-        <th class="VERSION">C1X Secure STDIO</th>
-    </tr></thead>
-    <tbody>
-    <tr class="VERSION"><td class="VERSION">V1</td>
-    <td class="VERSION">4.5.1</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">No</td>
-    <td class="VERSION">No</td></tr>
-    
-    <tr class="VERSION"><td class="VERSION">V2</td>
-    <td class="VERSION">4.6.x</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">No</td></tr>
-    
-    <tr class="VERSION"><td class="VERSION">V3</td>
-    <td class="VERSION">4.6.x</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">Some</td></tr>
-    </tbody>
-    <tfoot><tr class="VERSION">
-        <th class="VERSION">Version</th>
-        <th class="VERSION">Minimum GCC version</th>
-        <th class="VERSION">Unicode</th>
-        <th class="VERSION">Large File System</th>
-        <th class="VERSION">C1X Secure STDIO</th>
-    </tr></tfoot>
-    <caption>CRT and Headers version comparison</caption>
-</table>
-
-<hr>
 
 <table cellpadding="0" cellspacing="0" border="0" class="display" id="toolchains">
         <thead>
@@ -239,6 +201,44 @@ function fnCreateSelect( aData )
                         <th>Link</th>
                 </tr>
         </tfoot>
+</table>
+<hr>
+
+<table cellpadding="0" cellspacing="0" border="0" class="VERSION" id="VERSION">
+    <thead><tr class="VERSION">
+        <th class="VERSION">Version</th>
+        <th class="VERSION">Minimum GCC version</th>
+        <th class="VERSION">Unicode</th>
+        <th class="VERSION">Large File System</th>
+        <th class="VERSION">C1X Secure STDIO</th>
+    </tr></thead>
+    <tbody>
+    <tr class="VERSION"><td class="VERSION">V1</td>
+    <td class="VERSION">4.5.1</td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">No</td>
+    <td class="VERSION">No</td></tr>
+    
+    <tr class="VERSION"><td class="VERSION">V2</td>
+    <td class="VERSION">4.5.x</td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">No</td></tr>
+    
+    <tr class="VERSION"><td class="VERSION">V3</td>
+    <td class="VERSION">4.6.x</td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">Some</td></tr>
+    </tbody>
+    <tfoot><tr class="VERSION">
+        <th class="VERSION">Version</th>
+        <th class="VERSION">Minimum GCC version</th>
+        <th class="VERSION">Unicode</th>
+        <th class="VERSION">Large File System</th>
+        <th class="VERSION">C1X Secure STDIO</th>
+    </tr></tfoot>
+    <caption>CRT and Headers version comparison</caption>
 </table>
 
 </body>
