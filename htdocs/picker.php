@@ -8,7 +8,7 @@ class toolchains {
   }
 
   function __construct(){
-    $this->insert("x86_64-w64-mingw32", "i686-pc-mingw32",
+    $this->insert("i686-pc-mingw32", "x86_64-w64-mingw32",
       "autobuilds", "No", "None", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/", "4.6.x", "v2");
     $this->insert("i686-w64-mingw32", "i686-pc-mingw32",
       "autobuilds", "No", "None", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Automated%20Builds/", "4.6.x", "v2");
@@ -17,7 +17,12 @@ class toolchains {
     $this->insert("x86_64-w64-mingw32", "x86_64-w64-mingw32",
       "Rubenvb", "No", "winpthreads", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/", "4.6.x", "v2");
     $this->insert("i686-w64-mingw32", "i686-w64-mingw32",
-      "Ozkan", "No", "pthreads-win32", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/sezero_4.5_20111101/", "4.5.x", "v2");
+      "Ozkan", "No", "pthreads-win32", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/sezero_4.5_20111101/", "4.5.x", "v1");
+
+    $this->insert("x86_64-w64-mingw32", "x86_64-w64-mingw32",
+      "Ozkan", "No", "pthreads-win32", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/sezero_4.5_20111101/", "4.5.x", "v1");
+    $this->insert("i686-pc-mingw32", "x86_64-w64-mingw32",
+      "Ozkan", "No", "pthreads-win32", "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/sezero_4.5_20111101/", "4.5.x", "v1");
   }
 
   function print_html_tr(){
