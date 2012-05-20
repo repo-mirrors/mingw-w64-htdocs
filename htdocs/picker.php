@@ -232,18 +232,18 @@ function fnCreateSelect( aData )
 
     <tr class="VERSION">
     <td class="VERSION"><b>Win64 Support</b></td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">Yes</td>
+    <td class="VERSION">Yes</td>
     <td class="VERSION">No</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">Yes</td>
-    <td class="VERSION">Yes</td>
     </tr>
 
     <tr class="VERSION">
     <td class="VERSION"><b>Multilib capability</b></td>
-    <td class="VERSION">No</td>
-    <td class="VERSION">No</td>
     <td class="VERSION">Yes</td>
     <td class="VERSION">Yes</td>
+    <td class="VERSION">No</td>
+    <td class="VERSION">No</td>
     </tr>
 
     <tr class="VERSION"><td class="VERSION" colspan="5"><b>Win32 API Support</b></td></tr>
