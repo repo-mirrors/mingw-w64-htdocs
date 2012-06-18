@@ -59,6 +59,7 @@ $projects = array(
         '<a href="http://devkitpro.org/">devkitPro</a>',
         '<a href="http://fc-solve.shlomifish.org/">Freecell Solver</a>',
         '<a href="http://libvirt.org/">libvirt</a>',
+        '<a href="http://smartmontools.sourceforge.net/">smartmontools</a>',
         '<a href="http://www.vsxu.com/">VSXu</a>');
 
 
