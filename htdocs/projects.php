@@ -62,6 +62,11 @@ $projects = array(
         '<a href="http://smartmontools.sourceforge.net/">smartmontools</a>',
         '<a href="http://freeverb3.sourceforge.net/">Freeverb3</a>',
         '<a href="http://www.vsxu.com/">VSXu</a>');
+        '<a href="http://www.graphicsmagick.org/">GraphicsMagick</a>');
+        '<a href="http://www.imagemagick.org/">ImageMagick</a>');
+        '<a href="http://www.boost.org/">Boost</a>');
+        '<a href="http://botan.randombit.net/">Botan</a>');
+        '<a href="http://qt-project.org/">Qt 4.8.3</a>');
 
 
 	shuffle($projects);
