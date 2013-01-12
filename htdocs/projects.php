@@ -66,6 +66,7 @@ $projects = array(
         '<a href="http://www.imagemagick.org/">ImageMagick</a>',
         '<a href="http://www.boost.org/">Boost</a>',
         '<a href="http://botan.randombit.net/">Botan</a>',
+        '<a href="http://www.woodem.eu/">Woo</a>',
         '<a href="http://qt-project.org/">Qt 4.8.3</a>');
 
 	shuffle($projects);
