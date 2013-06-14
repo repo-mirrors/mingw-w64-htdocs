@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <title><?=$page_title?> - MinGW-w64</title>
     <link href="css/main.css" type="text/css" rel="stylesheet">
+<?php
+  if (isset($page_name) && file_exists('css/' . $page_name . '.css')) {
+    echo '<link href="css/' . $page_name . '.css" type="text/css" rel="stylesheet">';
+  }
+?>
   </head>
   
   <body>

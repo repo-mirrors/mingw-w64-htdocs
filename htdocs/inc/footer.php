@@ -10,6 +10,11 @@
         <a href="irc://irc.oftc.net/#mingw-w64">Discuss</a></p>
       <p>
         <a href="http://codecamel.com">Website donated by Codecamel</a>
+<?php
+      if (isset($page_authors)) {
+        echo '| Page by ' . $page_authors;
+      }
+?>
       </p>
     </div>
     
