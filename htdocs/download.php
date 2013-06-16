@@ -75,8 +75,8 @@
         </tr>
         <tr>
           <td>x86_64</td>
-          <td>2013/06/01</td>
-          <td><a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/mingw-w64-bin_i686-darwin_20130601.tar.bz2/download">SourceForge</a></td>
+          <td>2013/06/15</td>
+          <td><a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/mingw-w64-bin_i686-darwin_20130615.tar.bz2/download">SourceForge</a></td>
         </tr>
         <tr>
           <td rowspan="2">Linux 32</td>
@@ -92,13 +92,13 @@
         <tr>
           <td rowspan="2">Linux 64</td>
           <td>i686</td>
-          <td>2013/06/07</td>
-          <td><a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Automated%20Builds/mingw-w32-bin_x86_64-linux_20130607.tar.bz2/download">SourceForge</a></td>
+          <td>2013/06/15</td>
+          <td><a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Automated%20Builds/mingw-w32-bin_x86_64-linux_20130615.tar.bz2/download">SourceForge</a></td>
         </tr>
         <tr>
           <td>x86_64</td>
-          <td>2013/06/07</td>
-          <td><a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/mingw-w64-bin_x86_64-linux_20130607.tar.bz2/download">SourceForge</a></td>
+          <td>2013/06/15</td>
+          <td><a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/mingw-w64-bin_x86_64-linux_20130615.tar.bz2/download">SourceForge</a></td>
         </tr>
       </table>
       <p>
