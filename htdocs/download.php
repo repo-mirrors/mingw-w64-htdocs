@@ -42,7 +42,7 @@
 
     <br/>
 
-    <div class="toolchain"><a name="automated-builds"/>
+    <div class="toolchain" id="automated-builds">
       <h2>Automated Builds</h2>
       <p>The automated builds are built on volunteers' machines with buildbot.
       The builds are triggered daily for several configurations, each time
@@ -111,7 +111,7 @@
 
     <br/>
 
-    <div class="toolchain"><a name="cygwin"/>
+    <div class="toolchain" id="cygwin">
       <h2>Cygwin</h2>
       <p>The toolchain runs inside Cygwin and can take advantage of its package
       manager.</p>
@@ -149,7 +149,7 @@
 
     <br/>
 
-    <div class="toolchain"><a name="fedora"/>
+    <div class="toolchain" id="fedora">
       <h2>Fedora</h2>
       <p>The Fedora Linux distribution provides packages to cross-compile for
       Windows thanks to the <a
@@ -220,7 +220,7 @@
 
     <br/>
 
-    <div class="toolchain"><a name="yypkg"/>
+    <div class="toolchain" id="yypkg">
       <h2>Yypkg Mingw-builds</h2>
       <p><a href="http://yypkg.org/mingw-builds">Yypkg mingw-builds</a>
       provides packages to cross-compile for Windows or build natively.</p>
@@ -278,7 +278,7 @@
 
     <br/>
 
-    <div class="toolchain"><a name="source"/>
+    <div class="toolchain" id="source">
       <h2>Source</h2>
         <p>
           Tarballs for the mingw-w64 sources are hosted on <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/">SourceForge</a>. The latest version is <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v2.0.8.tar.gz/download">2.0.8</a>.
@@ -291,7 +291,7 @@
 
     <br/>
 
-    <div class="toolchain"><a name="others"/>
+    <div class="toolchain" id="others">
       <h2>Other Downloads</h2>
       <p>
         There are more toolchains available than the ones mentioned here. Most notable ones are <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/">Ruben's</a> and <a href="http://sf.net/projects/mingwbuilds/files/host-windows/releases/4.8.0/32">MingwBuilds</a>.
