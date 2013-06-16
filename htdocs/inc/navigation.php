@@ -6,7 +6,16 @@
     <div id="left">
       <ul>
         <li><a href="index.php">Home</a></li>
-        <li><a href="download.php">Downloads</a></li>
+        <li><a href="download.php">Downloads</a>
+          <ul>
+            <li><a href="download.php#automated-builds">Automated Builds</a></li>
+            <li><a href="download.php#cygwin">Cygwin</a></li>
+            <li><a href="download.php#fedora">Fedora</a></li>
+            <li><a href="download.php#yypkg">Yypkg</a></li>
+            <li><a href="download.php#source">Source</a></li>
+            <li><a href="#others">Others</a></li>
+          </ul>
+        </li>
         
         <li><a href="http://sourceforge.net/apps/trac/mingw-w64/">Documentation Wiki</a>
           <ul>
