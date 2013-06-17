@@ -11,6 +11,7 @@
             <li><a href="download.php#automated-builds">Automated Builds</a></li>
             <li><a href="download.php#cygwin">Cygwin</a></li>
             <li><a href="download.php#fedora">Fedora</a></li>
+            <li><a href="download.php#mingw-builds">Mingw-builds</a></li>
             <li><a href="download.php#yypkg">Yypkg</a></li>
             <li><a href="download.php#source">Source</a></li>
             <li><a href="#others">Others</a></li>
