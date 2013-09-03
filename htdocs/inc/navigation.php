@@ -13,8 +13,13 @@
             <li><a href="download.php#fedora">Fedora</a></li>
             <li><a href="download.php#mingw-builds">Mingw-builds</a></li>
             <li><a href="download.php#yypkg">Yypkg</a></li>
-            <li><a href="download.php#source">Source</a></li>
-            <li><a href="download.php#others">Others</a></li>
+            <li><a href="download.php#source">Source</a>
+              <ul>
+                <li><a href="download.php#source-crt">- CRT</a></li>
+                <li><a href="download.php#source-winpthreads">- Winpthreads</a></li>
+              </ul>
+            </li>
+            <li><a href="download.php#others">Others</a><li>
           </ul>
         </li>
         

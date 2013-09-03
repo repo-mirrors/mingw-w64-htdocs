@@ -18,37 +18,19 @@
     <div id="middle">
       <h1>Overview</h1>
        <p>
-        The project's goal is to deliver runtime, headers, and libs for
-        developing 64 bit (x64), as well as 32 bit (x86), windows applications using gcc-4.6
-        or newer versions. Users should avoid <em>gcc-4.4</em> or earlier as it is known to generate bad code.
+         Mingw-w64 delivers runtime, headers and libs for developing both 64 bit (x64) and 32 bit (x86) windows applications using GCC and other free software compilers.
       </p>
       <p>
-        <strong>Project Status:</strong> Version 2.0 has been released and is considered stable.
-        The main addition is a sizable amount of Windows Vista/7 API.
+        <strong>Project Status:</strong> Version 2.0 is the stable release; it greatly expands the support for Windows Vista/7 APIs.
       </p>
-      <p><em>Version 3.0</em> (Currently in trunk and considered unstable) has some LFS64 support that
-          allow traditional Unix programs to use 64-bit large file support if they so choose.
+      <p><em>Version 3.0</em> In trunk, and nearing release, has some Large File Support. Note that GCC-4.8.x requires at least r5437 from trunk to support C++11 std::to_string. Earlier versions will not work.
       </p>
-      <p><em>winpthreads</em>, a implementation of POSIX threads for win32 is also available under the experimental directory.
-             Its main goal is to support C++11 standard threading, which supports only using POSIX threads at the moment.
+      <p><em>winpthreads</em> provides POSIX threads for win32 and can be used for C++11 standard threading which currently requires POSIX threads.
       </p>
       <p>
-        You are now able to generate applications using these headers, libs and runtime together with gcc-4.6 and up. However, when compiling for 64-bit we recommend using atleast gcc-4.5.1 to take advantage of the many improvements and bug-fixes.
-        If you come across any bugs, please report them via the <a href="http://sourceforge.net/tracker/?group_id=202880">Issue Tracker</a> or notify us directly on <a href="irc://irc.oftc.net/#mingw-w64">IRC</a>.
-      </p>
-      <p>
-        Please visit the <a href="http://sourceforge.net/projects/mingw-w64">project page</a>
-
-        for <a href="http://sourceforge.net/projects/mingw-w64/files/">releases</a> and more 
-        <a href="http://sourceforge.net/apps/trac/mingw-w64/">details</a>! If you want to join us in chat, we are on the 
-        <a href="http://www.oftc.net/oftc/">OFTC</a> network in the channel <a href="irc://irc.oftc.net/#mingw-w64">
-        #mingw-w64</a>. You can also access this channel via a relay on <a href="http://freenode.net/">Freenode.net</a>. For users that are unfamiliar with IRC, we have a <a href="mibbit.html">
-        web based client</a> available.
-      </p>
-      <p>
-        The mingw-w64 toolchain has been officially added to <a href="http://cygwin.com/"><strong>Cygwin</strong></a> mirrors, you can find the basic C toolchain as mingw64-x86_64-gcc-core.
-        The languages enabled are C, Ada, C++, Fortran, Object C and Objective C++.
-        There is a known caveat where calling the compiler directly as &quot;/bin/x86_64-w64-mingw32-gcc&quot; will fail, use &quot;/usr/bin/x86_64-w64-mingw32-gcc&quot; instead and make sure that your PATH variable has &quot;/usr/bin&quot; before &quot;/bin&quot;.
+        Use the latest point version of GCC 4.7 or 4.8. Versions down to 4.5.1 are supported but each new version brings many improvements.
+        The <a href="http://sourceforge.net/projects/mingw-w64">project page</a> has the full list of <a href="http://sourceforge.net/projects/mingw-w64/files/">releases</a> and more <a href="http://sourceforge.net/apps/trac/mingw-w64/">details</a>.
+        You can report bugs via the <a href="http://sourceforge.net/tracker/?group_id=202880">Issue Tracker</a> or notify us directly on <a href="irc://irc.oftc.net/#mingw-w64">IRC</a> on #mingw-w64 on OFTC, via the <a href="http://irc.oftc.net/?channels=#mingw-w64">web-based client</a> or via a relay on freenode.
       </p>
       <div class="projects">
         <h3>Projects successfully using MinGW-w64</h3>
