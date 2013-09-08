@@ -23,8 +23,9 @@
           </ul>
         </li>
         
-        <li><a href="http://sourceforge.net/apps/trac/mingw-w64/">Documentation Wiki</a>
+        <li><a href="http://sourceforge.net/apps/trac/mingw-w64/">Documentation</a>
           <ul>
+            <li><a href="http://sourceforge.net/apps/trac/mingw-w64/">Wiki</a></li>
             <li><a href="http://sourceforge.net/apps/trac/mingw-w64/wiki/FAQ">FAQ</a></li>
             <li><a href="http://mingw-w64.sourceforge.net/libmangle/">libmangle</a></li>
             <li><a href="http://sourceforge.net/apps/trac/mingw-w64/wiki/gendef">gendef</a></li>
