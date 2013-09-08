@@ -48,7 +48,12 @@
             for ($i=0; $i<$news_items; $i++) {
               $date = date("j F h:i A", $rss->items[$i]['date_timestamp']);
               $link = htmlspecialchars($rss->items[$i]['link']);
-              $title = htmlspecialchars($rss->items[$i]['title']);
+              $title = ($rss->items[$i]['title']);
+              $title = preg_replace("/made 1 file-release changes/",
+                "has released 1 file", $title);
+              $title = preg_replace("/made (\d+) file-release changes/",
+                "has released $1 files", $title);
+              $title = htmlspecialchars($title);
               echo '<li><a href="'.$link.'"><span class="date">'.$date.': </span>'.$title.'</a></li>';
             }
           ?>
