@@ -4,15 +4,15 @@
   $url = "http://sourceforge.net/export/rss2_keepsake.php?group_id=202880";
   $rss = fetch_rss($url);
   $news_items = 10;
-  
+
   $page_title = 'GCC for both x64 &amp; x86 Windows!';
 
   include('inc/header.php');
   include('inc/navigation.php');
   include('inc/right.php');
 
-?>    
-  
+?>
+
 
     <!-- MAIN CONTENT AREA -->
     <div id="middle">
@@ -35,12 +35,12 @@
       <div class="projects">
         <h3>Projects successfully using MinGW-w64</h3>
         <ul>
-          
+
 			<?php include('projects.php'); ?>
 
         </ul>
       </div>
-      
+
       <div class="news">
         <h3>Live Project Feed</h3>
         <ul>
@@ -64,7 +64,5 @@
       </a>
 
     </div>
-        
-    
-    
+
 <?php include('inc/footer.php'); ?>
