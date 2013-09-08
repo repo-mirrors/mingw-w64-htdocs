@@ -54,15 +54,6 @@
           ?>
         </ul>
       </div>
-
-      <h2>Site statistics</h2>
-      <a href="http://sourceforge.net/project/stats/detail.php?group_id=202880&amp;ugn=mingw-w64&amp;mode=week&amp;type=prweb">
-        <img src="http://sourceforge.net/project/stats/graph/index-graph.php?group_id=202880&amp;ugn=mingw-w64&amp;graph=prweb&amp;mode=week">
-      </a>
-      <a href="http://sourceforge.net/project/stats/detail.php?group_id=202880&amp;ugn=mingw-w64&amp;type=prdownload">
-        <img src="http://sourceforge.net/project/stats/graph/index-graph.php?group_id=202880&amp;ugn=mingw-w64&amp;graph=prdownload&amp;mode=week">
-      </a>
-
     </div>
 
 <?php include('inc/footer.php'); ?>
