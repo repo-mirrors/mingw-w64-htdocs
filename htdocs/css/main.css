@@ -239,7 +239,6 @@ body {
 }
 
 #middle .news ul li a span.date, #middle .news ul li a:link span.date, #middle .news ul li a:visited span.date, #middle .news ul li a:active span.date {
-  display: block;
   text-decoration: none;
   font-size: 0.85em;
   color: black;

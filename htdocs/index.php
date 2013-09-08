@@ -46,10 +46,10 @@
         <ul>
           <?php
             for ($i=0; $i<$news_items; $i++) {
-              $date = date("l, F Y h:i A", $rss->items[$i]['date_timestamp']);
+              $date = date("j F h:i A", $rss->items[$i]['date_timestamp']);
               $link = htmlspecialchars($rss->items[$i]['link']);
               $title = htmlspecialchars($rss->items[$i]['title']);
-              echo '<li><a href="'.$link.'"><span class="date">'.$date.'</span>'.$title.'</a></li>';
+              echo '<li><a href="'.$link.'"><span class="date">'.$date.': </span>'.$title.'</a></li>';
             }
           ?>
         </ul>
