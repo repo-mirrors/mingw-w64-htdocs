@@ -10,20 +10,19 @@
   <div id="middle">
     <h1>Downloads</h1>
     There are several available builds related to the Mingw-w64 project.
-    Each provides different versions and features. The main criteria are listed
-    below.
+    Each provides different versions and features.
     <ul class="features">
       <li class="features">Host: the architecture the toolchain runs on.</li>
       <li class="features">Target: the architecture the toolchain builds for.</li>
       <li class="features">
         CRT: C runtime (base C functions and API).
         <ul class="feature-values">
-          <li>v3: adds improved C99 math, wide variants for C99 printf
+          <li>v2: Unicode entry points, DLL delayed loader, Driver Development
+          Kit (from ReactOS), DirectX Development Kit (from Wine), POSIX-style
+          large file system, C99 math, C99 printf/scanf and C++ style
+          no-inline.</li>
+          <li>v3 (trunk): adds improved C99 math, wide variants for C99 printf
           and scanf.</li>
-          <li>v2 (previous): Unicode entry points, DLL delayed loader, Driver
-          Development Kit (from ReactOS), DirectX Development Kit (from Wine),
-          POSIX-style Large File Support, C99 math, C99 printf/scanf and C++
-          style no-inline.</li>
         </ul>
       </li>
       <li class="features">
@@ -31,7 +30,7 @@
         <ul class="feature-values">
           <li>SJLJ: slower but compatible for everything.</li>
           <li>Dwarf2: faster but exceptions cannot be thrown across DLL boundaries and has some bugs or limitations.</li>
-          <li>SEH: fastest but limited to 64-bit because of a <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=5,628,016.PN.&amp;OS=PN/5,628,016&amp;RS=PN/5,628,016">patent</a>.</li>
+          <li>SEH: fastest but 64-bit only because of a <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=5,628,016.PN.&amp;OS=PN/5,628,016&amp;RS=PN/5,628,016">patent</a>.</li>
         </ul>
       </li>
       <li class="features">
@@ -40,66 +39,6 @@
       <li class="features">Package Manager: simplifies management of software (install, remove, update).</li>
       <li class="features">Additional Software: software not part of the toolchain but available (possibly through a package manager).</li>
     </ul>
-
-    <br/>
-
-    <div class="toolchain" id="mingw-builds">
-      <h2>Mingw-builds (official toolchain)</h2>
-      <p><a href="https://sourceforge.net/projects/mingwbuilds/files/host-windows/releases/">Mingw-builds</a>
-      provides native toolchains for Windows. Builds are based on trunk version of the mingw-w64 runtime.
-      It has an online <a href="http://sourceforge.net/projects/mingwbuilds/files/mingw-builds-install/mingw-builds-install.exe/download">installer</a>.</p>
-      <table>
-        <tr>
-          <th>Languages</th>
-          <th>Installer</th>
-          <th>C++ Exceptions</th>
-          <th>GCC Threading Model</th>
-        </tr>
-        <tr>
-          <td>C, C++, Fortran</td>
-          <td>Yes</td>
-          <td>DWARF, SJLJ, SEH</td>
-          <td>Win32, Posix</td>
-        </tr>
-      </table>
-      <br/>
-      <table>
-        <tr>
-          <th>Host</th><th>Exception</th><th>Target</th><th>GCC</th><th>Homepage</th>
-        </tr>
-        <tr>
-          <td rowspan="2">Windows 32</td>
-          <td>DWARF</td>
-          <td>i686</td>
-          <td rowspan="4">4.6.2 - 4.8.1</td>
-          <td rowspan="4"><a href="https://sourceforge.net/projects/mingwbuilds">Sourceforge.net</a></td>
-        </tr>
-        <tr>
-          <!-- cell is defined by a rowspan in the previous <tr> -->
-          <td>SJLJ</td>
-          <td>i686, x86_64</td>
-          <!-- cell is defined by a rowspan in the previous <tr> -->
-          <!-- cell is defined by a rowspan in the previous <tr> -->
-        </tr>
-        <tr>
-          <td rowspan="2">Windows 64</td>
-          <td>SEH</td>
-          <td>x86_64</td>
-          <!-- cell is defined by a rowspan in the previous <tr> -->
-          <!-- cell is defined by a rowspan in the previous <tr> -->
-        </tr>
-        <tr>
-          <!-- cell is defined by a rowspan in the previous <tr> -->
-          <td>SJLJ</td>
-          <td>x86_64, i686</td>
-          <!-- cell is defined by a rowspan in the previous <tr> -->
-          <!-- cell is defined by a rowspan in the previous <tr> -->
-        </tr>
-      </table>
-      <p>
-        <strong>Additional Software</strong>: GDB, Python, zlib, libiconv.
-      </p>
-    </div>
 
     <br/>
 
@@ -281,6 +220,66 @@
 
     <br/>
 
+    <div class="toolchain" id="mingw-builds">
+      <h2>Mingw-builds</h2>
+      <p><a href="https://sourceforge.net/projects/mingwbuilds/files/host-windows/releases/">Mingw-builds</a>
+      provides native toolchains for Windows. Builds are based on trunk version of the mingw-w64 runtime.
+      It has an online <a href="http://sourceforge.net/projects/mingwbuilds/files/mingw-builds-install/mingw-builds-install.exe/download">installer</a>.</p>
+      <table>
+        <tr>
+          <th>Languages</th>
+          <th>Installer</th>
+          <th>C++ Exceptions</th>
+          <th>GCC Threading Model</th>
+        </tr>
+        <tr>
+          <td>C, C++, Fortran</td>
+          <td>Yes</td>
+          <td>DWARF, SJLJ, SEH</td>
+          <td>Win32, Posix</td>
+        </tr>
+      </table>
+      <br/>
+      <table>
+        <tr>
+          <th>Host</th><th>Exception</th><th>Target</th><th>GCC</th><th>Homepage</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Windows 32</td>
+          <td>DWARF</td>
+          <td>i686</td>
+          <td rowspan="4">4.6.2 - 4.8.1</td>
+          <td rowspan="4"><a href="https://sourceforge.net/projects/mingwbuilds">Sourceforge.net</a></td>
+        </tr>
+        <tr>
+          <!-- cell is defined by a rowspan in the previous <tr> -->
+          <td>SJLJ</td>
+          <td>i686, x86_64</td>
+          <!-- cell is defined by a rowspan in the previous <tr> -->
+          <!-- cell is defined by a rowspan in the previous <tr> -->
+        </tr>
+        <tr>
+          <td rowspan="2">Windows 64</td>
+          <td>SEH</td>
+          <td>x86_64</td>
+          <!-- cell is defined by a rowspan in the previous <tr> -->
+          <!-- cell is defined by a rowspan in the previous <tr> -->
+        </tr>
+        <tr>
+          <!-- cell is defined by a rowspan in the previous <tr> -->
+          <td>SJLJ</td>
+          <td>x86_64, i686</td>
+          <!-- cell is defined by a rowspan in the previous <tr> -->
+          <!-- cell is defined by a rowspan in the previous <tr> -->
+        </tr>
+      </table>
+      <p>
+        <strong>Additional Software</strong>: GDB, Python, zlib, libiconv.
+      </p>
+    </div>
+
+    <br/>
+
     <div class="toolchain" id="yypkg">
       <h2>Yypkg Mingw-builds</h2>
       <p><a href="http://yypkg.org/mingw-builds">Yypkg mingw-builds</a>
@@ -364,7 +363,7 @@
         There are even more downloads (other toolchains, older versions, additional binaries, ...) available from the <a href="http://sf.net/projects/mingw-w64/files/">file hosting on SourceForge</a>.
       </p>
       <p>
-        If you maintain toolchains and wish to have it listed on this page,
+        If you maintain toolchains and wish to have it listed on this page, 
 please get in touch on <a href="http://mingw-w64.sourceforge.net/mibbit.html">IRC on #mingw-w64 on OFTC</a> or on the <a href="http://lists.sourceforge.net/mailman/listinfo/mingw-w64-public">Mingw-w64-public mailing-list</a>.
       </p>
     </div>
