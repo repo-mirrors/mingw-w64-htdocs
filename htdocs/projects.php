@@ -9,7 +9,7 @@ $projects = array(
 	'<a href="http://ffmpeg.mplayerhq.hu/">FFmpeg</a>',
 	'<a href="http://www.opensc-project.org/">OpenSC</a>',
 	'<a href="http://wiki.winehq.org/Wine64">Wine</a>',
-	'<a href="http://mamedev.org/">MAME</a> (Yes, the arcade emulator!)',
+	'<a href="http://mamedev.org/">MAME (Yes, the arcade emulator!)</a>',
 
 	'<a href="http://www.reactos.org/en/index.html">ReactOS</a>',
 	'<a href="http://www.videolan.org/vlc/">VideoLAN VLC</a>',
@@ -35,8 +35,8 @@ $projects = array(
 	'<a href="http://www.wxperl.co.uk/building/msw.html">wxPerl PPMs</a>',
 	'<a href="http://www.zlib.net/">zlib</a>',
 	'<a href="http://www.r-project.org/">The R Project for Statistical Computing</a>',
-	'<a href="http://www.perl.org/">Perl</a> (5.12.0 and later)',
-	'<a href="http://strawberryperl.com/">Strawberry Perl</a> (contains bundled mingw-w64 gcc toolchain)',
+	'<a href="http://www.perl.org/">Perl (5.12.0 and later)</a>',
+	'<a href="http://strawberryperl.com/">Strawberry Perl (bundles mingw-w64 gcc toolchain)</a>',
 	'<a href="http://quakespasm.sourceforge.net/">QuakeSpasm</a>',
 	'<a href="http://www.gnu.org/software/gsasl/">GNU SASL</a>',
 	'<a href="http://www.gnu.org/software/gnutls/">GnuTLS</a>',
@@ -74,8 +74,8 @@ $projects = array(
 );
 
 	shuffle($projects);
-	foreach($projects as $project) echo '<li>'.$project.'</li>';
+	foreach($projects as $project) echo $project;
 
-	echo '<li><strong><a href="mailto:mingw-w64-public@lists.sourceforge.net">Add your project!</a></strong></li>';
+	echo '<a href="mailto:mingw-w64-public@lists.sourceforge.net" style="text-align: center"><strong>Add your project!</strong></a>';
 
 ?>

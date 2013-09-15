@@ -34,11 +34,7 @@
       </p>
       <div class="projects">
         <h3>Projects successfully using MinGW-w64</h3>
-        <ul>
-
-			<?php include('projects.php'); ?>
-
-        </ul>
+        <?php include('projects.php'); ?>
       </div>
 
       <div class="news">
