@@ -15,11 +15,11 @@
       <li class="features">Host: the architecture the toolchain runs on.</li>
       <li class="features">Target: the architecture the toolchain builds for.</li>
       <li class="features">
-        C++ Exception Model:
+        C++ Exception Model: use SEH when available, SJLJ otherwide and avoid Dwarf2:
         <ul class="feature-values">
           <li>SJLJ: slower but compatible for everything.</li>
-          <li>Dwarf2: faster but exceptions cannot be thrown across DLL boundaries and has some bugs or limitations.</li>
           <li>SEH: fastest but 64-bit only because of a <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=5,628,016.PN.&amp;OS=PN/5,628,016&amp;RS=PN/5,628,016">patent</a>.</li>
+          <li>Dwarf2: faster but exceptions cannot be thrown across DLL boundaries and has some bugs and limitations; avoid if possible.</li>
         </ul>
       </li>
       <li class="features">
