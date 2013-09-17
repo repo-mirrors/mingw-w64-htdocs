@@ -1,5 +1,5 @@
-<div class="toolchain" id="cygwin">
-  <h2>Cygwin</h2>
+<h2 id="cygwin">Cygwin</h2>
+<div class="toolchain">
   <p>The toolchain runs inside Cygwin and can take advantage of its package
   manager.</p>
   <table>

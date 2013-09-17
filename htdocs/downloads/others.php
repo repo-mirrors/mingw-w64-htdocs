@@ -1,5 +1,5 @@
-<div class="toolchain" id="others">
-  <h2>Other Downloads</h2>
+<h2 id="others">Other Downloads</h2>
+<div class="toolchain">
   <p>
     There are more toolchains available than the ones mentioned here. Most notable one is Ruben's (with toolchains targeting <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/">Win32</a> and <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/">Win64</a>, some with Dwarf2 Exception Handling along with clang binaries).
   </p>

@@ -1,5 +1,5 @@
-<div class="toolchain" id="yypkg">
-  <h2>Yypkg Mingw-builds</h2>
+<h2 id="yypkg">Yypkg Mingw-builds</h2>
+<div class="toolchain">
   <p><a href="http://yypkg.org/mingw-builds">Yypkg mingw-builds</a>
   provides packages to cross-compile for Windows or build natively.</p>
   <table>

@@ -1,8 +1,10 @@
-<div class="toolchain" id="automated-builds">
-  <h2>Automated Builds</h2>
+<h2 id="automated-builds">Automated Builds</h2>
+<div class="toolchain">
   <p>The automated builds are built on volunteers' machines with buildbot.
   The builds are triggered daily for several configurations, each time
-  using the most recent source available for GCC, binutils and the CRT.</p>
+  using the most recent source available for GCC, binutils and the CRT.
+  They are therefore experimental and best avoided unless for specific reasons.
+  </p>
   <table>
     <tr>
       <th>Languages</th>
