@@ -15,17 +15,6 @@
       <li class="features">Host: the architecture the toolchain runs on.</li>
       <li class="features">Target: the architecture the toolchain builds for.</li>
       <li class="features">
-        CRT: C runtime (base C functions and API).
-        <ul class="feature-values">
-          <li>v2: Unicode entry points, DLL delayed loader, Driver Development
-          Kit (from ReactOS), DirectX Development Kit (from Wine), POSIX-style
-          large file system, C99 math, C99 printf/scanf and C++ style
-          no-inline.</li>
-          <li>v3 (trunk): adds improved C99 math, wide variants for C99 printf
-          and scanf.</li>
-        </ul>
-      </li>
-      <li class="features">
         C++ Exception Model:
         <ul class="feature-values">
           <li>SJLJ: slower but compatible for everything.</li>
