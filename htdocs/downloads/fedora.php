@@ -26,44 +26,45 @@
       <th>CRT</th>
     </tr>
     <tr>
-      <td>Fedora 17</td>
+      <td>Fedora 18</td>
       <td rowspan="3">i686, x86_64</td>
-      <td rowspan="2">4.7.2</td>
-      <td>trunk 2012/10/16</td>
+      <td rowspan="1">4.7.2</td>
+      <td>trunk 2013/07/21</td>
     </tr>
     <tr>
-      <td>Fedora 18</td>
+      <td>Fedora 19</td>
       <!-- cell is defined by a rowspan in the previous <tr> -->
-      <!-- cell is defined by a rowspan in the previous <tr> -->
-      <td>trunk 2012/11/10</td>
+      <td rowspan="2">4.8.1</td>
+      <td>trunk 2013/07/21</td>
     </tr>
     <tr>
-      <td>Fedora 18</td>
+      <td>Fedora 20 (alpha)</td>
       <!-- cell is defined by a rowspan in the previous <tr> -->
-      <td>4.8.0</td>
-      <td>trunk 2013/05/09</td>
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <td>3.0.0</td>
     </tr>
   </table>
   <p>
-    <strong>Additional Software</strong>: GConf2, Qt4, Qt5, SDL,
-    angleproject, antlr, atk, atkmm, boost, bzip2, cairo, cairomm, celt,
-    clucene, cppunit, curl, cximage, cxxtest, dbus, dbus-glib, dirac,
-    dlfcn, eigen3, enchant, expat, fontconfig, freeglut, freetype, ftplib,
-    gdb, gdbm, gdk-pixbuf, gettext, glib-networking, glib2, glibmm24, gmp,
-    gnutls, goocanvas2, gsl, gst-plugins-bad-free, gst-plugins-base,
-    gst-plugins-good, gstreamer, gtk+2, gtk+3, gtk-vnc, gtkglext, gtkhtml3,
-    gtkmm24, gtkmm30, gtksourceview3, gtkspell3, gtkspellmm30, harfbuzz,
-    hunspell, icu, jasper, lcms, lcms2, libarchive, libffi, libgcrypt,
-    libgeotiff, libglade2, libglademm24, libgnurx, libgpg-error, libgsf,
-    libidn, libjpeg-turbo, libltdl, libogg, liboil, libosinfo, libp11,
-    libpng, libsigc++20, libsigsegv, libsoup, libsqlite3x, libssh2,
-    libtasn1, libtiff, libusbx, libvirt, libvirt-glib, libvorbis, libwebp,
-    libxml++, libxml2, libxslt, libzip, llvm, matahari, nettle, nsis,
-    nsiswrapper, openjpeg, opensc, openssl, orc, p11-kit, pango, pangomm,
-    pcre, pdcurses, pixman, plotmm, polyclipping, portablexdr, proj,
-    pthreads, qpid-cpp, qwt, readline, sigar, spice-gtk, spice-protocol,
-    sqlite, srvany, tcl, termcap, tk, usbredir, w64-tools, webkitgtk,
-    webkitgtk3, win-iconv, wine-gecko, winpthreads, winstorecompat, wpcap,
-    wxWidgets, xerces-c, xz, zfstream, zlib.</p>
-</div>
-
+    <strong>Additional Software</strong>:
+angleproject antlr atk atkmm binutils boost bzip2 cairo cairomm celt051 clucene 
+cppunit crossreport crt curl cximage cxxtest dbus dbus-glib dirac dlfcn eigen3 
+enchant expat fftw filesystem fontconfig freeglut freetype ftplib gcc GConf2 
+gdb gdbm gdk-pixbuf gettext giflib glew glib2 glibmm24 glib-networking gmp 
+gnutls goocanvas2 gsl gstreamer gstreamer1 gstreamer1-plugins-base 
+gstreamer-plugins-bad-free gstreamer-plugins-base gstreamer-plugins-good gtk2 
+gtk3 gtkglext gtkhtml3 gtkmm24 gtkmm30 gtksourceview3 gtkspell3 gtkspellmm30 
+gtk-vnc harfbuzz headers hunspell icu jasper lcms lcms2 leptonica libarchive 
+libffi libgcrypt libgeotiff libglade2 libglademm24 libgnurx libgpg-error libgsf 
+libidn libjpeg-turbo libltdl libogg liboil libosinfo libp11 libpng libsigc++20 
+libsigsegv libsoup libsqlite3x libssh2 libtasn1 libtiff libusbx libvirt 
+libvirt-glib libvorbis libwebp libxml++ libxml2 libxslt libzip llvm matahari 
+nettle nsis nsiswrapper openjpeg opensc openssl orc p11-kit pango pangomm pcre 
+pdcurses pixman pkg-config plotmm polyclipping poppler portablexdr postgresql 
+proj pthreads qpid-cpp qt qt5-qt3d qt5-qtbase qt5-qtdeclarative 
+qt5-qtgraphicaleffects qt5-qtimageformats qt5-qtjsbackend qt5-qtlocation 
+qt5-qtquick1 qt5-qtscript qt5-qtsensors qt5-qtsystems qt5-qttools 
+qt5-qttranslations qwt readline sane-backends SDL SDL_image SDL_mixer shapelib 
+sigar spice-gtk spice-protocol sqlite srvany tcl termcap tesseract tk usbredir 
+w64-tools webkitgtk webkitgtk3 wine-gecko win-iconv winpthreads winstorecompat 
+wpcap wxWidgets xerces-c xz zfstream zlib.
+</p> </div> 
