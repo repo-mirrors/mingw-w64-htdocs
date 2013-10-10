@@ -1,7 +1,9 @@
-<h2 id="yypkg">Yypkg Mingw-builds</h2>
+<h2 id="win-builds">Win-builds</h2>
 <div class="toolchain">
-  <p><a href="http://yypkg.org/mingw-builds">Yypkg mingw-builds</a>
-  provides packages to cross-compile for Windows or build natively.</p>
+  <p><a href="http://win-builds.org">Win-builds</a> provides toolchains and
+  libraries to cross-compile for Windows or build natively. The builds are
+  fully reproducible and the whole process is documented. It uses a package
+  manager to enable painless installation and updates of all components.</p>
   <table>
     <tr>
       <th>Languages</th>
@@ -23,16 +25,19 @@
       <th>Target</th>
       <th>GCC Version</th>
       <th>CRT</th>
+      <th>Homepage</th>
     </tr>
     <tr>
       <td>Linux 64</td>
       <td>i686, x86_64</td>
       <td rowspan="3">4.7.2</td>
       <td rowspan="3">2.0.7</td>
+      <td rowspan="4"><a href="http://win-builds.org">win-builds.org</a></td>
     </tr>
     <tr>
       <td>Windows 32</td>
       <td>i686</td>
+      <!-- cell is defined by a rowspan in the previous <tr> -->
       <!-- cell is defined by a rowspan in the previous <tr> -->
       <!-- cell is defined by a rowspan in the previous <tr> -->
     </tr>
@@ -40,6 +45,14 @@
       <td>Windows 64</td>
       <td>x86_64</td>
       <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+    </tr>
+    <tr>
+      <td>Linux 64 (alpha)</td>
+      <td>i686, x86_64</td>
+      <td rowspan="3">4.8.1</td>
+      <td rowspan="3">3.0.0</td>
       <!-- cell is defined by a rowspan in the previous <tr> -->
     </tr>
   </table>

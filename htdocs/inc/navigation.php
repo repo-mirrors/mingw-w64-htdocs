@@ -12,7 +12,7 @@
             <li><a href="download.php#cygwin">Cygwin</a></li>
             <li><a href="download.php#fedora">Fedora</a></li>
             <li><a href="download.php#mingw-builds">Mingw-builds</a></li>
-            <li><a href="download.php#yypkg">Yypkg</a></li>
+            <li><a href="download.php#win-builds">Win-builds</a></li>
             <li><a href="download.php#source">Source</a>
               <ul>
                 <li><a href="download.php#source-crt">- CRT</a></li>
