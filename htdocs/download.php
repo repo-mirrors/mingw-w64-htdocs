@@ -34,12 +34,10 @@
       <li class="features">Additional Software: software not part of the toolchain but available (possibly through a package manager).</li>
     </ul>
 
-    If you want to build on Windows and don't know which build to chose, use Mingw-builds below with SJLJ or SEH exception handling.
-
-<?php include('downloads/mingw-builds.php'); ?> <br/>
 <?php include('downloads/automated-builds.php'); ?> <br/>
 <?php include('downloads/cygwin.php'); ?> <br/>
 <?php include('downloads/fedora.php'); ?> <br/>
+<?php include('downloads/mingw-builds.php'); ?> <br/>
 <?php include('downloads/yypkg.php'); ?> <br/>
 <?php include('downloads/source.php'); ?> <br/>
 <?php include('downloads/others.php'); ?> <br/>
