@@ -9,23 +9,27 @@
 ?>
   <div id="middle">
     <h1>Downloads</h1>
-    There are several available builds related to the Mingw-w64 project.
-    Each provides different versions and features. The main criteria are listed
-    below.
+    Several builds related to the Mingw-w64 project are available.
+    Each build provides different versions and features. The main criteria are:
     <ul class="features">
-      <li class="features">Host: the architecture the toolchain runs on.</li>
-      <li class="features">Target: the architecture the toolchain builds for.</li>
+      <li class="features">Host: the architecture on which the toolchain runs.</li>
+      <li class="features">Target: the architecture on which the executables
+      made by the toolchain will run. Most commonly, Host and Target are the
+      same and the compiler is said to be "native". When Host and Target
+      differ, the compiler is a "cross-compiler".</li>
       <li class="features">
-        C++ Exception Model: use SEH when available, SJLJ otherwide and avoid Dwarf2:
+        C++ Exception Model: use SEH when available, SJLJ otherwise and avoid Dwarf2:
         <ul class="feature-values">
-          <li>SJLJ: slower but compatible for everything.</li>
+          <li>SJLJ: slower but available for every architecture.</li>
           <li>SEH: fastest but limited to 64-bit because of a <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=5,628,016.PN.&amp;OS=PN/5,628,016&amp;RS=PN/5,628,016">patent</a>.</li>
-          <li>Dwarf2: faster but exceptions cannot be thrown across DLL boundaries and has some bugs and limitations; avoid if possible.</li>
+          <li>Dwarf2: faster than SJLJ and usually on par with SEH but has known limitations and bugs; avoid unless you're aware of all of them.</li>
         </ul>
       </li>
       <li class="features">
-        GCC Threading Model: Win32 is default while POSIX allows C++11
-        threading but requires to use pthreads for GCC.</li>
+        GCC Threading Model: Win32 is default while POSIX allows C11
+        threading but requires to use pthreads for GCC. Unless you rely on the
+        thread feature of C11, this has no impact on the applications built
+        using GCC.</li>
       <li class="features">Package Manager: simplifies management of software (install, remove, update).</li>
       <li class="features">Additional Software: software not part of the toolchain but available (possibly through a package manager).</li>
     </ul>
