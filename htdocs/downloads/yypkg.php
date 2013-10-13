@@ -51,8 +51,8 @@
     <tr>
       <td>Linux 64 (alpha)</td>
       <td>i686, x86_64</td>
-      <td rowspan="3">4.8.1</td>
-      <td rowspan="3">3.0.0</td>
+      <td>4.8.1</td>
+      <td>3.0.0</td>
       <!-- cell is defined by a rowspan in the previous <tr> -->
     </tr>
   </table>
