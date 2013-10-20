@@ -70,7 +70,8 @@ $projects = array(
         '<a href="http://qt-project.org/">Qt 4.8.3</a>',
         '<a href="http://www.ecere.com/">Ecere SDK - eC compiler, GUI toolkit, and IDE</a>',
         '<a href="http://code.google.com/p/windows-package-manager/">Npackd</a>',
-        '<a href="http://smartimagedenoiser.com/">Smart Image Denoiser</a>'
+        '<a href="http://smartimagedenoiser.com/">Smart Image Denoiser</a>',
+        '<a href="http://sourceforge.net/projects/dbh/">Disk Based HashTables</a>'
 );
 
 	shuffle($projects);
