@@ -1,4 +1,4 @@
-<h2 id="win-builds">Win-builds</h2>
+<h2 id="win-builds">Win-builds Project</h2>
 <div class="toolchain">
   <p><a href="http://win-builds.org">Win-builds</a> provides toolchains and
   libraries to cross-compile for Windows or build natively. The builds are

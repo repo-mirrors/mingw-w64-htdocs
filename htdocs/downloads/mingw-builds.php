@@ -1,4 +1,4 @@
-<h2 id="mingw-builds">Mingw-builds</h2>
+<h2 id="mingw-builds">Mingw-builds Project</h2>
 <div class="toolchain">
   <p><a href="https://sourceforge.net/projects/mingwbuilds/files/host-windows/releases/">Mingw-builds</a>
   provides native toolchains for Windows. Builds are based on trunk version of the mingw-w64 runtime.

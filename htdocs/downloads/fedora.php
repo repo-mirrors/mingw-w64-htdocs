@@ -1,4 +1,4 @@
-<h2 id="fedora">Fedora</h2>
+<h2 id="fedora">Fedora Project</h2>
 <div class="toolchain">
   <p>The Fedora Linux distribution provides packages to cross-compile for
   Windows thanks to the <a

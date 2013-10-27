@@ -97,7 +97,7 @@ body {
 ***************/
 
 #left {
-	width: 10em;
+	width: 10.5em;
 	float: left;
 }
 
@@ -165,7 +165,7 @@ body {
 ***************/
 
 #middle {
-	margin: 0 10em;
+	margin: 0 10.5em;
 	padding: 1em 1.5em;
 	line-height: 1.3em;
 }
@@ -271,7 +271,7 @@ body {
 ***************/
 #right { 
 	float: right;
-	width: 10em;
+	width: 10.5em;
 }
 
 #right a:focus { outline: none; }
