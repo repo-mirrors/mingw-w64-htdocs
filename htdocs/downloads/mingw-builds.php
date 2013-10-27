@@ -20,14 +20,14 @@
   <br/>
   <table>
     <tr>
-      <th>Host</th><th>Exception</th><th>Target</th><th>GCC</th><th>Homepage</th>
+      <th>Host</th><th>Exception</th><th>Target</th><th>GCC</th><th>Download</th>
     </tr>
     <tr>
       <td rowspan="2">Windows 32</td>
       <td>DWARF</td>
       <td>i686</td>
-      <td rowspan="4">4.6.2 - 4.8.1</td>
-      <td rowspan="4"><a href="https://sourceforge.net/projects/mingwbuilds">Sourceforge.net</a></td>
+      <td rowspan="4">4.6.2 - 4.8.2</td>
+      <td rowspan="2"><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/">Sourceforge.net</a></td>
     </tr>
     <tr>
       <!-- cell is defined by a rowspan in the previous <tr> -->
@@ -41,7 +41,7 @@
       <td>SEH</td>
       <td>x86_64</td>
       <!-- cell is defined by a rowspan in the previous <tr> -->
-      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <td rowspan="2"><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/">Sourceforge.net</a></td>
     </tr>
     <tr>
       <!-- cell is defined by a rowspan in the previous <tr> -->
