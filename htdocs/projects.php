@@ -75,7 +75,8 @@ $projects = array(
 );
 
 	shuffle($projects);
-	foreach($projects as $project) echo $project;
+	$projects_slice = array_slice($projects, 0, 60);
+	foreach($projects_slice as $project) echo $project;
 
 	echo '<a href="mailto:mingw-w64-public@lists.sourceforge.net" style="text-align: center"><strong>Add your project!</strong></a>';
 
