@@ -71,7 +71,10 @@ $projects = array(
         '<a href="http://www.ecere.com/">Ecere SDK - eC compiler, GUI toolkit, and IDE</a>',
         '<a href="http://code.google.com/p/windows-package-manager/">Npackd</a>',
         '<a href="http://smartimagedenoiser.com/">Smart Image Denoiser</a>',
-        '<a href="http://sourceforge.net/projects/dbh/">Disk Based HashTables</a>'
+        '<a href="http://sourceforge.net/projects/dbh/">Disk Based HashTables</a>',
+        '<a href="http://www.ekiga.org/">Ekiga</a>',
+        '<a href="https://bitbucket.org/Haroogan/microsoft-mpi/downloads">MS MPI (repackaged)</a>',
+        '<a href="http://www.webmproject.org/">libvpx</a>'
 );
 
 	shuffle($projects);
