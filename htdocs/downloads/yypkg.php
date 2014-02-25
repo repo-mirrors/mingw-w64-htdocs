@@ -31,7 +31,7 @@
       <td>Linux 64</td>
       <td>i686, x86_64</td>
       <td rowspan="3">4.8.2</td>
-      <td rowspan="3">3.0.1</td>
+      <td rowspan="3">3.1.0</td>
       <td rowspan="3"><a href="http://win-builds.org">win-builds.org</a></td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@
     </tr>
     <tr>
       <td>Windows 64</td>
-      <td>x86_64</td>
+      <td>i686, x86_64</td>
       <!-- cell is defined by a rowspan in the previous <tr> -->
       <!-- cell is defined by a rowspan in the previous <tr> -->
       <!-- cell is defined by a rowspan in the previous <tr> -->
