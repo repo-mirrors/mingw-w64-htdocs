@@ -6,7 +6,7 @@
 <?php
     if (! isset($page_name) || ($page_name !== 'download')) {
 ?>
-      <a href="http://sourceforge.net/projects/mingw-w64/files/" class="install">Download MinGW-w64</a>
+      <a href="download.php" class="install">Download MinGW-w64</a>
 <?php
     }
 ?>
