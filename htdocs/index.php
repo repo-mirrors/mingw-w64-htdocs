@@ -30,7 +30,7 @@
           <li>Partial C1X secure CRT support</li>
           <li>Partial MS Secure CRT templates for C++</li>
           <li>Overall improved Windows 7 and 8 win32 API support</li>
-          <li>POSIX-style Larg File Support</li>
+          <li>POSIX-style Large File Support</li>
           <li>New component library: winpthreads, a pthreads implementation for Windows</li>
           <li>New component library: winstorecompat, a Windows Store
           compatibility code (still partial)</li>
