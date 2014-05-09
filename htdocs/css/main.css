@@ -189,6 +189,16 @@ body {
 	padding-bottom: 0.2em;
 }
 
+#middle h3 {
+	border-bottom: 1px solid #cdcdcd;
+	margin: 1em 0 0 0;
+	padding-bottom: 0.2em;
+}
+
+#middle ul li {
+  display: block;
+}
+
 #middle p {
 	margin: 1em 0;
 }
