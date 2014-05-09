@@ -2,19 +2,19 @@
 <div class="toolchain">
   <p><a href="https://sourceforge.net/projects/mingwbuilds/files/host-windows/releases/">Mingw-builds</a>
   provides native toolchains for Windows. Builds are based on trunk version of the mingw-w64 runtime.
-  It has an online <a href="http://sourceforge.net/projects/mingwbuilds/files/mingw-builds-install/mingw-builds-install.exe/download">installer</a>.</p>
+  It has an online <a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download">installer</a>.</p>
   <table>
     <tr>
       <th>Languages</th>
       <th>Installer</th>
       <th>C++ Exceptions</th>
-      <th>GCC Threading Model</th>
+      <th>C11/C++11 Threading</th>
     </tr>
     <tr>
       <td>C, C++, Fortran</td>
       <td>Yes</td>
       <td>DWARF, SJLJ, SEH</td>
-      <td>Win32, Posix</td>
+      <td>Supported (using winpthreads) or disabled </td>
     </tr>
   </table>
   <br/>

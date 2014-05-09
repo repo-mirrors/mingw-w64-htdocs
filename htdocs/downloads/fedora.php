@@ -1,4 +1,7 @@
-<h2 id="fedora">Fedora Project</h2>
+<h2 id="fedora">
+  <img src="http://yypkg.org/fedora-logo.png" height="32" width="32" style="margin-top: 0; margin-bottom: 0">
+  Fedora Project
+</h2>
 <div class="toolchain">
   <p>The Fedora Linux distribution provides packages to cross-compile for
   Windows thanks to the <a
@@ -8,13 +11,13 @@
       <th>Languages</th>
       <th>Package Manager</th>
       <th>C++ Exceptions</th>
-      <th>GCC Threading Model</th>
+      <th>C11/C++11 Threading</th>
     </tr>
     <tr>
       <td>Ada, C, C++, Fortran, Objective-C, Objective-C++</td>
       <td>Yum/RPM</td>
       <td>SJLJ</td>
-      <td>POSIX</td>
+      <td>Supported (using winpthreads)</td>
     </tr>
   </table>
   <br/>

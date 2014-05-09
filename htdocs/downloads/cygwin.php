@@ -7,13 +7,13 @@
       <th>Languages</th>
       <th>Package Manager</th>
       <th>C++ Exceptions</th>
-      <th>GCC Threading Model</th>
+      <th>C11/C++11 Threading</th>
     </tr>
     <tr>
       <td>Ada, C, C++, Fortran, Objective-C</td>
       <td>Yes</td>
       <td>SJLJ</td>
-      <td>Win32</td>
+      <td>Not supported</td>
     </tr>
   </table>
   <br/>

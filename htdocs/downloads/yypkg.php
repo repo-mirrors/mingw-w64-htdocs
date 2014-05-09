@@ -9,13 +9,13 @@
       <th>Languages</th>
       <th>Package Manager</th>
       <th>C++ Exceptions</th>
-      <th>GCC Threading Model</th>
+      <th>C11/C++11 Threading</th>
     </tr>
     <tr>
       <td>C, C++</td>
       <td>Yypkg</td>
       <td>SJLJ for i686; SEH for x64</td>
-      <td>POSIX</td>
+      <td>Supported (using winpthreads)</td>
     </tr>
   </table>
   <br/>
