@@ -1,5 +1,5 @@
 <?php
-  $page_title = 'Downloads';
+  $page_title = 'Downloads and Installation';
   $page_name = 'download';
   $page_authors = 'Adrien Nader';
 
@@ -8,7 +8,7 @@
   include('inc/right.php');
 ?>
   <div id="middle">
-    <h1>Downloads</h1>
+    <h1>Downloads and Installation</h1>
     Several builds related to the Mingw-w64 project are available.
     Each build provides different versions and features. The main criteria are:
     <ul class="features">
