@@ -45,8 +45,16 @@
         You can report bugs via the <a href="http://sourceforge.net/tracker/?group_id=202880">Issue Tracker</a> or notify us directly on <a href="irc://irc.oftc.net/#mingw-w64">IRC</a> on #mingw-w64 on OFTC, via the <a href="http://irc.oftc.net/?channels=#mingw-w64">web-based client</a> or via a relay on freenode.
       </p>
       <div class="projects">
-        <h3>Some projects successfully using MinGW-w64</h3>
-        <?php include('projects.php'); ?>
+        <?php
+          include('projects.php');
+          print_links('Associated Projects', $associated_projects);
+
+          print_links('Some Projects Successfully using Mingw-w64',
+            array_merge($compilers_ides_tools, $providers, $builds_against));
+          echo '<a style="text-align: center" href="users.php">See More Projects</a>';
+          echo '<a style="text-align: center" href="mailto:mingw-w64-public@lists.sourceforge.net"><strong>Add your project!</strong></a>';
+        ?>
+
       </div>
 
       <div class="news">
