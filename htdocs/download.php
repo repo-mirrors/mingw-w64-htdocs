@@ -26,10 +26,9 @@
         </ul>
       </li>
       <li class="features">
-        GCC Threading Model: Win32 is default while POSIX allows C11
-        threading but requires to use pthreads for GCC. Unless you rely on the
-        thread feature of C11, this has no impact on the applications built
-        using GCC.</li>
+        C11/C++11 Threading: C11 and C++11 have added threading support at the
+	language level; this requires the winpthreads library which comes with
+	the toolchains and changes little for users not relying on it.</li>
       <li class="features">Package Manager: simplifies management of software (install, remove, update).</li>
       <li class="features">Additional Software: software not part of the toolchain but available (possibly through a package manager).</li>
     </ul>
