@@ -37,7 +37,9 @@
         </ul>
       </p>
       <p>
-        <em>Version 2.0</em> is the previous release; it greatly expanded the support for Windows Vista/7 APIs.<br>
+        <em>Version 2.0</em> is the previous release; it greatly expanded the support for Windows Vista/7 APIs.
+      </p>
+      <p>
         Use the latest GCC version; versions down to 4.5.1 are supported but each new version brings many improvements.
       </p>
       <p>
