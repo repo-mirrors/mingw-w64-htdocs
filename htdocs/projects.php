@@ -22,7 +22,7 @@ $compilers_ides_tools = array(
 
 $associated_projects = array(
   '<a href="http://cygwin.com">Cygwin</a>',
-  '<a href="http://www.reactos.org/en/index.html">ReactOS</a>',
+  '<a href="http://www.reactos.org">ReactOS</a>',
   '<a href="http://wiki.winehq.org/Wine64">Wine</a>',
 );
 
