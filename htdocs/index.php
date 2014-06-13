@@ -21,7 +21,7 @@
          Mingw-w64 delivers runtime, headers and libs for developing both 64 bit (x64) and 32 bit (x86) windows applications using GCC and other free software compilers.
       </p>
       <p>
-        <strong>Version 3.0</strong> is the stable release and is required for GCC 4.8. A lot of development has gone into it; main changes include:
+        <strong>Version 3.0</strong> is the current release and is required for GCC 4.8. Main changes include:
         <ul>
           <li>Much improved floating point math performance</li>
           <li>Improved MSVC compiler intrinsics performance</li>
