@@ -21,9 +21,9 @@ $compilers_ides_tools = array(
 );
 
 $associated_projects = array(
-  '<a href="http://cygwin.com">Cygwin</a>',
-  '<a href="http://www.reactos.org">ReactOS</a>',
-  '<a href="http://wiki.winehq.org/Wine64">Wine</a>',
+  '<a class="associated" href="http://cygwin.com">Cygwin</a>',
+  '<a class="associated" href="http://www.reactos.org">ReactOS</a>',
+  '<a class="associated" href="http://wiki.winehq.org/Wine64">Wine</a>',
 );
 
 $builds_against = array(
