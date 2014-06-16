@@ -275,62 +275,6 @@ body {
   background: #ddd;
 }
 
-/***************
-	RIGHT COLUMN
-***************/
-#right { 
-	float: right;
-	width: 10.5em;
-}
-
-#right a:focus { outline: none; }
-
-#right a.install, #right a.help, #right a.chat, #right a.donate {
-	display: block;
-	background: #ffffe4 url('../img/icons/download-green.png') no-repeat 50% 20%;
-	border: 1px solid #b9b9b9;
-	padding: 3.3em 1em 1em 1em;
-	text-align: center;
-	font-weight: bold;
-	margin: 1em 0;
-
-}
-
-#right a.install:hover {
-	background-color: #ffffd1;
-	border: 1px solid #565656;
-}
-
-#right a.help, #right a.chat, #right a.donate {
-	background: #eceeec url('../img/icons/help-purple.png') no-repeat 5% 49%;
-	padding: 1.4em 0.8em 1.4em 4.1em;
-	font-size: 0.75em;
-	text-align: left;
-}
-
-#right a.chat {
-	background: #eceeec url('../img/icons/chat-blue.png') no-repeat 5% 49%;
-	font-weight: normal;
-}
-
-#right a.help:hover, #right a.chat:hover, #right a.donate:hover {
-	border: 1px solid #535353;
-}
-
-#right a.donate {
-	background: #ececec url('../img/make-a-donation.gif') no-repeat 50% 90%;
-	padding: 0.7em 1.2em 4.7em 1.2em;
-	text-decoration: none;
-	font-weight: normal;
-}
-
-#right a.donate span {
-	display: block;
-	background: transparent url('../img/icons/money.png') no-repeat 0 50%;
-	padding: 1em 0 0.5em 3.7em;
-	margin-bottom: 0.8em;
-	text-decoration: underline;
-}
 
 /***************
 	FOOTER
