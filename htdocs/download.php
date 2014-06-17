@@ -32,13 +32,13 @@
       <li class="features">Additional Software: software not part of the toolchain but available (possibly through a package manager).</li>
     </ul>
 
-<?php include('downloads/automated-builds.php'); ?> <br/>
-<?php include('downloads/cygwin.php'); ?> <br/>
-<?php include('downloads/fedora.php'); ?> <br/>
-<?php include('downloads/mingw-builds.php'); ?> <br/>
-<?php include('downloads/yypkg.php'); ?> <br/>
-<?php include('downloads/source.php'); ?> <br/>
-<?php include('downloads/others.php'); ?> <br/>
+<?php
+include('downloads/cygwin.php');
+include('downloads/fedora.php');
+include('downloads/mingw-builds.php');
+include('downloads/yypkg.php');
+include('downloads/others.php');
+?>
 
   </div>
 
