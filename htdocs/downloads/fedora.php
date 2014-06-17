@@ -8,43 +8,33 @@
     href="https://fedoraproject.org/wiki/MinGW">Fedora Mingw SIG</a>.</p>
   <table>
     <tr>
-      <th>Languages</th>
-      <th>Package Manager</th>
-      <th>C++ Exceptions</th>
-      <th>C11/C++11 Threading</th>
-    </tr>
-    <tr>
-      <td>Ada, C, C++, Fortran, Objective-C, Objective-C++</td>
-      <td>Yum/RPM</td>
-      <td>SJLJ</td>
-      <td>Supported (using winpthreads)</td>
-    </tr>
-  </table>
-  <br/>
-  <table>
-    <tr>
-      <th>Host</th>
-      <th>Target</th>
-      <th>GCC Version</th>
+      <th>Runs on</th>
+      <th>Builds for</th>
+      <th>GCC</th>
       <th>CRT</th>
-    </tr>
-    <tr>
-      <td>Fedora 18</td>
-      <td rowspan="3">i686, x86_64</td>
-      <td rowspan="1">4.7.2</td>
-      <td>trunk 2013/07/21</td>
+      <th>Languages</th>
+      <th>C11/C++11 Threading</th>
+      <th>Package Manager</th>
+      <th>Installation</th>
     </tr>
     <tr>
       <td>Fedora 19</td>
-      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <td rowspan="2">i686, x86_64</td>
       <td rowspan="2">4.8.1</td>
       <td>trunk 2013/07/21</td>
+      <td rowspan="2">Ada, C, C++, Fortran,<br>Objective-C, Objective-C++</td>
+      <td rowspan="2">Supported</td>
+      <td rowspan="2">Yum/RPM</td>
+      <td rowspan="2">From inside Fedora<br>(<a href="https://fedoraproject.org/wiki/MinGW">Fedora Mingw SIG</a>)</td>
     </tr>
     <tr>
-      <td>Fedora 20 (alpha)</td>
+      <td>Fedora 20, CentOS 7, RHEL 7</td>
       <!-- cell is defined by a rowspan in the previous <tr> -->
       <!-- cell is defined by a rowspan in the previous <tr> -->
-      <td>3.0.0</td>
+      <td>3.1.0</td>
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
     </tr>
   </table>
   <p>

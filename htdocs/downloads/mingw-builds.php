@@ -5,53 +5,31 @@
   It has an online <a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download">installer</a>.</p>
   <table>
     <tr>
+      <th>Runs on</th>
+      <th>Builds for</th>
+      <th>GCC</th>
+      <th>CRT</th>
       <th>Languages</th>
-      <th>Installer</th>
-      <th>C++ Exceptions</th>
       <th>C11/C++11 Threading</th>
+      <th>Package Manager</th>
+      <th>Installation</th>
     </tr>
     <tr>
-      <td>C, C++, Fortran</td>
-      <td>Yes</td>
-      <td>DWARF, SJLJ, SEH</td>
-      <td>Supported (using winpthreads) or disabled </td>
-    </tr>
-  </table>
-  <br/>
-  <table>
-    <tr>
-      <th>Host</th><th>Exception</th><th>Target</th><th>GCC</th><th>Download</th>
-    </tr>
-    <tr>
-      <td rowspan="2">Windows 32</td>
-      <td>DWARF</td>
-      <td>i686</td>
-      <td rowspan="4">4.6.2 - 4.8.2</td>
-      <td rowspan="2"><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/">Sourceforge.net</a></td>
-    </tr>
-    <tr>
-      <!-- cell is defined by a rowspan in the previous <tr> -->
-      <td>SJLJ</td>
+      <td>Windows 32/64</td>
       <td>i686, x86_64</td>
-      <!-- cell is defined by a rowspan in the previous <tr> -->
-      <!-- cell is defined by a rowspan in the previous <tr> -->
-    </tr>
-    <tr>
-      <td rowspan="2">Windows 64</td>
-      <td>SEH</td>
-      <td>x86_64</td>
-      <!-- cell is defined by a rowspan in the previous <tr> -->
-      <td rowspan="2"><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/">Sourceforge.net</a></td>
-    </tr>
-    <tr>
-      <!-- cell is defined by a rowspan in the previous <tr> -->
-      <td>SJLJ</td>
-      <td>x86_64, i686</td>
-      <!-- cell is defined by a rowspan in the previous <tr> -->
-      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <td>4.8.2 - 4.9.0</td>
+      <td>Trunk</td>
+      <td>C, C++</td>
+      <td>To be chosen during installation</td>
+      <td>No</td>
+      <td><a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download">SourceForge</a></td>
     </tr>
   </table>
   <p>
+    <strong>Note</strong>: toolchains using DWARF for exception handling are
+    also available and faster than SJLJ but you shouldn't use them unless
+    you're aware of their bugs and limitations.
+  </p>
     <strong>Additional Software</strong>: GDB, Python, zlib, libiconv.
   </p>
 </div>

@@ -6,33 +6,24 @@
   manager to enable painless installation and updates of all components.</p>
   <table>
     <tr>
-      <th>Languages</th>
-      <th>Package Manager</th>
-      <th>C++ Exceptions</th>
-      <th>C11/C++11 Threading</th>
-    </tr>
-    <tr>
-      <td>C, C++</td>
-      <td>Yypkg</td>
-      <td>SJLJ for i686; SEH for x64</td>
-      <td>Supported (using winpthreads)</td>
-    </tr>
-  </table>
-  <br/>
-  <table>
-    <tr>
-      <th>Host</th>
-      <th>Target</th>
+      <th>Runs on</th>
+      <th>Builds for</th>
       <th>GCC Version</th>
       <th>CRT</th>
-      <th>Homepage</th>
+      <th>Languages</th>
+      <th>C11/C++11 Threading</th>
+      <th>Package Manager</th>
+      <th>Installation</th>
     </tr>
     <tr>
-      <td>Linux 64</td>
+      <td>Linux 32/64, Windows 64</td>
       <td>i686, x86_64</td>
-      <td rowspan="3">4.8.2</td>
-      <td rowspan="3">3.1.0</td>
-      <td rowspan="3"><a href="http://win-builds.org">win-builds.org</a></td>
+      <td rowspan="2">4.8.2</td>
+      <td rowspan="2">3.1.0</td>
+      <td rowspan="2">C, C++</td>
+      <td rowspan="2">Supported</td>
+      <td rowspan="2">Yes</td>
+      <td rowspan="2"><a href="http://win-builds.org/download.html">win-builds.org</a></td>
     </tr>
     <tr>
       <td>Windows 32</td>
@@ -40,10 +31,6 @@
       <!-- cell is defined by a rowspan in the previous <tr> -->
       <!-- cell is defined by a rowspan in the previous <tr> -->
       <!-- cell is defined by a rowspan in the previous <tr> -->
-    </tr>
-    <tr>
-      <td>Windows 64</td>
-      <td>i686, x86_64</td>
       <!-- cell is defined by a rowspan in the previous <tr> -->
       <!-- cell is defined by a rowspan in the previous <tr> -->
       <!-- cell is defined by a rowspan in the previous <tr> -->

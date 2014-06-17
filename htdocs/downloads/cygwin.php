@@ -4,27 +4,21 @@
   manager.</p>
   <table>
     <tr>
+      <th>Runs on</th>
+      <th>Builds for</th>
+      <th>GCC</th>
       <th>Languages</th>
-      <th>Package Manager</th>
-      <th>C++ Exceptions</th>
       <th>C11/C++11 Threading</th>
+      <th>Package Manager</th>
+      <th>Installation</th>
     </tr>
     <tr>
-      <td>Ada, C, C++, Fortran, Objective-C</td>
-      <td>Yes</td>
-      <td>SJLJ</td>
-      <td>Not supported</td>
-    </tr>
-  </table>
-  <br/>
-  <table>
-    <tr>
-      <th>Targets</th><th>GCC</th><th>CRT</th><th>Homepage</th>
-    </tr>
-    <tr>
+      <td>Cygwin</td>
       <td>i686, x86_64</td>
-      <td>4.5.3</td>
-      <td>3.0b_svn5747</td>
+      <td>4.8.2</td>
+      <td>Ada, C, C++, Fortran, Objective-C</td>
+      <td>Not supported</td>
+      <td>Yes</td>
       <td><a href="http://www.cygwin.com">Cygwin.com</a></td>
     </tr>
   </table>
