@@ -5,7 +5,6 @@
 
   include('inc/header.php');
   include('inc/navigation.php');
-  include('inc/right.php');
 ?>
   <div id="middle">
     <h1>Downloads and Installation</h1>
