@@ -38,13 +38,13 @@
   </table>
   <p>
     <strong>Additional Software</strong>: atk, c-ares, ca-certificates,
-    cairo, curl, dbus, ecore, edje, eet, eina, elementary, embryo, evas, evil,
-    expat, flexdll, fontconfig, freetype, gdk-pixbuf2, gettext, giflib,
-    glib-networking, glib2, gmp, gnutls, gperf, gtk+2, icu4c, libarchive,
-    libffi, libjpeg, libmpc, libogg, libpng, libsoup, libtheora, libtiff,
-    libvorbis, libxml2, lua, mpfr, nettle, ocaml, ocaml-findlib,
-    openssl, pango, pixman, pkg-config, sqlite, wget, win-iconv, winpthreads, 
-    x264, xz, zlib.
+    cairo, curl, dbus, efl, elementary, expat, flac, fontconfig, freetype,
+    fribidi, gdb,  gdk-pixbuf2, gettext, giflib, glib-networking, glib2, gmp,
+    gnutls, gperf, gtk+2, harfbuzz, icu4c, libao, libarchive, libffi,
+    libid3tag, libjpeg, libmad, libmpc, libogg, libpng, libsnfile, libsoup,
+    libtasn1, libtheora, libtiff, libvorbis, libxml2, lua, madplay, mpfr,
+    nettle, openssl, pango, pixman, pkg-config, sqlite, wget, win-iconv,
+    winpthreads, x264, xz, zlib.
     </p>
 </div>
 

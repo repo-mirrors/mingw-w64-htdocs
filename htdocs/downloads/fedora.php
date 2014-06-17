@@ -39,25 +39,23 @@
   </table>
   <p>
     <strong>Additional Software</strong>:
-angleproject antlr atk atkmm binutils boost bzip2 cairo cairomm celt051 clucene 
-cppunit crossreport crt curl cximage cxxtest dbus dbus-glib dirac dlfcn eigen3 
-enchant expat fftw filesystem fontconfig freeglut freetype ftplib gcc GConf2 
-gdb gdbm gdk-pixbuf gettext giflib glew glib2 glibmm24 glib-networking gmp 
-gnutls goocanvas2 gsl gstreamer gstreamer1 gstreamer1-plugins-base 
-gstreamer-plugins-bad-free gstreamer-plugins-base gstreamer-plugins-good gtk2 
-gtk3 gtkglext gtkhtml3 gtkmm24 gtkmm30 gtksourceview3 gtkspell3 gtkspellmm30 
-gtk-vnc harfbuzz headers hunspell icu jasper lcms lcms2 leptonica libarchive 
-libffi libgcrypt libgeotiff libglade2 libglademm24 libgnurx libgpg-error libgsf 
-libidn libjpeg-turbo libltdl libogg liboil libosinfo libp11 libpng libsigc++20 
-libsigsegv libsoup libsqlite3x libssh2 libtasn1 libtiff libusbx libvirt 
-libvirt-glib libvorbis libwebp libxml++ libxml2 libxslt libzip llvm matahari 
-nettle nsis nsiswrapper openjpeg opensc openssl orc p11-kit pango pangomm pcre 
-pdcurses pixman pkg-config plotmm polyclipping poppler portablexdr postgresql 
-proj pthreads qpid-cpp qt qt5-qt3d qt5-qtbase qt5-qtdeclarative 
-qt5-qtgraphicaleffects qt5-qtimageformats qt5-qtjsbackend qt5-qtlocation 
-qt5-qtquick1 qt5-qtscript qt5-qtsensors qt5-qtsystems qt5-qttools 
-qt5-qttranslations qwt readline sane-backends SDL SDL_image SDL_mixer shapelib 
-sigar spice-gtk spice-protocol sqlite srvany tcl termcap tesseract tk usbredir 
-w64-tools webkitgtk webkitgtk3 wine-gecko win-iconv winpthreads winstorecompat 
+angleproject antlr atk atkmm binutils boost bzip2 cairo cairomm celt051 clucene
+cppunit curl cximage cxxtest dbus dbus-glib dirac dlfcn eigen3
+enchant expat fftw fontconfig freeglut freetype ftplib GConf2
+gdb gdbm gdk-pixbuf gettext giflib glew glib2 glibmm24 glib-networking gmp
+gnutls goocanvas2 gsl gstreamer gstreamer1 gstreamer1-plugins-{base,bad-free}
+gstreamer-plugins-{base,good} gtk2
+gtk3 gtkglext gtkhtml3 gtkmm24 gtkmm30 gtksourceview3 gtkspell3 gtkspellmm30
+gtk-vnc harfbuzz hunspell icu jasper lcms lcms2 leptonica libarchive
+libffi libgcrypt libgeotiff libglade2 libglademm24 libgnurx libgpg-error libgsf
+libidn libjpeg-turbo libltdl libogg liboil libosinfo libp11 libpng libsigc++20
+libsigsegv libsoup libsqlite3x libssh2 libtasn1 libtiff libusbx libvirt
+libvirt-glib libvorbis libwebp libxml++ libxml2 libxslt libzip llvm matahari
+nettle nsis openjpeg opensc openssl orc p11-kit pango pangomm pcre
+pdcurses pixman pkg-config plotmm polyclipping poppler portablexdr postgresql
+proj qpid-cpp qt qt5
+qwt readline sane-backends SDL SDL_image SDL_mixer shapelib
+sigar spice-gtk spice-protocol sqlite srvany tcl termcap tesseract tk usbredir
+w64-tools webkitgtk webkitgtk3 wine-gecko win-iconv winpthreads winstorecompat
 wpcap wxWidgets xerces-c xz zfstream zlib.
 </p> </div> 
