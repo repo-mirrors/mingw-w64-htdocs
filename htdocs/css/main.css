@@ -101,11 +101,6 @@ body {
 
 #left ul {
 	list-style: none;
-	
-}
-
-#left ul ul {
-	border: 0;
 }
 
 #left ul li {
@@ -124,10 +119,6 @@ body {
 
 * html #left ul li a { zoom: 1; } /* menu fix for ie6 */
 
-#left ul ul {
-	padding-bottom: 0em;
-	background: #e2e2e2;
-}
 
 #left ul ul li {
 	margin: 0;
