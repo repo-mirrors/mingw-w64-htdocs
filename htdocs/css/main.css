@@ -275,6 +275,26 @@ body {
   background: #ddd;
 }
 
+#middle .download div {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  margin-bottom: 1.5em;
+}
+
+#middle .download div table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#middle .download div .additional-software {
+  line-height: 1em;
+  font-size: 0.9em;
+}
+
+#middle .download div table, #middle .download div tr, #middle .download div th, #middle .download div td {
+  border: 1px solid;
+  text-align: center;
+}
 
 /***************
 	FOOTER

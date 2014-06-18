@@ -1,5 +1,5 @@
 <h2 id="others">Other Downloads</h2>
-<div class="toolchain">
+<div class="download">
   <h3 id="darwin">Builds running on Darwin (Automated Builds)</h3>
   <div>
     <p>Most current Darwin toolchains have been built through automated builds
@@ -36,6 +36,7 @@
   </div>
 </div>
 
+<div class="download">
   <h3 id="source">Source</h3>
     Tarballs for the mingw-w64 sources are hosted on <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/">SourceForge</a>.
     The latest version is <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v3.1.0.tar.bz2/download">3.1.0</a>.
@@ -46,6 +47,7 @@
     Details on how to get the mingw-w64 code from Git and an Git-web viewer are available on <a href="https://sourceforge.net/p/mingw-w64/mingw-w64/ci/master/tree/">SourceForge</a>.
 </div>
 
+<div class="download">
   <h3 id="others">Everything else</h3>
     Rubenvb has built a number of toolchains including some for less common setups. They are split into two categories: toolchains targeting
     <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/">Win32</a>

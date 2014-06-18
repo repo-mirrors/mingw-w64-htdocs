@@ -1,5 +1,5 @@
+<div class="download">
 <h2 id="cygwin">Cygwin</h2>
-<div class="toolchain">
   <p>The toolchain runs inside Cygwin and can take advantage of its package
   manager.</p>
   <table>
@@ -22,7 +22,7 @@
       <td><a href="http://www.cygwin.com">Cygwin.com</a></td>
     </tr>
   </table>
-  <p>
+  <p class="additional-software">
     <strong>Additional Software</strong>: bzip2, libgcrypt, libgpg-error,
     minizip, xz, zlib.
   </p>

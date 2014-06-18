@@ -1,5 +1,5 @@
 <h2 id="win-builds">Win-builds Project</h2>
-<div class="toolchain">
+<div class="download">
   <p><a href="http://win-builds.org">Win-builds</a> provides toolchains and
   libraries to cross-compile for Windows or build natively. The builds are
   fully reproducible and the whole process is documented. It uses a package
@@ -36,7 +36,7 @@
       <!-- cell is defined by a rowspan in the previous <tr> -->
     </tr>
   </table>
-  <p>
+  <p class="additional-software">
     <strong>Additional Software</strong>: atk, c-ares, ca-certificates,
     cairo, curl, dbus, efl, elementary, expat, flac, fontconfig, freetype,
     fribidi, gdb,  gdk-pixbuf2, gettext, giflib, glib-networking, glib2, gmp,

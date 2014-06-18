@@ -1,8 +1,8 @@
+<div class="download">
 <h2 id="fedora">
   <img src="http://yypkg.org/fedora-logo.png" height="32" width="32" style="margin-top: 0; margin-bottom: 0">
   Fedora Project
 </h2>
-<div class="toolchain">
   <p>The Fedora Linux distribution provides packages to cross-compile for
   Windows thanks to the <a
     href="https://fedoraproject.org/wiki/MinGW">Fedora Mingw SIG</a>.</p>
@@ -37,7 +37,7 @@
       <!-- cell is defined by a rowspan in the previous <tr> -->
     </tr>
   </table>
-  <p>
+  <p class="additional-software">
     <strong>Additional Software</strong>:
 angleproject antlr atk atkmm binutils boost bzip2 cairo cairomm celt051 clucene
 cppunit curl cximage cxxtest dbus dbus-glib dirac dlfcn eigen3
@@ -58,4 +58,5 @@ qwt readline sane-backends SDL SDL_image SDL_mixer shapelib
 sigar spice-gtk spice-protocol sqlite srvany tcl termcap tesseract tk usbredir
 w64-tools webkitgtk webkitgtk3 wine-gecko win-iconv winpthreads winstorecompat
 wpcap wxWidgets xerces-c xz zfstream zlib.
-</p> </div> 
+</p>
+</div>
