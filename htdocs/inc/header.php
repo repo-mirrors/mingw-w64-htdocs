@@ -20,7 +20,7 @@
     <!-- HEADER -->
     <div id="header">
       <a href="/" class="logo" title="MinGW-w64 Home">MinGW-w64</a>
-      <span class="title">GCC for both x64 &amp; x86 Windows!</span>
-      <span class="sub">...now a reality</span>
+      <span class="title">GCC for both 64 &amp; 32 bits Windows</span>
+      <span class="sub">Runtime, headers, libraries and tools</span>
     </div>
     
