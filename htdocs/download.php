@@ -1,7 +1,7 @@
 <?php
   $page_title = 'Downloads and Installation';
   $page_name = 'download';
-  $page_authors = 'Adrien Nader';
+  $page_authors = '<a href="http://win-builds.org">Adrien Nader of win-builds.org</a>';
 
   include('inc/header.php');
   include('inc/navigation.php');
