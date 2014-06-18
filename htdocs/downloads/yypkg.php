@@ -1,5 +1,6 @@
-<h2 id="win-builds">Win-builds Project</h2>
 <div class="download">
+<h3 id="win-builds">Win-builds project - stable, native- and cross- compilers plus libraries and a cross-platform package manager</h3>
+<div>
   <p><a href="http://win-builds.org">Win-builds</a> provides toolchains and
   libraries to cross-compile for Windows or build natively. The builds are
   fully reproducible and the whole process is documented. It uses a package
@@ -47,4 +48,4 @@
     winpthreads, x264, xz, zlib.
     </p>
 </div>
-
+</div>

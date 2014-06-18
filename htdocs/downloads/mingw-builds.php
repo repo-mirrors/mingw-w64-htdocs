@@ -1,8 +1,6 @@
 <div class="download">
-<h2 id="mingw-builds">Mingw-builds Project</h2>
-  <p><a href="https://sourceforge.net/projects/mingwbuilds/files/host-windows/releases/">Mingw-builds</a>
-  provides native toolchains for Windows. Builds are based on trunk version of the mingw-w64 runtime.
-  It has an online <a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download">installer</a>.</p>
+<h3 id="mingw-builds">Mingw-builds project - native toolchains using trunk</h3>
+<div>
   <table>
     <tr>
       <th>Runs on</th>
@@ -34,4 +32,4 @@
     <strong>Additional Software</strong>: GDB, Python, zlib, libiconv.
   </p>
 </div>
-
+</div>

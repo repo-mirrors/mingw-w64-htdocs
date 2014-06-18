@@ -1,4 +1,3 @@
-<h2 id="others">Other Downloads</h2>
 <div class="download">
   <h3 id="darwin">Builds running on Darwin (Automated Builds)</h3>
   <div>

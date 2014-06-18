@@ -7,7 +7,7 @@
   include('inc/navigation.php');
 ?>
   <div id="middle">
-    <h1>Downloads and Installation</h1>
+    <h2>Downloads and Installation</h2>
 
 <?php
 include('downloads/cygwin.php');

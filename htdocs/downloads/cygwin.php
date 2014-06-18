@@ -1,7 +1,6 @@
 <div class="download">
-<h2 id="cygwin">Cygwin</h2>
-  <p>The toolchain runs inside Cygwin and can take advantage of its package
-  manager.</p>
+<h3 id="cygwin">Cygwin - cross-compiler in a complete POSIX environment</h3>
+<div>
   <table>
     <tr>
       <th>Runs on</th>
@@ -27,4 +26,4 @@
     minizip, xz, zlib.
   </p>
 </div>
-
+</div>

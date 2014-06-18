@@ -1,11 +1,9 @@
 <div class="download">
-<h2 id="fedora">
-  <img src="http://yypkg.org/fedora-logo.png" height="32" width="32" style="margin-top: 0; margin-bottom: 0">
-  Fedora Project
-</h2>
-  <p>The Fedora Linux distribution provides packages to cross-compile for
-  Windows thanks to the <a
-    href="https://fedoraproject.org/wiki/MinGW">Fedora Mingw SIG</a>.</p>
+<h3 id="fedora">
+  <img alt="fedora logo" src="http://yypkg.org/fedora-logo.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
+  Fedora, RHEL7, CentOS 7 - cross-compiler from Linux
+</h3>
+<div>
   <table>
     <tr>
       <th>Runs on</th>
@@ -59,4 +57,5 @@ sigar spice-gtk spice-protocol sqlite srvany tcl termcap tesseract tk usbredir
 w64-tools webkitgtk webkitgtk3 wine-gecko win-iconv winpthreads winstorecompat
 wpcap wxWidgets xerces-c xz zfstream zlib.
 </p>
+</div>
 </div>
