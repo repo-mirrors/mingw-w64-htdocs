@@ -6,6 +6,7 @@
   $news_items = 10;
 
   $page_title = 'GCC for both x64 &amp; x86 Windows!';
+  $page_authors = '<a href="http://win-builds.org">Adrien Nader of win-builds.org</a>';
 
   include('inc/header.php');
   include('inc/navigation.php');
