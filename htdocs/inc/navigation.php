@@ -8,11 +8,11 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="download.php">Downloads</a>
           <ul>
-            <li><a href="download.php#automated-builds">Automated Builds</a></li>
             <li><a href="download.php#cygwin">Cygwin</a></li>
             <li><a href="download.php#fedora">Fedora Project</a></li>
             <li><a href="download.php#mingw-builds">Mingw-builds Project</a></li>
             <li><a href="download.php#win-builds">Win-builds Project</a></li>
+            <li><a href="download.php#darwin">Darwin</a></li>
             <li><a href="download.php#source">Sources</a></li>
             <li><a href="download.php#others">Others</a><li>
           </ul>
