@@ -14,7 +14,7 @@
             <li><a href="download.php#win-builds">Win-builds Project</a></li>
             <li><a href="download.php#darwin">Darwin</a></li>
             <li><a href="download.php#source">Sources</a></li>
-            <li><a href="download.php#others">Others</a><li>
+            <li><a href="download.php#others">Everything Else</a></li>
           </ul>
         </li>
         
