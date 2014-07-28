@@ -2,7 +2,7 @@
 a img { border: 0; }
 
 html {
-	font: 0.9em Tahoma, Helvetica, sans-serif;
+	font: 0.85em sans-serif;
 	color: #303030;
 	background: #f6f6f6;
 }
@@ -46,6 +46,8 @@ body {
 	font-weight: bold;
 	letter-spacing: -0.05em;
 	text-shadow: 1px 1px 1px #111;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
 }
 
 #header span.sub {
@@ -95,7 +97,7 @@ body {
 ***************/
 
 #left {
-	width: 10.5em;
+	width: 11.5em;
 	float: left;
 }
 
@@ -111,25 +113,35 @@ body {
 
 #left ul li a {
 	display: block;
-	padding: 0.5em 1em;
+	padding: 0em 0em;
 	background: #e2e2e2;
 	font-weight: bold;
 	text-decoration: none;
 }
 
+#left ul li .home {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+#left ul li a img {
+  text-align: center;
+  vertical-align: middle;
+}
+
 * html #left ul li a { zoom: 1; } /* menu fix for ie6 */
 
-
-#left ul ul li {
+#left ul li ul li {
 	margin: 0;
 	border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
 }
 
-#left ul li li a {
-	padding: 0.5em 1em 0.5em 1.5em;
-	font-size: 0.8em;
+#left ul li ul li a {
+	padding: 0.5em 0em 0.5em 1.5em;
+	font-size: 0.9em;
 	font-weight: normal;
 }
 
@@ -147,15 +159,18 @@ body {
 	background: #1555ad;
 }
 
-
+#left ul li ul li .donate {
+	background: #eceeec url('../img/make-a-donation.gif') no-repeat 50% 90%;
+	padding: 0.7em 1.2em 4.7em 1.2em;
+}
 
 /***************
 	MAIN CONTENT
 ***************/
 
 #middle {
-	margin: 0 10.5em;
-	padding: 1em 1.5em;
+	margin: 0 0 0 11.5em;
+	padding: 1em 0em 1em 1.5em;
 	line-height: 1.3em;
 }
 
@@ -174,13 +189,11 @@ body {
 
 #middle h2 {
 	border-bottom: 1px solid #cdcdcd;
-	margin: 1em 0 0 0;
 	padding-bottom: 0.2em;
 }
 
 #middle h3 {
 	border-bottom: 1px solid #cdcdcd;
-	margin: 1em 0 0 0;
 	padding-bottom: 0.2em;
 }
 
@@ -196,38 +209,40 @@ body {
 	margin: 0.5em 0;
 }
 
-#middle .news, #middle .projects {
-	display: inline-block;
-	width: 48%;
-	background: #efefef;
-	vertical-align: top;
+.flexbox {
+  display: box;
+  display: flexbox;
+  display: flex;
+}
+
+#middle .flexbox .news, #middle .flexbox .projects, #middle .download {
+  background: #efefef;
+  vertical-align: top;
   font-size: 0.9em;
+  flex: 1 1 50%;
+  -ms-flex: 1 1 50%;
+  -moz-flex: 1 1 50%;
+  -webkit-flex: 1 1 50%;
+  margin: 0.5em;
 }
 
-* html #middle .news, * html #middle .projects { display: inline; }
-*+html #middle .news, *+html #middle .projects { display: inline; }
-
-#middle .news {
-	margin-left: 1%;
-  padding: 0;
+#middle .flexbox .news h3, #middle .flexbox .projects h3, #middle .download h3 {
+  padding: 0.3em 1em;
+  border-bottom: 1px solid #fff;
+  background: #ebd3d3;
+  text-align: left;
+  margin-bottom: 0.7em;
 }
 
-#middle .news h3, #middle .projects h3 {
-	padding: 0.3em 1em;
-	border-bottom: 1px solid #fff;
-	background: #ebd3d3;
-	text-align: left;
+#middle .flexbox .projects {
+  text-align: center;
 }
 
-#middle .projects {
-	text-align: center;
+#middle .flexbox .projects h3 {
+  background: #d3e0eb;
 }
 
-#middle .projects h3 {
-	background: #d3e0eb;
-}
-
-#middle .projects a {
+#middle .flexbox .projects a {
   width: 45%;
   display: inline-block;
   margin-top: 2px;
@@ -240,28 +255,31 @@ body {
   text-align: left;
 }
 
-#middle .news ul {
+#middle .flexbox .projects .associated {
+  text-align: center;
+}
+
+#middle .flexbox .news ul {
   margin: 0;
 }
 
-#middle .news ul li {
+#middle .flexbox .news ul li {
   list-style: none;
   display: block;
   border-bottom: 2px solid white;
 }
 
-#middle .news ul li a {
+#middle .flexbox .news ul li a {
   display: block;
   padding: 1em;
 }
 
 #middle .news ul li a span.date, #middle .news ul li a:link span.date, #middle .news ul li a:visited span.date, #middle .news ul li a:active span.date {
   text-decoration: none;
-  font-size: 0.85em;
   color: black;
 }
 
-#middle .news ul li a:hover, #middle .projects a:hover {
+#middle .flexbox .news ul li a:hover, #middle .flexbox .projects ul li a:hover, #middle .download:hover {
   background: #ddd;
 }
 

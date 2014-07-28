@@ -5,8 +5,13 @@
     <!-- LEFT COLUMN -->
     <div id="left">
       <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="download.php">Downloads</a>
+        <li>
+          <a href="index.php" class="home"><span>Home</span></a>
+        </li>
+        <li>
+          <a href="download.php" class="install">
+            <img alt="dowload icon" src="/img/icons/download-green.png"><span>Downloads</span>
+          </a>
           <ul>
             <li><a href="download.php#cygwin">Cygwin</a></li>
             <li><a href="download.php#fedora">Fedora Project</a></li>
@@ -18,7 +23,10 @@
           </ul>
         </li>
         
-        <li><a href="http://sourceforge.net/apps/trac/mingw-w64/">Documentation</a>
+        <li>
+          <a href="http://sourceforge.net/apps/trac/mingw-w64/" class="documentation">
+            <img alt="documentation icon" src="/img/icons/chat-blue.png"/>Documentation
+          </a>
           <ul>
             <li><a href="http://sourceforge.net/apps/trac/mingw-w64/">Wiki</a></li>
             <li><a href="https://sourceforge.net/apps/trac/mingw-w64/wiki/History">History</a></li>
@@ -28,12 +36,26 @@
           </ul>
         </li>
 
-        <li><a href="http://sourceforge.net/projects/mingw-w64/support">Support</a>
+        <li>
+          <a href="http://sourceforge.net/projects/mingw-w64/support" class="help">
+            <img alt="help icon" src="/img/icons/help-purple.png"/>Help
+          </a>
           <ul>
             <li><a href="http://lists.sourceforge.net/mailman/listinfo/mingw-w64-public">Public Mailing List</a></li>
             <li><a href="irc://irc.oftc.net/#mingw-w64">IRC Channel</a></li>
             <li><a href="http://sourceforge.net/projects/mingw-w64/forums/forum/723797">Discussion Forum</a></li>
             <li><a href="http://sourceforge.net/tracker/?group_id=202880">Issue tracker</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="https://sourceforge.net/donate/index.php?group_id=202880" class="donate">
+            <img alt="donation icon" src="/img/icons/money.png"/>Donate
+          </a>
+          <ul>
+            <li>
+	      <a href="https://sourceforge.net/donate/index.php?group_id=202880" class="donate">Most MinGW-w64 developers are un-paid and work on it in their spare time.</a>
+            </li>
           </ul>
         </li>
 

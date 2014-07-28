@@ -5,7 +5,7 @@
   $rss = fetch_rss($url);
   $news_items = 10;
 
-  $page_title = 'GCC for both x64 &amp; x86 Windows!';
+  $page_title = 'Mingw-w64 - GCC for both 64 &amp; 32 bits Windows';
   $page_authors = '<a href="http://win-builds.org">Adrien Nader of win-builds.org</a>';
 
   include('inc/header.php');
@@ -16,13 +16,9 @@
 
     <!-- MAIN CONTENT AREA -->
     <div id="middle">
-      <h1>Overview</h1>
-       <p>
-         Mingw-w64 delivers runtime, headers and libs for developing both 64 bit (x64) and 32 bit (x86) windows applications using GCC and other free software compilers.
-      </p>
-      <p>
-        <strong>Version 3.0</strong> is the current release and is required for GCC 4.8. Main changes include:
+      <h2>Mingw-w64 version 3.0</h2>
         <ul>
+          <li>Required for GCC 4.8</li>
           <li>Much improved floating point math performance</li>
           <li>Improved MSVC compiler intrinsics performance</li>
           <li>C99 printf includes wide variants</li>
@@ -35,47 +31,42 @@
           <li>New component library: winstorecompat, a Windows Store
           compatibility code (still partial)</li>
         </ul>
-      </p>
       <p>
-        <em>Version 2.0</em> is the previous release; it greatly expanded the support for Windows Vista/7 APIs.
-      </p>
-      <p>
-        Use the latest GCC version; versions down to 4.5.1 are supported but each new version brings many improvements.
-      </p>
-      <p>
+        <strong>Version 2.0</strong> focused on expanding the support for Windows Vista/7 APIs.<br>
         The <a href="http://sourceforge.net/projects/mingw-w64">project page</a> has the full list of <a href="http://sourceforge.net/projects/mingw-w64/files/">releases</a> and more <a href="http://sourceforge.net/apps/trac/mingw-w64/">details</a>.
-        You can report bugs via the <a href="http://sourceforge.net/tracker/?group_id=202880">Issue Tracker</a> or notify us directly on <a href="irc://irc.oftc.net/#mingw-w64">IRC</a> on #mingw-w64 on OFTC, via the <a href="http://irc.oftc.net/?channels=#mingw-w64">web-based client</a> or via a relay on freenode.
       </p>
-      <div class="projects">
-        <?php
-          include('projects.php');
-          print_links('Associated Projects', $associated_projects);
-
-          print_links('Some Projects Successfully using Mingw-w64',
-            array_merge($compilers_ides_tools, $providers, $builds_against));
-          echo '<a style="text-align: center" href="users.php">See More Projects</a>';
-          echo '<a style="text-align: center" href="mailto:mingw-w64-public@lists.sourceforge.net"><strong>Add your project!</strong></a>';
-        ?>
-
-      </div>
-
-      <div class="news">
-        <h3>Live Project Feed</h3>
-        <ul>
+      <div class="flexbox">
+        <div class="projects">
           <?php
-            for ($i=0; $i<$news_items; $i++) {
-              $date = date("j F h:i A", $rss->items[$i]['date_timestamp']);
-              $link = htmlspecialchars($rss->items[$i]['link']);
-              $title = ($rss->items[$i]['title']);
-              $title = preg_replace("/made 1 file-release changes/",
-                "has released 1 file", $title);
-              $title = preg_replace("/made (\d+) file-release changes/",
-                "has released $1 files", $title);
-              $title = htmlspecialchars($title);
-              echo '<li><a href="'.$link.'"><span class="date">'.$date.': </span>'.$title.'</a></li>';
-            }
+            include('projects.php');
+            print_links('Associated Projects', $associated_projects);
+
+            print_links('Some Projects Successfully using Mingw-w64',
+              array_merge($compilers_ides_tools, $providers, $builds_against));
+            echo '<a style="text-align: center" href="users.php">See More Projects</a>';
+            echo '<a style="text-align: center" href="mailto:mingw-w64-public@lists.sourceforge.net"><strong>Add your project!</strong></a>';
           ?>
-        </ul>
+
+        </div>
+
+        <div class="news">
+          <h3>Latest File Releases</h3>
+          <ul>
+            <?php
+              for ($i=0; $i<$news_items; $i++) {
+                $date = date("j F h:i A", $rss->items[$i]['date_timestamp']);
+                $link = htmlspecialchars($rss->items[$i]['link']);
+                $title = ($rss->items[$i]['title']);
+                $title = preg_replace("/made 1 file-release changes/",
+                  "has released 1 file", $title);
+                $title = preg_replace("/made (\d+) file-release changes/",
+                  "has released $1 files", $title);
+                $title = htmlspecialchars($title);
+                echo '<li><a href="'.$link.'"><span class="date">'.$date.': </span>'.$title.'</a></li>';
+              }
+            ?>
+          </ul>
+        </div>
       </div>
     </div>
 
