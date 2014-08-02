@@ -8,6 +8,7 @@ $providers = array(
 
 $compilers_ides_tools = array(
   '<a href="http://www.codeblocks.org/">Code::Blocks</a>',
+  '<a href="http://www.ecere.org/">Ecere SDK</a>',
   '<a href="http://gcc.gnu.org/">GCC: The GNU Compiler Collection</a>',
   '<a href="http://www.gnu.org/software/gdb/">GDB: The GNU Project Debugger</a>',
   '<a href="http://www.gnu.org/software/binutils/">GNU Binutils</a>',
@@ -34,7 +35,6 @@ $builds_against = array(
   '<a href="http://daetools.sourceforge.net">DAE Tools</a>',
   '<a href="http://devkitpro.org/">devkitPro</a>',
   '<a href="http://sourceforge.net/projects/dbh/">Disk Based HashTables</a>',
-  '<a href="http://www.ecere.org/">Ecere SDK</a>',
   '<a href="http://www.ekiga.org/">Ekiga</a>',
   '<a href="http://emergedesktop.org">Emerge Desktop</a>',
   '<a href="http://www.enlightenment.org/">Enlightenment</a>',
