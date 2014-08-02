@@ -215,7 +215,7 @@ body {
   display: flex;
 }
 
-#middle .flexbox .news, #middle .flexbox .projects, #middle .download {
+#middle .flexbox .news, #middle .projects, #middle .flexbox .projects, #middle .download {
   background: #efefef;
   vertical-align: top;
   font-size: 0.9em;
@@ -226,7 +226,7 @@ body {
   margin: 0.5em;
 }
 
-#middle .flexbox .news h3, #middle .flexbox .projects h3, #middle .download h3 {
+#middle .flexbox .news h3, #middle .projects h3, #middle .flexbox .projects h3, #middle .download h3 {
   padding: 0.3em 1em;
   border-bottom: 1px solid #fff;
   background: #ebd3d3;
@@ -234,15 +234,15 @@ body {
   margin-bottom: 0.7em;
 }
 
-#middle .flexbox .projects {
+#middle .flexbox .projects, #middle .projects {
   text-align: center;
 }
 
-#middle .flexbox .projects h3 {
+#middle .flexbox .projects h3, #middle .projects h3 {
   background: #d3e0eb;
 }
 
-#middle .flexbox .projects a {
+#middle .flexbox .projects a, #middle .projects a {
   width: 45%;
   display: inline-block;
   margin-top: 2px;
@@ -253,10 +253,6 @@ body {
   vertical-align: middle;
   border-bottom: 2px solid white;
   text-align: left;
-}
-
-#middle .flexbox .projects .associated {
-  text-align: center;
 }
 
 #middle .flexbox .news ul {
@@ -279,7 +275,7 @@ body {
   color: black;
 }
 
-#middle .flexbox .news ul li a:hover, #middle .flexbox .projects ul li a:hover, #middle .download:hover {
+#middle .flexbox .news ul li a:hover, #middle .projects ul li a:hover, #middle .flexbox .projects ul li a:hover, #middle .download:hover {
   background: #ddd;
 }
 

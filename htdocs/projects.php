@@ -27,6 +27,12 @@ $associated_projects = array(
   '<a class="associated" href="http://wiki.winehq.org/Wine64">Wine</a>',
 );
 
+$associated_projects_divs = array(
+  '<div><a class="associated" href="http://cygwin.com">Cygwin</a></div>',
+  '<div><a class="associated" href="http://www.reactos.org">ReactOS</a></div>',
+  '<div><a class="associated" href="http://wiki.winehq.org/Wine64">Wine</a></div>',
+);
+
 $builds_against = array(
   '<a href="http://code.google.com/p/barchart-udt/">Barchart-UDT</a>',
   '<a href="http://www.blender.org/">Blender</a>',

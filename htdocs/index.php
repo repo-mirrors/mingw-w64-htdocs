@@ -33,13 +33,16 @@
         <strong>Version 2.0</strong> focused on expanding the support for Windows Vista/7 APIs.<br>
         The <a href="http://sourceforge.net/projects/mingw-w64">project page</a> has the full list of <a href="http://sourceforge.net/projects/mingw-w64/files/">releases</a> and more <a href="http://sourceforge.net/apps/trac/mingw-w64/">details</a>.
       </p>
+        <div class="projects" style="display: inline-block; vertical-align: top; float: right">
+          <?php
+            include('projects.php');
+            print_links('Friend Projects', $associated_projects_divs);
+          ?>
+        </div>
       <div class="flexbox">
         <div class="projects">
           <?php
-            include('projects.php');
-            print_links('Associated Projects', $associated_projects);
-
-            print_links('Some Projects Successfully using Mingw-w64',
+            print_links('Some Projects using Mingw-w64',
               array_merge($compilers_ides_tools, $providers, $builds_against));
             echo '<a style="text-align: center" href="users.php">See More Projects</a>';
             echo '<a style="text-align: center" href="mailto:mingw-w64-public@lists.sourceforge.net"><strong>Add your project!</strong></a>';
