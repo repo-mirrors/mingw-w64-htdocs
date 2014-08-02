@@ -20,16 +20,14 @@
         <ul>
           <li>Required for GCC 4.8</li>
           <li>Much improved floating point math performance</li>
-          <li>Improved MSVC compiler intrinsics performance</li>
-          <li>C99 printf includes wide variants</li>
-          <li>C99 scanf, including wide variants</li>
+          <li>Improved MSVC intrinsics performance</li>
+          <li>Addition of wide variants in C99 printf and scanf</li>
           <li>Partial C1X secure CRT support</li>
           <li>Partial MS Secure CRT templates for C++</li>
-          <li>Overall improved Windows 7 and 8 win32 API support</li>
+          <li>Vastly improved Windows 7 and 8 win32 API support</li>
           <li>POSIX-style Large File Support</li>
-          <li>New component library: winpthreads, a pthreads implementation for Windows</li>
-          <li>New component library: winstorecompat, a Windows Store
-          compatibility code (still partial)</li>
+          <li>Winpthread: new library, pthreads implementation for Windows</li>
+          <li>Winstorecompat: new library for Windows Store compatibility (WIP)</li>
         </ul>
       <p>
         <strong>Version 2.0</strong> focused on expanding the support for Windows Vista/7 APIs.<br>
