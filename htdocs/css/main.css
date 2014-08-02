@@ -211,8 +211,6 @@ body {
 
 .flexbox {
   display: box;
-  display: flexbox;
-  display: flex;
 }
 
 #middle .flexbox .news, #middle .projects, #middle .flexbox .projects, #middle .download {
