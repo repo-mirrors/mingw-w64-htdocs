@@ -24,15 +24,15 @@
         </li>
         
         <li>
-          <a href="http://sourceforge.net/apps/trac/mingw-w64/" class="documentation">
+          <a href="http://sourceforge.net/p/mingw-w64/wiki2/Home/" class="documentation">
             <img alt="documentation icon" src="/img/icons/chat-blue.png"/>Documentation
           </a>
           <ul>
-            <li><a href="http://sourceforge.net/apps/trac/mingw-w64/">Wiki</a></li>
-            <li><a href="https://sourceforge.net/apps/trac/mingw-w64/wiki/History">History</a></li>
-            <li><a href="http://sourceforge.net/apps/trac/mingw-w64/wiki/FAQ">FAQ</a></li>
+            <li><a href="http://sourceforge.net/p/mingw-w64/wiki2/Home/">Wiki</a></li>
+            <li><a href="http://sourceforge.net/p/mingw-w64/wiki2/History/">History</a></li>
+            <li><a href="http://sourceforge.net/p/mingw-w64/wiki2/FAQ/">FAQ</a></li>
             <li><a href="http://mingw-w64.sourceforge.net/libmangle/">libmangle</a></li>
-            <li><a href="http://sourceforge.net/apps/trac/mingw-w64/wiki/gendef">gendef</a></li>
+            <li><a href="http://sourceforge.net/p/mingw-w64/wiki2/gendef/">gendef</a></li>
           </ul>
         </li>
 

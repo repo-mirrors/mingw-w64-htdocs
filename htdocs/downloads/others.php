@@ -41,7 +41,7 @@
     The latest version is <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v3.1.0.tar.bz2/download">3.1.0</a>.
     Winpthreads is available in the main tarball as of 3.1.0.<br>
 
-    The wiki has instructions for building <a href="http://sourceforge.net/apps/trac/mingw-w64/wiki/Native%20Win64%20compiler">native</a> and <a href="http://sourceforge.net/apps/trac/mingw-w64/wiki/Cross%20Win32%20and%20Win64%20compiler">cross</a> toolchains.<br>
+    The wiki has instructions for building <a href="http://sourceforge.net/p/mingw-w64/wiki2/Native%20Win64%20compiler/">native</a> and <a href="http://sourceforge.net/p/mingw-w64/wiki2/Cross%20Win32%20and%20Win64%20compiler/">cross</a> toolchains.<br>
 
     Details on how to get the mingw-w64 code from Git and an Git-web viewer are available on <a href="https://sourceforge.net/p/mingw-w64/mingw-w64/ci/master/tree/">SourceForge</a>.
 </div>
