@@ -210,7 +210,7 @@ body {
 }
 
 .flexbox {
-  display: box;
+  display: flex;
 }
 
 #middle .flexbox .news, #middle .projects, #middle .flexbox .projects, #middle .download {
