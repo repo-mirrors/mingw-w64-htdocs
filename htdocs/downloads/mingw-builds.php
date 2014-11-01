@@ -1,4 +1,4 @@
-<div class="download">
+<div class="category download">
 <h3 id="mingw-builds">Mingw-builds project - native toolchains using trunk</h3>
 <div>
   <table>

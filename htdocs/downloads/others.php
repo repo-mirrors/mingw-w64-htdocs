@@ -1,4 +1,4 @@
-<div class="download">
+<div class="category download">
   <h3 id="darwin">Builds running on Darwin (Automated Builds)</h3>
   <div>
     <p>Most current Darwin toolchains have been built through automated builds

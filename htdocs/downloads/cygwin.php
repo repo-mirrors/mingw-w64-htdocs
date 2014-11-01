@@ -1,4 +1,4 @@
-<div class="download">
+<div class="category download">
 <h3 id="cygwin">Cygwin - cross-compiler in a complete POSIX environment</h3>
 <div>
   <table>

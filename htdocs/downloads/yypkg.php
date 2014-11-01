@@ -1,4 +1,4 @@
-<div class="download">
+<div class="category download">
 <h3 id="win-builds">Win-builds project - stable, native- and cross- compilers plus libraries and a cross-platform package manager</h3>
 <div>
   <p><a href="http://win-builds.org">Win-builds</a> provides toolchains and
