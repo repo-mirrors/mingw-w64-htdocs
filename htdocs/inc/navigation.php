@@ -13,6 +13,7 @@
             <img alt="dowload icon" src="/img/icons/download-green.png"><span>Downloads</span>
           </a>
           <ul>
+            <li><a href="download.php#arch">Arch Linux</a></li>
             <li><a href="download.php#cygwin">Cygwin</a></li>
             <li><a href="download.php#fedora">Fedora Project</a></li>
             <li><a href="download.php#mingw-builds">Mingw-builds Project</a></li>

@@ -10,6 +10,7 @@
     <h2>Downloads and Installation</h2>
 
 <?php
+include('downloads/arch_linux.php');
 include('downloads/cygwin.php');
 include('downloads/fedora.php');
 include('downloads/mingw-builds.php');
