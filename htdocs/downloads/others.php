@@ -37,29 +37,30 @@
 
 <div class="download">
   <h3 id="source">Source</h3>
-    Tarballs for the mingw-w64 sources are hosted on <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/">SourceForge</a>.
+    <p>Tarballs for the mingw-w64 sources are hosted on <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/">SourceForge</a>.
     The latest version is <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v3.1.0.tar.bz2/download">3.1.0</a>.
-    Winpthreads is available in the main tarball as of 3.1.0.<br>
+    Winpthreads is available in the main tarball as of 3.1.0.</p>
 
-    The wiki has instructions for building <a href="http://sourceforge.net/p/mingw-w64/wiki2/Native%20Win64%20compiler/">native</a> and <a href="http://sourceforge.net/p/mingw-w64/wiki2/Cross%20Win32%20and%20Win64%20compiler/">cross</a> toolchains.<br>
+    <p>The wiki has instructions for building <a href="http://sourceforge.net/p/mingw-w64/wiki2/Native%20Win64%20compiler/">native</a> and <a href="http://sourceforge.net/p/mingw-w64/wiki2/Cross%20Win32%20and%20Win64%20compiler/">cross</a> toolchains.</p>
 
-    Details on how to get the mingw-w64 code from Git and an Git-web viewer are available on <a href="https://sourceforge.net/p/mingw-w64/mingw-w64/ci/master/tree/">SourceForge</a>.
+    <p>Details on how to get the mingw-w64 code from Git and an Git-web viewer are available on <a href="https://sourceforge.net/p/mingw-w64/mingw-w64/ci/master/tree/">SourceForge</a>.</p>
 </div>
 
 <div class="download">
   <h3 id="others">Everything else</h3>
-    Rubenvb has built a number of toolchains including some for less common setups. They are split into two categories: toolchains targeting
+    <p>Rubenvb has built a number of toolchains including some for less common setups. They are split into two categories: toolchains targeting
     <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/">Win32</a>
-    or <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/">Win64</a>.<br>
+    or <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/">Win64</a>.</p>
 
-    The <a href="www.opensuse.org">OpenSUSE Linux distribution</a> also has a large and well-maintained set of packages for cross-compilation.<br>
+    <p>The <a href="www.opensuse.org">OpenSUSE Linux distribution</a> also has a large and well-maintained set of packages for cross-compilation.</p>
 
-    A very large number of other binaries and sources are hosted in the <a href="http://sf.net/projects/mingw-w64/files/">File Release System on Sourceforge</a> which might have what you are after.<br>
-
-    <strong>Note:</strong> If you maintain toolchains and wish to have it
-    listed on this page, please get in touch on
-    <a href="http://mingw-w64.sourceforge.net/mibbit.html">IRC on #mingw-w64 on OFTC</a>
-    or on the
-    <a href="http://lists.sourceforge.net/mailman/listinfo/mingw-w64-public">Mingw-w64-public mailing-list</a>.
+    <p>A very large number of other binaries and sources are hosted in the <a href="http://sf.net/projects/mingw-w64/files/">File Release System on Sourceforge</a> which might have what you are after.</p>
 
 </div>
+
+<p><strong>Note:</strong> If you maintain toolchains and wish to have it
+listed on this page, please get in touch on
+<a href="http://mingw-w64.sourceforge.net/mibbit.html">IRC on #mingw-w64 on OFTC</a>
+or on the
+<a href="http://lists.sourceforge.net/mailman/listinfo/mingw-w64-public">Mingw-w64-public mailing-list</a>.</p>
+
