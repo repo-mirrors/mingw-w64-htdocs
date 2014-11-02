@@ -1,5 +1,9 @@
 * { padding: 0; margin: 0; }
-a img { border: 0; }
+a img {
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+}
 
 html {
 	font: 0.85em sans-serif;
@@ -123,11 +127,6 @@ body {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   text-align: center;
-}
-
-#left ul li a img {
-  text-align: center;
-  vertical-align: middle;
 }
 
 * html #left ul li a { zoom: 1; } /* menu fix for ie6 */
