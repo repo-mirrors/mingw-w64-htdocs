@@ -145,6 +145,12 @@ once and run cross-unit optimizations.</p>
   mostly out of Microsoft.</p>
 
   <p>
+  A <a href="https://github.com/luser/dump_syms.git">
+    library named 'dump_syms'</a> is available. It can read PDB files at least
+  to some extent. Licensing and origin need to be checked.
+  </p>
+
+  <p>
   Microsoft has released
   <a href="http://roslyn.codeplex.com/">Roslyn, a ".NET Compiler Platform"</a>.
   It contains a
