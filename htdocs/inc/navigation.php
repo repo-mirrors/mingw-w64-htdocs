@@ -43,18 +43,21 @@
           <ul>
             <li><a href="http://lists.sourceforge.net/mailman/listinfo/mingw-w64-public">Public Mailing List</a></li>
             <li><a href="irc://irc.oftc.net/#mingw-w64">IRC Channel</a></li>
-            <li><a href="http://sourceforge.net/projects/mingw-w64/forums/forum/723797">Discussion Forum</a></li>
-            <li><a href="http://sourceforge.net/tracker/?group_id=202880">Issue tracker</a></li>
+            <li><a href="http://sourceforge.net/p/mingw-w64/discussion/">Discussion Forum</a></li>
+            <li><a href="http://sourceforge.net/p/mingw-w64/_list/tickets">Issue tracker</a></li>
           </ul>
         </li>
 
         <li>
-          <a href="https://sourceforge.net/donate/index.php?group_id=202880" class="donate">
-            <img alt="donation icon" src="/img/icons/money.png"/>Donate
+          <a href="contribute.php" class="donate">
+            <img alt="donation icon" src="/img/icons/upload-blue.png"/>Get Involved
           </a>
           <ul>
             <li>
-	      <a href="https://sourceforge.net/donate/index.php?group_id=202880" class="donate">Most MinGW-w64 developers are un-paid and work on it in their spare time.</a>
+              <a href="contribute.php">Contribute</a>
+            </li>
+            <li>
+              <a href="https://sourceforge.net/donate/index.php?group_id=202880">Donate</a>
             </li>
           </ul>
         </li>
