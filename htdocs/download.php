@@ -1,5 +1,5 @@
 <?php
-  $page_title = 'Downloads and Installation';
+  $page_title = 'Downloads';
   $page_name = 'download';
   $page_authors = '<a href="http://win-builds.org">Adrien Nader of win-builds.org</a>';
 
@@ -7,7 +7,7 @@
   include('inc/navigation.php');
 ?>
   <div id="middle">
-    <h2>Downloads and Installation</h2>
+    <h2>Downloads</h2>
 
 <?php
 include('downloads/arch_linux.php');
