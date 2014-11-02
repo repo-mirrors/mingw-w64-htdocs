@@ -239,7 +239,7 @@ body {
   background: #d3e0eb;
 }
 
-#middle .flexbox .category a, #middle .category a {
+#middle .flexbox .category a, #middle .flexbox .downloads a, #middle .flexbox .news a, #middle .friends a {
   display: inline-block;
   margin-top: 2px;
   margin-bottom: 2px;
