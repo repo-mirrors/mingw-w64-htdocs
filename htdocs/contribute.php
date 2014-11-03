@@ -90,7 +90,7 @@ contributing</a>.</p>
 <a href="https://gcc.gnu.org/git/?p=gcc.git">GCC sources</a> and
 <a href="https://gcc.gnu.org/git/?p=gcc.git;a=blob;f=libgcc/unwind-seh.c;hb=HEAD">unwind-seh.c</a>
 in particular. Note that 32-bit SEH is stack-based and requires code-generation
-unline 64bits SEH which is simply table-based (that difference explains why the
+unlike 64bits SEH which is simply table-based (that difference explains why the
 patent only mattered to 32bits).
 </p>
 
