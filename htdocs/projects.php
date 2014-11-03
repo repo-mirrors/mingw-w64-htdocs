@@ -28,9 +28,9 @@ $associated_projects = array(
 );
 
 $associated_projects_divs = array(
-  '<div><a class="associated" href="http://cygwin.com">Cygwin</a></div>',
-  '<div><a class="associated" href="http://www.reactos.org">ReactOS</a></div>',
-  '<div><a class="associated" href="http://wiki.winehq.org/Wine64">Wine</a></div>',
+  '<div><a class="associated" href="http://cygwin.com">Cygwin - POSIX environment on Windows</a></div>',
+  '<div><a class="associated" href="http://www.reactos.org">ReactOS - Free implementation of Windows</a></div>',
+  '<div><a class="associated" href="http://wiki.winehq.org/Wine64">Wine - Runs Windows applications on POSIX</a></div>',
 );
 
 $builds_against = array(
