@@ -207,12 +207,24 @@ body {
 }
 
 .flexbox {
+  display: -webkit-flex;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .flexbox .flexbox-half {
   width: 50%;
+}
+
+.flex-grow {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.flex-grow-shrink {
+  -webkit-flex: 1 1;
+  flex: 1;
 }
 
 .listing-item {

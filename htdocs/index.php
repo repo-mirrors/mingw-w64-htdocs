@@ -17,7 +17,7 @@
     <!-- MAIN CONTENT AREA -->
     <div id="middle">
       <div class="flexbox">
-        <div class="flexbox-size-wa" style="flex-grow: 1;"><div id="intro">
+        <div class="flexbox-size-wa flex-grow"><div id="intro">
           <h1>Mingw-w64 version 3.0</h1>
             <ul>
               <li>Required for GCC 4.8</li>
@@ -44,7 +44,7 @@
         </div></div>
       </div>
       <div class="flexbox">
-        <div class="flexbox-size-wa" style="flex: 1 1;"><div id="projects">
+        <div class="flexbox-size-wa flex-grow-shrink"><div id="projects">
           <h2>Some Projects using Mingw-w64</h2>
           <div class="flexbox">
             <?php
@@ -56,7 +56,7 @@
 
         </div></div>
 
-        <div class="flexbox-size-wa" style="flex: 1 1;"><div id="news">
+        <div class="flexbox-size-wa flex-grow-shrink"><div id="news">
           <h2>Recent Activity</h2>
           <div class="flexbox">
             <?php
