@@ -18,7 +18,7 @@
     <div id="middle">
       <div class="flexbox">
         <div class="flexbox-size-wa" style="flex-grow: 1;"><div id="intro">
-          <h2>Mingw-w64 version 3.0</h2>
+          <h1>Mingw-w64 version 3.0</h1>
             <ul>
               <li>Required for GCC 4.8</li>
               <li>Much improved floating point math performance</li>
@@ -37,7 +37,7 @@
           </p>
         </div></div>
         <div class="flexbox-size-wa"><div id="friends" style="vertical-align: top">
-          <h3>Friend Projects</h3>
+          <h2>Friend Projects</h2>
           <?php
             foreach($associated_projects as $link) print_listing_item($link);
           ?>
@@ -45,7 +45,7 @@
       </div>
       <div class="flexbox">
         <div class="flexbox-size-wa" style="flex: 1 1;"><div id="projects">
-          <h3>Some Projects using Mingw-w64</h3>
+          <h2>Some Projects using Mingw-w64</h2>
           <div class="flexbox">
             <?php
               print_links(array_merge($compilers_ides_tools, $providers, $builds_against));
@@ -57,7 +57,7 @@
         </div></div>
 
         <div class="flexbox-size-wa" style="flex: 1 1;"><div id="news">
-          <h3>Recent Activity</h3>
+          <h2>Recent Activity</h2>
           <div class="flexbox">
             <?php
               date_default_timezone_set('Etc/UTC');

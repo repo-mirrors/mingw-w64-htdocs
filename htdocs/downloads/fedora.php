@@ -1,8 +1,8 @@
 <div class="category download">
-<h3 id="fedora">
-  <img alt="fedora logo" src="http://yypkg.org/fedora-logo.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
+<h2 id="fedora">
+  <img alt="fedora logo" src="/img/fedora-logo.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
   Fedora, RHEL7, CentOS 7 - cross-compiler from Linux
-</h3>
+</h2>
 <div>
   <table>
     <tr>

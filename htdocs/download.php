@@ -7,7 +7,7 @@
   include('inc/navigation.php');
 ?>
   <div id="middle">
-    <h2>Downloads</h2>
+    <h1>Downloads</h1>
 
 <?php
 include('downloads/arch_linux.php');

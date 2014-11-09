@@ -1,5 +1,5 @@
 <div class="category download">
-<h3 id="mingw-builds">Mingw-builds project - native toolchains using trunk</h3>
+<h2 id="mingw-builds">Mingw-builds project - native toolchains using trunk</h2>
 <div>
   <table>
     <tr>

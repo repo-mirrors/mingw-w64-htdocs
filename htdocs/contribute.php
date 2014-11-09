@@ -7,7 +7,7 @@
   include('inc/navigation.php');
 ?>
   <div id="middle">
-    <h2>Contribute</h2>
+    <h1>Contribute</h1>
 
 <p>
 Mingw-w64 and the ecosystem surrounding it are stable and with many features.
@@ -34,7 +34,7 @@ There are references to other websites on this page; their presence does not
 constitute an endorsement in any way.
 </p>
 
-<h3>SEH for 32bits</h3>
+<h2>SEH for 32bits</h2>
 <p>The patent for SEH for 32bits has now expired and while new computers are
 all 64 bits, Intel has continued selling Atom CPUs that only handled 32 bits
 very late and some applications are still 32 bits. Projects such as Wine and
@@ -94,7 +94,7 @@ unlike 64bits SEH which is simply table-based (that difference explains why the
 patent only mattered to 32bits).
 </p>
 
-<h3>Sanitizers (ASAN, TSAN, USAN)</h3>
+<h2>Sanitizers (ASAN, TSAN, USAN)</h2>
 
 <p>Sanitizers are runtime checks for a number of situations which have usually
 required instrumentation with tools that cause an important slowdown (like
@@ -102,30 +102,30 @@ Valgrind).</p>
 
 <p>They are relatively new and much lighter than other approaches.</p>
 
-  <h4>Thorough Status Report for Sanitizers (asan, tsan, usan):</h4>
+  <h3>Thorough Status Report for Sanitizers (asan, tsan, usan):</h3>
   <p>ASAN, TSAN and USAN are great technologies which are available in GCC.
   Unfortunately they are not completely usable on Windows. A proper review and
   tests are needed before anything.</p>
 
-  <h4>Fixing remaining bits in asan, tsan or usan (see above):</h4>
+  <h3>Fixing remaining bits in asan, tsan or usan (see above):</h3>
   <p>Once a report on the status is available, work on it can be started.</p>
 
-<h3>Link-Time Optimization (LTO)</h3>
+<h2>Link-Time Optimization (LTO)</h2>
 
 <p>Optimizations in C cannot cross compilation units and many of them are
 therefore missed in large applications and when using libraries. LTO runs some
 optimizations during linking, when the toolchain can see all the objects at
 once and run cross-unit optimizations.</p>
 
-  <h4>Thorough Status Report for LTO</h4>
+  <h3>Thorough Status Report for LTO</h3>
   <p>LTO has recently been improved a lot in GCC and binutils. There are still
   some issues on Windows though. The first step to making it work is to get a
   proper and up-to-date test and to identify the platform-specific bugs.</p>
-  <h4>Fixing remaining bits in LTO</h4>
+  <h3>Fixing remaining bits in LTO</h3>
   <p>Fix the issues found by the status report from above. The actual bug list
   will be updated as it becomes available.</p>
 
-<h3>Compiler plugin for Visual Studio</h3>
+<h2>Compiler plugin for Visual Studio</h2>
   <p>A compiler plugin would make GCC, binutils tools and GDB available from
   the Visual Studio IDE. Most people state they stick with VS because of the
   IDE; such a plugin would allow mixing the two.</p>
@@ -136,10 +136,10 @@ once and run cross-unit optimizations.</p>
   (Android or not).
   </p>
 
-<h3>Debug Infos</h3>
+<h2>Debug Infos</h2>
   <p>PDB is the file-format used by Microsoft to store debug info.
   Unfortunately it is undocumented.</p>
-  <h4>Documentation of the PDB file-format</h4>
+  <h3>Documentation of the PDB file-format</h3>
   <p>Since the format is undocumented, first step is to document it. Fortunately,
   during the past few years, reader and possibly writer code has appeared,
   mostly out of Microsoft.</p>
@@ -169,20 +169,20 @@ once and run cross-unit optimizations.</p>
     PDB reader implementation</a> that should constitute an appropriate source.
   </p>
 
-  <h4>Creation of PDB files</h4>
+  <h3>Creation of PDB files</h3>
   <p>Creating PDB files will allow the Microsoft tools to make meaningful
   backtraces when code built with free compilers is involved.</p>
 
-  <h4>Handling of PDB in GDB</h4>
+  <h3>Handling of PDB in GDB</h3>
   <p>Reding PDB files will allow free tools to make meaningful
   backtraces when code built with MSVC is involved.</p>
 
-  <h4>Translation from/to PDB</h4>
+  <h3>Translation from/to PDB</h3>
   <p>Most often debug informations will only be available in a single format.
   Being able to convert between them when needed will be useful.</p>
 
-<h3>C11 and C++11 Threading Support</h3>
-  <h4>C11 Threading and Atomics</h4>
+<h2>C11 and C++11 Threading Support</h2>
+  <h3>C11 Threading and Atomics</h3>
   <p>
   The C11 standard has a section on threading which is still left unimplemented
   on several platforms. The API follows pthreads' quite closely and it is left
@@ -199,7 +199,7 @@ once and run cross-unit optimizations.</p>
   GCC. Check <a href="https://gcc.gnu.org/contribute.html">GCC's page on
   contributing</a>.</p>
 
-  <h4>Implementation of C11 and C++11 Threading Support Without Winpthreads</h4>
+  <h3>Implementation of C11 and C++11 Threading Support Without Winpthreads</h3>
 
   </div>
 

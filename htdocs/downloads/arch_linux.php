@@ -1,5 +1,7 @@
 <div class="category download">
-<h3 id="arch">Arch Linux - cross-compiler from Linux</h3>
+<h2 id="arch">
+  <img alt="arch linux logo" src="/img/archlinux-logo.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
+Arch Linux - cross-compiler from Linux</h2>
 <div>
   <table>
     <tr>

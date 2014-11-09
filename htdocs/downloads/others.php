@@ -1,5 +1,5 @@
 <div class="category download">
-  <h3 id="darwin">Builds running on Darwin (Automated Builds)</h3>
+  <h2 id="darwin">Builds running on Darwin (Automated Builds)</h2>
   <div>
     <p>Most current Darwin toolchains have been built through automated builds
     on volunteers' machines with buildbot. These are nightly builds, using
@@ -36,7 +36,7 @@
 </div>
 
 <div class="download">
-  <h3 id="source">Source</h3>
+  <h2 id="source">Source</h2>
     <p>Tarballs for the mingw-w64 sources are hosted on <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/">SourceForge</a>.
     The latest version is <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v3.1.0.tar.bz2/download">3.1.0</a>.
     Winpthreads is available in the main tarball as of 3.1.0.</p>
@@ -47,7 +47,7 @@
 </div>
 
 <div class="download">
-  <h3 id="others">Everything else</h3>
+  <h2 id="others">Everything else</h2>
     <p>Rubenvb has built a number of toolchains including some for less common setups. They are split into two categories: toolchains targeting
     <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/">Win32</a>
     or <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/">Win64</a>.</p>

@@ -1,5 +1,7 @@
 <div class="category download">
-<h3 id="win-builds">Win-builds project - stable, native- and cross- compilers plus libraries and a cross-platform package manager</h3>
+<h2 id="win-builds">
+  <img alt="win-builds logo" src="/img/win-builds-logo.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
+  Win-builds - stable, native- and cross- compilers with libraries and package manager</h2>
 <div>
   <p><a href="http://win-builds.org">Win-builds</a> provides toolchains and
   libraries to cross-compile for Windows or build natively. The builds are

@@ -17,7 +17,7 @@
             <li><a href="download.php#cygwin">Cygwin</a></li>
             <li><a href="download.php#fedora">Fedora Project</a></li>
             <li><a href="download.php#mingw-builds">Mingw-builds Project</a></li>
-            <li><a href="download.php#win-builds">Win-builds Project</a></li>
+            <li><a href="download.php#win-builds">Win-builds</a></li>
             <li><a href="download.php#darwin">Darwin</a></li>
             <li><a href="download.php#source">Sources</a></li>
             <li><a href="download.php#others">Everything Else</a></li>
