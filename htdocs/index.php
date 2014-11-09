@@ -15,11 +15,20 @@
     <!-- MAIN CONTENT AREA -->
     <div id="middle">
       <div id="intro">
-      <p>
-      Mingw-w64 has forked mingw.org in order to move forward and provide 64bit
-      support and support for new APIs.
-      </p>
-        <h1>Mingw-w64 version 3.0</h1>
+
+        <h1>Mingw-w64</h1>
+        <p>
+        Mingw-w64 brings free software toolchains to Windows. It hosts a
+        vibrant community which builds and debugs software for Windows while
+        providing development environment for everyone to use.
+        </p>
+        <p>
+        It has forked mingw.org in order to move forward and provide 64bit
+        support and support for new APIs and has brought countless improvements
+        since its creation in 2007.
+        </p>
+
+        <h1>Version 3.0</h1>
           <ul>
             <li>Required for GCC 4.8</li>
             <li>Much improved floating point math performance</li>
