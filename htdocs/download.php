@@ -9,6 +9,12 @@
   <div id="middle">
     <h1>Downloads</h1>
 
+<p>
+Several pre-built toolchains exist and provide various combinations of versions
+and configuration options which are given below. Some also provide additional
+packages and package managers for very simple installations.
+</p>
+
 <?php
 include('downloads/arch_linux.php');
 include('downloads/cygwin.php');
