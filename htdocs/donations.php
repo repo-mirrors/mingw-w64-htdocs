@@ -43,6 +43,12 @@ as some major mingw-w64 developers live very far from others).
 
 <p><a href="https://sourceforge.net/donate/index.php?group_id=202880"><img src="/img/paypal_32.png">Paypal (to Kaï Tietz)</a></p>
 
+<p>
+We haven't done it so far but in the future we'd like to officially thank
+donors. We believe it should be done by default but we respect your wishes;
+please state whether you'd like to have your name (or pseudonym) on the website.
+</p>
+
 <h3>Hardware donations</h3>
 <p>
 There is no facility at the moment to receive hardware. These donations will 
