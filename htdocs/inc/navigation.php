@@ -1,5 +1,3 @@
-    
-
 <?php $current = $_SERVER['REQUEST_URI']; ?>
 
     <!-- LEFT COLUMN -->
@@ -63,5 +61,18 @@
           </ul>
         </li>
 
+        <li>
+          <a href="" class="friends"><span>Friends</span></a>
+          <ul>
+            <?php
+              include('projects.php');
+              foreach($associated_projects as $link) {
+                echo '<li>'.$link.'</li>';
+              }
+            ?>
+          </ul>
+        </li>
+
       </ul>
+
     </div>

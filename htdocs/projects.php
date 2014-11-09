@@ -22,9 +22,9 @@ $compilers_ides_tools = array(
 );
 
 $associated_projects = array(
-  '<a class="associated" href="http://cygwin.com">Cygwin - POSIX environment on Windows</a>',
-  '<a class="associated" href="http://www.reactos.org">ReactOS - Free implementation of Windows</a>',
-  '<a class="associated" href="http://wiki.winehq.org/Wine64">Wine - Runs Windows applications on POSIX</a>',
+  '<a class="associated" href="http://cygwin.com">Cygwin</a>',
+  '<a class="associated" href="http://www.reactos.org">ReactOS</a>',
+  '<a class="associated" href="http://wiki.winehq.org/Wine64">Wine</a>',
 );
 
 $builds_against = array(
