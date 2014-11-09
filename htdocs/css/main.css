@@ -210,76 +210,46 @@ body {
 
 .flexbox {
   display: flex;
+  flex-flow: row wrap;
 }
 
-#middle .flexbox .category {
-  background: #efefef;
-  vertical-align: top;
-  font-size: 0.9em;
-  flex: 1 1 50%;
-  -ms-flex: 1 1 50%;
-  -moz-flex: 1 1 50%;
-  -webkit-flex: 1 1 50%;
-  margin: 0.5em;
+.flexbox .flexbox-half {
+  width: 50%;
 }
 
-#middle .flexbox .category h3, #middle .category h3 {
-  padding: 0.3em 1em;
-  border-bottom: 1px solid #fff;
-  background: #ebd3d3;
-  text-align: left;
-  margin-bottom: 0.7em;
-}
-
-#middle .flexbox .category {
-  text-align: center;
-}
-
-#middle .flexbox .projects h3, #middle .friends h3 {
-  background: #d3e0eb;
-}
-
-#middle .flexbox .category a, #middle .flexbox .downloads a, #middle .flexbox .news a, #middle .friends a {
-  display: inline-block;
+.listing-item {
   margin-top: 2px;
   margin-bottom: 2px;
-  margin-left: 2%;
-  margin-right: 2%;
-  overflow: hidden;
+  margin-left: 1em;
+  margin-right: 1em;
   vertical-align: middle;
   border-bottom: 2px solid white;
   text-align: left;
 }
 
-#middle .flexbox .projects a {
-  width: 45%;
+#friends h3, #projects h3, #news h3 {
+  padding: 0.3em 1em;
+  border-bottom: 1px solid #fff;
+  text-align: left;
+  margin-bottom: 0.7em;
 }
 
-#middle .friends a {
-  width: 100%;
+#news h3 {
+  background: #ebd3d3;
 }
 
-#middle .flexbox .news ul {
-  margin: 0;
+#projects h3, #friends h3 {
+  background: #d3e0eb;
 }
 
-#middle .flexbox .news ul li {
-  list-style: none;
-  display: block;
-  border-bottom: 2px solid white;
+#news, #projects {
+  background: #efefef;
+  vertical-align: top;
+  font-size: 0.9em;
+  margin: 0.5em;
 }
 
-#middle .flexbox .news ul li a {
-  display: block;
-  padding: 1em;
-}
-
-#middle .news ul li a span.date, #middle .news ul li a:link span.date, #middle .news ul li a:visited span.date, #middle .news ul li a:active span.date {
-  text-decoration: none;
-  color: black;
-}
-
-#middle .flexbox .category a:hover, #middle .category a:hover, #middle .download:hover {
+#news a:hover, #friends a:hover, #projects a:hover {
   background: #ddd;
 }
 

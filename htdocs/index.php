@@ -10,14 +10,14 @@
 
   include('inc/header.php');
   include('inc/navigation.php');
+  include('projects.php');
 
 ?>
 
-
     <!-- MAIN CONTENT AREA -->
     <div id="middle">
-      <div>
-        <div id="intro" style="display: inline-block">
+      <div class="flexbox">
+        <div class="flexbox-size-wa" style="flex-grow: 1;"><div id="intro">
           <h2>Mingw-w64 version 3.0</h2>
             <ul>
               <li>Required for GCC 4.8</li>
@@ -35,43 +35,50 @@
             <strong>Version 2.0</strong> focused on expanding Windows Vista/7 API support.<br>
             The <a href="http://sourceforge.net/projects/mingw-w64">project page</a> has the full list of <a href="http://sourceforge.net/projects/mingw-w64/files/">releases</a> and more <a href="http://sourceforge.net/p/mingw-w64/wiki2/Home/">details</a>.
           </p>
-        </div>
-        <div class="contribute" style="display: inline-block; vertical-align: top; float: right">
-        </div>
-        <div class="category friends" style="display: inline-block; vertical-align: top; float: right">
+        </div></div>
+        <div class="flexbox-size-wa"><div id="friends" style="vertical-align: top">
+          <h3>Friend Projects</h3>
           <?php
-            include('projects.php');
-            print_links('Friend Projects', $associated_projects_divs);
+            foreach($associated_projects as $link) print_listing_item($link);
           ?>
-        </div>
+        </div></div>
       </div>
       <div class="flexbox">
-        <div class="category projects">
-          <?php
-            print_links('Some Projects using Mingw-w64',
-              array_merge($compilers_ides_tools, $providers, $builds_against));
-            echo '<a style="text-align: center" href="users.php">See More Projects</a>';
-            echo '<a style="text-align: center" href="mailto:mingw-w64-public@lists.sourceforge.net"><strong>Add your project!</strong></a>';
-          ?>
+        <div class="flexbox-size-wa" style="flex: 1 1;"><div id="projects">
+          <h3>Some Projects using Mingw-w64</h3>
+          <div class="flexbox">
+            <?php
+              print_links(array_merge($compilers_ides_tools, $providers, $builds_against));
+              print_project_link('<a style="text-align: center" href="users.php">See More</a>');
+              print_project_link('<a style="text-align: center" href="mailto:mingw-w64-public@lists.sourceforge.net"><strong>Add your project!</strong></a>');
+            ?>
+          </div>
 
-        </div>
+        </div></div>
 
-        <div class="category news">
-          <h3>Latest File Releases</h3>
-          <?php
-            for ($i=0; $i<$news_items; $i++) {
-              $date = date("j F h:i A", $rss->items[$i]['date_timestamp']);
-              $link = htmlspecialchars($rss->items[$i]['link']);
-              $title = ($rss->items[$i]['title']);
-              $title = preg_replace("/made 1 file-release changes/",
-                "has released 1 file", $title);
-              $title = preg_replace("/made (\d+) file-release changes/",
-                "has released $1 files", $title);
-              $title = htmlspecialchars($title);
-              echo '<a href="'.$link.'"><span class="date">'.$date.': </span>'.$title.'</a>';
-            }
-          ?>
-        </div>
+        <div class="flexbox-size-wa" style="flex: 1 1;"><div id="news">
+          <h3>Recent Activity</h3>
+          <div class="flexbox">
+            <?php
+              date_default_timezone_set('Etc/UTC');
+              for ($i=0; $i<$news_items; $i++) {
+                $date = date("j M G:i", $rss->items[$i]['date_timestamp']);
+                $link = htmlspecialchars($rss->items[$i]['link']);
+                $title = ($rss->items[$i]['title']);
+                $title = preg_replace("/posted a comment on ticket #(\d+)/",
+                  "has commented on ticket #$1", $title);
+                $title = preg_replace("/MinGW-w64 - for 32 and 64 bit Windows released/", "New file:", $title);
+                $title = preg_replace("/\\/Toolchain sources\\/Automated Builds\\//", "", $title);
+                $title = htmlspecialchars($title);
+                echo '<div class="flexbox-size-wa">';
+                echo '  <div class="listing-item">';
+                echo '    <span class="date">'.$date.': </span><a href="'.$link.'">'.$title.'</a>';
+                echo '  </div>';
+                echo '</div>';
+              }
+            ?>
+          </div>
+        </div></div>
       </div>
     </div>
 

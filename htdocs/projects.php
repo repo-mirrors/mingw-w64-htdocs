@@ -22,15 +22,9 @@ $compilers_ides_tools = array(
 );
 
 $associated_projects = array(
-  '<a class="associated" href="http://cygwin.com">Cygwin</a>',
-  '<a class="associated" href="http://www.reactos.org">ReactOS</a>',
-  '<a class="associated" href="http://wiki.winehq.org/Wine64">Wine</a>',
-);
-
-$associated_projects_divs = array(
-  '<div><a class="associated" href="http://cygwin.com">Cygwin - POSIX environment on Windows</a></div>',
-  '<div><a class="associated" href="http://www.reactos.org">ReactOS - Free implementation of Windows</a></div>',
-  '<div><a class="associated" href="http://wiki.winehq.org/Wine64">Wine - Runs Windows applications on POSIX</a></div>',
+  '<a class="associated" href="http://cygwin.com">Cygwin - POSIX environment on Windows</a>',
+  '<a class="associated" href="http://www.reactos.org">ReactOS - Free implementation of Windows</a>',
+  '<a class="associated" href="http://wiki.winehq.org/Wine64">Wine - Runs Windows applications on POSIX</a>',
 );
 
 $builds_against = array(
@@ -95,18 +89,24 @@ $builds_against = array(
   '<a href="http://www.zlib.net/">zlib</a>',
 );
 
-function print_links($name, $links) {
-  global $builds_against;
+function print_listing_item($s) {
+  echo '<div class="listing-item">'.$s.'</div>';
+}
 
+function print_project_link($s) {
+  echo '<div class="flexbox-half">';
+  print_listing_item($s);
+  echo '</div>';
+}
+
+function print_links($links) {
   if (count($links) > 4) {
     shuffle($links);
     $links = array_slice($links, 0, 30);
     sort($links, SORT_STRING);
   }
 
-  printf('<h3>%s</h3>', $name);
-  foreach($links as $link) echo $link;
+  foreach($links as $link) print_project_link($link);
 
 }
-
 ?>
