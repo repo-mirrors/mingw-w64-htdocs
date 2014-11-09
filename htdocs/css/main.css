@@ -128,8 +128,6 @@ body {
   text-align: center;
 }
 
-* html #left ul li a { zoom: 1; } /* menu fix for ie6 */
-
 #left ul li ul li {
 	margin: 0;
 	border-left: 0;
