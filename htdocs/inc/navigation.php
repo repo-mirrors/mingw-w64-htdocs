@@ -58,7 +58,7 @@
               <a href="contribute.php">Contribute</a>
             </li>
             <li>
-              <a href="https://sourceforge.net/donate/index.php?group_id=202880">Donate</a>
+              <a href="donations.php">Donate</a>
             </li>
           </ul>
         </li>
