@@ -1,7 +1,10 @@
 <div class="category download">
 <h2 id="win-builds">
   <img alt="win-builds logo" src="/img/win-builds-logo.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
-  Win-builds - stable, native- and cross- compilers with libraries and package manager</h2>
+  Win-builds - stable, native- and cross- compilers with libraries and package manager
+  <img alt="windows logo" src="/img/windows-logo.jpg" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
+  <img alt="windows logo" src="/img/tux.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
+</h2>
 <div>
   <p><a href="http://win-builds.org">Win-builds</a> provides toolchains and
   libraries to cross-compile for Windows or build natively. The builds are
@@ -19,14 +22,24 @@
       <th>Installation</th>
     </tr>
     <tr>
-      <td>Linux 32/64, Windows 64</td>
-      <td>i686, x86_64</td>
-      <td rowspan="2">4.8.2</td>
-      <td rowspan="2">3.1.0</td>
-      <td rowspan="2">C, C++</td>
-      <td rowspan="2">Supported</td>
-      <td rowspan="2">Yes</td>
-      <td rowspan="2"><a href="http://win-builds.org/download.html">win-builds.org</a></td>
+      <td>Windows 64</td>
+      <td rowspan="2">i686, x86_64</td>
+      <td rowspan="3">4.8.2</td>
+      <td rowspan="3">3.1.0</td>
+      <td rowspan="3">C, C++</td>
+      <td rowspan="3">Supported</td>
+      <td rowspan="3">Yes</td>
+      <td rowspan="3"><a href="http://win-builds.org/download.html">win-builds.org</a></td>
+    </tr>
+    <tr>
+      <td>Linux 32/64</td>
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
+      <!-- cell is defined by a rowspan in the previous <tr> -->
     </tr>
     <tr>
       <td>Windows 32</td>

@@ -1,7 +1,9 @@
 <div class="category download">
 <h2 id="cygwin">
   <img alt="cygwin logo" src="/img/cygwin-logo.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
-  Cygwin - cross-compiler in a complete POSIX environment</h2>
+  Cygwin - cross-compiler in a complete POSIX environment
+  <img alt="windows logo" src="/img/windows-logo.jpg" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
+</h2>
 <div>
   <table>
     <tr>

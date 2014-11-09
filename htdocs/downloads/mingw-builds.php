@@ -1,5 +1,8 @@
 <div class="category download">
-<h2 id="mingw-builds">Mingw-builds project - native toolchains using trunk</h2>
+<h2 id="mingw-builds">
+Mingw-builds project - native toolchains using trunk
+  <img alt="windows logo" src="/img/windows-logo.jpg" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
+</h2>
 <div>
   <table>
     <tr>

@@ -2,6 +2,7 @@
 <h2 id="fedora">
   <img alt="fedora logo" src="/img/fedora-logo.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
   Fedora, RHEL7, CentOS 7 - cross-compiler from Linux
+  <img alt="windows logo" src="/img/tux.png" height="32" width="32" style="margin-top: -5px; margin-bottom: -9px">
 </h2>
 <div>
   <table>
