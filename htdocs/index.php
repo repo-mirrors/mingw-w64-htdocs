@@ -97,6 +97,7 @@
                   "has commented on ticket #$1", $title);
                 $title = preg_replace("/MinGW-w64 - for 32 and 64 bit Windows released/", "New file:", $title);
                 $title = preg_replace("/\\/Toolchain sources\\/Automated Builds\\//", "", $title);
+                $title = preg_replace("/New file: \\/Toolchains targetting Win(\d+)\\//", "Toolchain build targetting Win$1: ", $title);
                 $title = htmlspecialchars($title);
                 echo '<div class="flexbox-size-wa">';
                 echo '  <div class="listing-item">';
