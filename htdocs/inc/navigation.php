@@ -4,21 +4,21 @@
     <div id="left">
       <ul>
         <li>
-          <a href="index.php" class="home"><span>Home</span></a>
+          <a href="index.php" title="Return to the main page" class="home"><span>Home</span></a>
         </li>
         <li>
-          <a href="download.php" class="install">
+          <a href="download.php" title="Download and Install Mingw-w64" class="install">
             <img alt="dowload icon" src="/img/icons/download-green.png"><span>Downloads</span>
           </a>
           <ul>
-            <li><a href="download.php#arch">Arch Linux</a></li>
-            <li><a href="download.php#cygwin">Cygwin</a></li>
-            <li><a href="download.php#fedora">Fedora Project</a></li>
-            <li><a href="download.php#mingw-builds">Mingw-builds Project</a></li>
-            <li><a href="download.php#win-builds">Win-builds</a></li>
-            <li><a href="download.php#darwin">Darwin</a></li>
-            <li><a href="download.php#source">Sources</a></li>
-            <li><a href="download.php#others">Everything Else</a></li>
+            <li><a href="download.php#arch" title="Download and install mingw-w64 on Arch Linux">Arch Linux</a></li>
+            <li><a href="download.php#cygwin" title="Download and install mingw-w64 on Cygwin">Cygwin</a></li>
+            <li><a href="download.php#fedora" title="Download and install mingw-w64 on Fedora">Fedora Project</a></li>
+            <li><a href="download.php#mingw-builds" title="Download and install mingw-w64 on Windows">Mingw-builds Project</a></li>
+            <li><a href="download.php#win-builds" title="Download and install mingw-w64 on Windows and Linux">Win-builds</a></li>
+            <li><a href="download.php#darwin" title="Download and install mingw-w64 on Mac OS X">Darwin</a></li>
+            <li><a href="download.php#source" title="Get Mingw-w64 sources">Sources</a></li>
+            <li><a href="download.php#others" title="See other downloads">Everything Else</a></li>
           </ul>
         </li>
         
