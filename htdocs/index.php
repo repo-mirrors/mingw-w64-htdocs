@@ -28,6 +28,31 @@
         since its creation in 2007.
         </p>
 
+          <h2>Headers</h2>
+          <p>More than a million lines of headers are already there and the
+          count is continuously increasing to stay up-to-date with new versions
+          of Windows.</p>
+
+          <h2>Compiler</h2>
+          <p>Mingw-w64 is not a compiler project but a project used with
+          compilers. Of course, for simplicity, <a href="download.php">many
+          pre-packaged toolchains are available in the Downloads
+          section</a> and several of them come with additional libraries and
+          tools for extra convenience.</p>
+
+          <h2>Libraries and Runtime</h2>
+          <p>All the additional libraries needed to link your code and run it
+          directly on Windows are provided along with libraries like
+          winpthreads which provides support for C++11 threading and
+          winstorecompat, a work-in-progress convenience library to ease
+          conformance with the Windows Store.</p>
+
+          <h2>Tools</h2>
+          <p>In addition to the usual compilers, linkers and debuggers from the
+          toolchain, mingw-w64 provides gendef to generate Visual Studio .def
+          files from a .dll, genidl to generate .idl files from a .dll and widl
+          to compile them.</p>
+
         <h1>Version 3.0</h1>
           <ul>
             <li>Required for GCC 4.8</li>

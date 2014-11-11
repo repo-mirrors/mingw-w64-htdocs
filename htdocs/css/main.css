@@ -34,16 +34,13 @@ body {
 	width: 100%;
 	background: #9f9f9f;
 	border: 1px solid #666666;
-	height: 8em;
-	display: block;
 	position: relative;
 	border-radius: 2px;
 	margin-bottom: 1em;
 	text-align: center;
 }
 
-#header span.title, #header span.sub {
-	display: block;
+#header a.title {
 	color: #f1f1f1;
 	font-size: 2.2em;
 	font-weight: bold;
@@ -51,49 +48,8 @@ body {
 	text-shadow: 1px 1px 1px #111;
 	margin-top: 0.25em;
 	margin-bottom: 0.25em;
-}
-
-#header span.sub {
-	font-size: 1.5em;
-	color: white;
-}
-
-#header a.logo {
-	display: inline;
-	font: 2em tahoma;
-	font-weight: bold;
-	position: absolute;
-	bottom: 0.2em;
-	left: 20px;
-	letter-spacing: -0.02em;
-	text-shadow: 1px 1px 1px #fff;
-}
-
-#header a.logo span {
-	font-size: 0.3em;
-	vertical-align: top;
-	position: relative;
-	top: 1.1em;
-}
-
-#header span.title a:link, #header span.title a:visited, #header span.title a:active, #header span.title a:hover {
 	text-decoration: none;
-	color: white;
 }
-
-#header a.logo:link, #header a.logo:visited, #header a.logo:active, #header a.logo:hover {
-	text-decoration: none;
-	color: #1555ad;
-}
-
-#header a.logo:hover {
-	color: #082354;
-}
-
-#header span.title a:hover {
-	color: #c6daff;
-}
-
 
 /***************
 	LEFT COLUMN
@@ -184,8 +140,7 @@ body {
 }
 
 #middle h2 {
-  padding-top: 1em;
-	padding-bottom: 1em;
+	padding-bottom: 0.3em;
 	border-bottom: 1px solid #cdcdcd;
 }
 
@@ -267,10 +222,20 @@ body {
 	DOWNLOAD PAGE
 ***************/
 
+#middle .download {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#middle .download h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0.5em;
+}
+
 #middle .download div {
   padding-left: 0.2em;
   padding-right: 0.2em;
-  margin-bottom: 1.5em;
 }
 
 #middle .download div table {
