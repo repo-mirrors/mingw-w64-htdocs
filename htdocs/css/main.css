@@ -78,7 +78,7 @@ body {
 	text-decoration: none;
 }
 
-#left ul li .home, #left ul li .friends {
+#left ul li .home {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   text-align: center;
@@ -192,7 +192,7 @@ body {
   text-align: left;
 }
 
-#friends h2, #projects h2, #news h2 {
+#projects h2, #news h2 {
   padding: 0.3em 1em;
   border-bottom: 1px solid #fff;
   text-align: left;
@@ -203,7 +203,7 @@ body {
   background: #ebd3d3;
 }
 
-#projects h2, #friends h2 {
+#projects h2 {
   background: #d3e0eb;
 }
 
@@ -214,7 +214,7 @@ body {
   margin: 0.5em;
 }
 
-#news a:hover, #friends a:hover, #projects a:hover {
+#news a:hover, #projects a:hover {
   background: #ddd;
 }
 
