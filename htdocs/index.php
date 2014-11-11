@@ -5,7 +5,7 @@
   $rss = fetch_rss($url);
   $news_items = 16;
 
-  $page_title = 'Mingw-w64 - GCC for both 64 &amp; 32 bits Windows';
+  $page_title = 'GCC for both 64 &amp; 32 bits Windows';
   $page_authors = '<a href="http://win-builds.org">Adrien Nader of win-builds.org</a>';
 
   include('inc/header.php');
