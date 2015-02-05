@@ -2,6 +2,7 @@
   $page_title = 'Donate';
   $page_name = 'donate';
   $page_authors = '<a href="http://win-builds.org">Adrien Nader of win-builds.org</a>';
+  $page_description = 'Help get hardware and organize hacking sessions .';
 
   include('inc/header.php');
   include('inc/navigation.php');
@@ -44,10 +45,14 @@ as some major mingw-w64 developers live very far from others).
 <p><a href="https://sourceforge.net/donate/index.php?group_id=202880"><img src="/img/paypal_32.png">Paypal (to Kaï Tietz)</a></p>
 
 <p>
-We haven't done it so far but in the future we'd like to officially thank
-donors. We believe it should be done by default but we respect your wishes;
-please state whether you'd like to have your name (or pseudonym) on the website.
+Below is a list of donors, starting from January 2015. We'd like to list all 
+our donors but we value your wishes; please state whether you'd like to have 
+your name (or pseudonym) on the website.
 </p>
+
+<ul>
+<li>James Beard</li>
+</ul>
 
 <h3>Hardware donations</h3>
 <p>
