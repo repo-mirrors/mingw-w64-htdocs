@@ -116,6 +116,21 @@ body {
 	padding: 0.7em 1.2em 4.7em 1.2em;
 }
 
+@media screen and (orientation: portrait) {
+  #left ul li ul li {
+    display: inline-block;
+  }
+
+  #left {
+    float: none;
+    width: 100%;
+  }
+
+  #middle {
+    margin-left: 0px;
+  }
+}
+
 /***************
 	MAIN CONTENT
 ***************/
@@ -124,6 +139,14 @@ body {
 	margin: 0 0 0 11.5em;
 	padding: 1em 0em 1em 1.5em;
 	line-height: 1.3em;
+}
+
+@media screen and (orientation: portrait) {
+  #middle {
+    margin-top: 2em;
+    margin-left: 0px;
+    padding: 0em;
+  }
 }
 
 #middle a:hover, #footer a:hover {
