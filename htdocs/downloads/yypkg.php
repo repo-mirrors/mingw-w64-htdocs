@@ -25,10 +25,10 @@
       <td>Windows 64</td>
       <td rowspan="2">i686, x86_64</td>
       <td rowspan="3">4.8.2</td>
-      <td rowspan="3">3.1.0</td>
+      <td rowspan="3">3.3.0</td>
       <td rowspan="3">C, C++</td>
       <td rowspan="3">Supported</td>
-      <td rowspan="3">Yes</td>
+      <td rowspan="3">Yes (GUI and command-line)</td>
       <td rowspan="3"><a href="http://win-builds.org/download.html">win-builds.org</a></td>
     </tr>
     <tr>
@@ -53,14 +53,8 @@
     </tr>
   </table>
   <p class="additional-software">
-    <strong>Additional Software</strong>: atk, c-ares, ca-certificates,
-    cairo, curl, dbus, efl, elementary, expat, flac, fontconfig, freetype,
-    fribidi, gdb,  gdk-pixbuf2, gettext, giflib, glib-networking, glib2, gmp,
-    gnutls, gperf, gtk+2, harfbuzz, icu4c, libao, libarchive, libffi,
-    libid3tag, libjpeg, libmad, libmpc, libogg, libpng, libsnfile, libsoup,
-    libtasn1, libtheora, libtiff, libvorbis, libxml2, lua, madplay, mpfr,
-    nettle, openssl, pango, pixman, pkg-config, sqlite, wget, win-iconv,
-    winpthreads, x264, xz, zlib.
+    <strong>Additional Software</strong>:
+SDL2, a52dec, atk, binutils, c-ares, ca-certificates, cairo, check, curl, dbus, dejavu-fonts-ttf, djvulibre, efl, elementary, expat, ffmpeg, flac, fontconfig, freetype, fribidi, gcc, gdb, gdk-pixbuf2, gendef, genidl, genpeimg, gettext, giflib, glib-networking, glib2, gmp, gnutls, gperf, gtk+2, harfbuzz, icu4c, jansson, json-c, lame, lcms, lcms2, libao, libarchive, libdvdcss, libdvdnav, libdvdread, libffi, libgcrypt, libgpg-error, libid3tag, libjpeg, libmad, libmangle, libmpc, libmpeg2, libogg, libpng, libsigc++, libsndfile, libsoup, libtasn1, libtheora, libtiff, libvorbis, libxml2, libxslt, lua, madplay, make, mingw-w64, mpfr, nettle, openjpeg, openssl, opus, pango, pcre, pixman, pkg-config, qt, sox, sqlite, wget, widl, win-iconv, windows_32, winpthreads, winstorecompat, x264, xz, zlib
     </p>
 </div>
 </div>
