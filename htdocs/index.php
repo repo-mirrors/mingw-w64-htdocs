@@ -100,7 +100,7 @@
                 $title = preg_replace("/\\/Toolchain sources\\/Automated Builds\\//", "", $title);
                 $title = preg_replace("/New file: \\/Toolchains targetting Win(\d+)\\//", "Toolchain build targetting Win$1: ", $title);
                 $title = htmlspecialchars($title);
-                echo '<div class="flexbox-size-wa">';
+                echo '<div class="flexbox-half">';
                 echo '  <div class="listing-item">';
                 echo '    <span class="date">'.$date.': </span><a href="'.$link.'">'.$title.'</a>';
                 echo '  </div>';
