@@ -7,6 +7,7 @@
 
   $page_title = 'GCC for both 64 &amp; 32 bits Windows';
   $page_authors = '<a href="http://win-builds.org">Adrien Nader of win-builds.org</a>';
+  $page_description = 'Free software compilation toolchains for Windows 32 and 64 bits using GCC.';
 
   include('inc/header.php');
   include('inc/navigation.php');

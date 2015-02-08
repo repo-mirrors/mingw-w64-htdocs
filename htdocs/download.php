@@ -2,6 +2,7 @@
   $page_title = 'Downloads';
   $page_name = 'download';
   $page_authors = '<a href="http://win-builds.org">Adrien Nader of win-builds.org</a>';
+  $page_description = 'Prebuilt toolchains and additional libraries for a variety of hosts.';
 
   include('inc/header.php');
   include('inc/navigation.php');

@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="<?=$page_title?>">
     <title><?=$page_title?> - MinGW-w64</title>
     <link href="css/main.css" type="text/css" rel="stylesheet">
 <?php

@@ -1,5 +1,6 @@
 <?php
   $page_title = 'Projects Using Mingw-w64';
+  $page_description = 'List of some projects which work with mingw-w64.';
 
   include('inc/header.php');
   include('inc/navigation.php');

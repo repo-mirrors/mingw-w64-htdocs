@@ -2,6 +2,7 @@
   $page_title = 'Contribute';
   $page_name = 'contribute';
   $page_authors = '<a href="http://win-builds.org">Adrien Nader of win-builds.org</a>';
+  $page_description = 'Simpler and stand-alone tasks for new contributors.';
 
   include('inc/header.php');
   include('inc/navigation.php');
