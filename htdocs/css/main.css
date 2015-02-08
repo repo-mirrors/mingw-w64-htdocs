@@ -129,6 +129,10 @@ body {
   #middle {
     margin-left: 0px;
   }
+
+  #navigation-home {
+    display: none;
+  }
 }
 
 /***************

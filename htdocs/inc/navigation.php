@@ -3,7 +3,7 @@
     <!-- LEFT COLUMN -->
     <div id="left">
       <ul>
-        <li>
+        <li id="navigation-home">
           <a href="index.php" title="Return to the main page" class="home"><span>Home</span></a>
         </li>
         <li>
