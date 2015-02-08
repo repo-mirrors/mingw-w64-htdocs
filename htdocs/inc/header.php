@@ -20,6 +20,6 @@
     
     <!-- HEADER -->
     <div id="header">
-      <a href="/" class="title">Mingw-w64 - GCC for Windows 64 &amp; 32 bits</a>
+      <a href="index.php" class="title">Mingw-w64 - GCC for Windows 64 &amp; 32 bits</a>
     </div>
     
